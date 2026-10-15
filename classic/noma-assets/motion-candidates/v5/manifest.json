@@ -1,0 +1,326 @@
+{
+  "version": "noma-motion-candidate-v5",
+  "status": "integrated_candidate_pending_gameplay_review",
+  "catalogRole": "runtime_registry_references",
+  "registry": "src/noma/runtime/userCharacters.ts",
+  "assets": [
+    {
+      "id": "lan",
+      "name": "岚",
+      "kind": "avatar",
+      "version": "noma-motion-candidate-v5",
+      "status": "integrated_candidate_pending_gameplay_review",
+      "heightMeters": 1.72,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/lan/lan-motion-v5-lod0.glb",
+          "sha256": "3517531318455b350f8f04d5071e7d78ef459ae83728b74ae4d23758c6542546",
+          "bytes": 1837264,
+          "triangles": 18628
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/lan/lan-motion-v5-lod1.glb",
+          "sha256": "41d4eef93866ddfd69836dd9d18793e76f7a17e45e55a2dd75fae6be353e9e16",
+          "bytes": 1483224,
+          "triangles": 11176
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/lan/lan-motion-v5-lod2.glb",
+          "sha256": "e876caafe1b285c804f4e35915d7cb7a2b7660621d009886f37f2c96b10f1445",
+          "bytes": 1082456,
+          "triangles": 5588
+        }
+      ],
+      "checks": {
+        "exactGlbHashes": true,
+        "threeLodClipAgreement": true,
+        "runtimeFootIK": false,
+        "visualAccepted": false,
+        "contactIntervalsReviewed": false,
+        "runtimeRegistryIntegrated": true,
+        "browserGameplayReviewed": false
+      },
+      "license": "Motion: Quaternius CC0-1.0. Original mesh/textures: user supplied; use and deployment within this NOMA project authorized by the user. No general relicensing or standalone redistribution permission asserted.",
+      "metadata": {
+        "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/lan/lan.asset.json",
+        "bytes": 47478,
+        "sha256": "151d86bd44d4a594a9e1aae6649e1b03d9556785fce4e9dc31bcd8c9f5cd02a2"
+      }
+    },
+    {
+      "id": "xi-tide",
+      "name": "汐",
+      "kind": "avatar",
+      "version": "noma-motion-candidate-v5",
+      "status": "integrated_candidate_pending_gameplay_review",
+      "heightMeters": 1.67,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-tide/xi-tide-motion-v5-lod0.glb",
+          "sha256": "73d7fb9741ac0164897e130311990cd20678181c3ba74ed758477e028bbdc276",
+          "bytes": 1840076,
+          "triangles": 18960
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-tide/xi-tide-motion-v5-lod1.glb",
+          "sha256": "1a31c02586dde265e90b24231c59e27d3d6d577c2007b25ff143ec347bc52c5d",
+          "bytes": 1473800,
+          "triangles": 11376
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-tide/xi-tide-motion-v5-lod2.glb",
+          "sha256": "8ceb4e72690e6223324af9b6f315d675a2ea954c0b7aef5c0e6b06f1c8240b96",
+          "bytes": 1082196,
+          "triangles": 5688
+        }
+      ],
+      "checks": {
+        "exactGlbHashes": true,
+        "threeLodClipAgreement": true,
+        "runtimeFootIK": false,
+        "visualAccepted": false,
+        "contactIntervalsReviewed": false,
+        "runtimeRegistryIntegrated": true,
+        "browserGameplayReviewed": false
+      },
+      "license": "Motion: Quaternius CC0-1.0. Original mesh/textures: user supplied; use and deployment within this NOMA project authorized by the user. No general relicensing or standalone redistribution permission asserted.",
+      "metadata": {
+        "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-tide/xi-tide.asset.json",
+        "bytes": 47492,
+        "sha256": "ff3eac8ef77bae04080f0ff9723ce9c277c21d34689c24550064805dadc20bfa"
+      }
+    },
+    {
+      "id": "qi",
+      "name": "栖",
+      "kind": "avatar",
+      "version": "noma-motion-candidate-v5",
+      "status": "integrated_candidate_pending_gameplay_review",
+      "heightMeters": 1.7,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/qi/qi-motion-v5-lod0.glb",
+          "sha256": "554f13cb6119b2ac445d712f5a4d91a8e318c6aa8d9466a41895a80a92fc1754",
+          "bytes": 4226000,
+          "triangles": 25098
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/qi/qi-motion-v5-lod1.glb",
+          "sha256": "59c1b6fcefa09b9fcf60f54b57430082766fd5627c8ecf0d2c4d184ffeff1a89",
+          "bytes": 3055300,
+          "triangles": 13560
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/qi/qi-motion-v5-lod2.glb",
+          "sha256": "80959d3c3838d4d4beb79ff5f3087d5280328a80416ee470a65abae72c70b8ae",
+          "bytes": 1953660,
+          "triangles": 6759
+        }
+      ],
+      "checks": {
+        "exactGlbHashes": true,
+        "threeLodClipAgreement": true,
+        "runtimeFootIK": false,
+        "visualAccepted": false,
+        "contactIntervalsReviewed": false,
+        "runtimeRegistryIntegrated": true,
+        "browserGameplayReviewed": false
+      },
+      "license": "Motion: Quaternius CC0-1.0. Original mesh/textures: user supplied; use and deployment within this NOMA project authorized by the user. No general relicensing or standalone redistribution permission asserted.",
+      "metadata": {
+        "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/qi/qi.asset.json",
+        "bytes": 50713,
+        "sha256": "37b19c8a07c22f21a837d8fdd26c9d46347b64d2a6a4de19f0e434cf2fea3a60"
+      }
+    },
+    {
+      "id": "che",
+      "name": "澈",
+      "kind": "avatar",
+      "version": "noma-motion-candidate-v5",
+      "status": "integrated_candidate_pending_gameplay_review",
+      "heightMeters": 1.78,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/che/che-motion-v5-lod0.glb",
+          "sha256": "879c26c71d325eaba7d6762792ad6a73ee2518be323058513d75c582bba3646d",
+          "bytes": 2764244,
+          "triangles": 20788
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/che/che-motion-v5-lod1.glb",
+          "sha256": "466af3491aca354b1fafc382d543e8137add5ce8d7786c6c5ebd361df3b5989c",
+          "bytes": 2192608,
+          "triangles": 12472
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/che/che-motion-v5-lod2.glb",
+          "sha256": "071f6bf27d53fc432ffd72cfffe9f8a4fa80057e50bc68e2ac93cd10f86b34ce",
+          "bytes": 1540636,
+          "triangles": 6236
+        }
+      ],
+      "checks": {
+        "exactGlbHashes": true,
+        "threeLodClipAgreement": true,
+        "runtimeFootIK": false,
+        "visualAccepted": false,
+        "contactIntervalsReviewed": false,
+        "runtimeRegistryIntegrated": true,
+        "browserGameplayReviewed": false
+      },
+      "license": "Motion: Quaternius CC0-1.0. Original mesh/textures: user supplied; use and deployment within this NOMA project authorized by the user. No general relicensing or standalone redistribution permission asserted.",
+      "metadata": {
+        "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/che/che.asset.json",
+        "bytes": 63799,
+        "sha256": "f5659dd3c166becc82609525a17160500fbc931616b95c1566cc86d42b8cc44c"
+      }
+    },
+    {
+      "id": "xi-light",
+      "name": "晞",
+      "kind": "avatar",
+      "version": "noma-motion-candidate-v5",
+      "status": "integrated_candidate_pending_gameplay_review",
+      "heightMeters": 1.72,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light-motion-v5-lod0.glb",
+          "sha256": "6bec0e24440742b8bd60a3555b233bbfb0bb9e95d567f8ed719cbaf0a28336d2",
+          "bytes": 3984240,
+          "triangles": 23305
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light-motion-v5-lod1.glb",
+          "sha256": "76f12442436c6a18b92cda7ba04f707a02974db940349444944e6b1adabdbd59",
+          "bytes": 2965276,
+          "triangles": 12180
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light-motion-v5-lod2.glb",
+          "sha256": "51bba6b15dc50adf9db208747c4a7116b20b0e53342eb36ad7343766e210f2e9",
+          "bytes": 1881532,
+          "triangles": 6080
+        }
+      ],
+      "checks": {
+        "exactGlbHashes": true,
+        "threeLodClipAgreement": true,
+        "runtimeFootIK": false,
+        "visualAccepted": false,
+        "contactIntervalsReviewed": false,
+        "runtimeRegistryIntegrated": true,
+        "browserGameplayReviewed": false
+      },
+      "license": "Motion: Quaternius CC0-1.0. Original mesh/textures: user supplied; use and deployment within this NOMA project authorized by the user. No general relicensing or standalone redistribution permission asserted.",
+      "metadata": {
+        "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset.json",
+        "bytes": 120307,
+        "sha256": "e295f21a0a96ef698f51fee6f0ea922acaca3abf31580d54810d47bb8fa73f5f"
+      }
+    },
+    {
+      "id": "ling",
+      "name": "翎",
+      "kind": "avatar",
+      "version": "noma-motion-candidate-v5",
+      "status": "integrated_candidate_pending_gameplay_review",
+      "heightMeters": 1.74,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/ling/ling-motion-v5-lod0.glb",
+          "sha256": "9f76e9541400f595cf2195e8d88c8f1cae32393b7ab12fce30aa5da2c12be48a",
+          "bytes": 3921428,
+          "triangles": 25106
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/ling/ling-motion-v5-lod1.glb",
+          "sha256": "09f1631ab995b6dbe574ea041af0a5b0337d86a37a96d44bc7cfa1a0fbedd87f",
+          "bytes": 2856756,
+          "triangles": 13229
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/ling/ling-motion-v5-lod2.glb",
+          "sha256": "4b8f61c7484a561c1946c25b1706215a9501eeabb7d989d7d5b1b585d53743ed",
+          "bytes": 1884024,
+          "triangles": 6756
+        }
+      ],
+      "checks": {
+        "exactGlbHashes": true,
+        "threeLodClipAgreement": true,
+        "runtimeFootIK": false,
+        "visualAccepted": false,
+        "contactIntervalsReviewed": false,
+        "runtimeRegistryIntegrated": true,
+        "browserGameplayReviewed": false
+      },
+      "license": "Motion: Quaternius CC0-1.0. Original mesh/textures: user supplied; use and deployment within this NOMA project authorized by the user. No general relicensing or standalone redistribution permission asserted.",
+      "metadata": {
+        "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/ling/ling.asset.json",
+        "bytes": 86660,
+        "sha256": "67ea028b6eaf95c526e14094eb8d17955527bb00cb3d3e0b841130b91738024b"
+      }
+    }
+  ],
+  "rootManifest": {
+    "url": "/noma-worlds-backup/classic/noma-assets/manifest.json",
+    "role": "Preloads and shared AssetManager resources; registry character URLs can load directly when absent. This inventory does not add preloads or dependencies."
+  },
+  "gameplayReview": "pending",
+  "visualAccepted": false
+}

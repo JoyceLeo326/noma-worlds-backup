@@ -1,0 +1,4155 @@
+{
+  "id": "xi-light",
+  "name": "晞",
+  "kind": "avatar",
+  "version": "noma-motion-candidate-v5",
+  "status": "integrated_candidate_pending_gameplay_review",
+  "heightMeters": 1.72,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light-motion-v5-lod0.glb",
+      "sha256": "6bec0e24440742b8bd60a3555b233bbfb0bb9e95d567f8ed719cbaf0a28336d2",
+      "bytes": 3984240,
+      "triangles": 23305
+    },
+    {
+      "lod": 1,
+      "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light-motion-v5-lod1.glb",
+      "sha256": "76f12442436c6a18b92cda7ba04f707a02974db940349444944e6b1adabdbd59",
+      "bytes": 2965276,
+      "triangles": 12180
+    },
+    {
+      "lod": 2,
+      "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light-motion-v5-lod2.glb",
+      "sha256": "51bba6b15dc50adf9db208747c4a7116b20b0e53342eb36ad7343766e210f2e9",
+      "bytes": 1881532,
+      "triangles": 6080
+    }
+  ],
+  "animations": [
+    {
+      "name": "crouch_walk",
+      "sourceAction": "Crouch_Fwd_Loop",
+      "loop": true,
+      "durationSeconds": 2,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.030906638130545616,
+        6.123445928096771e-7
+      ],
+      "pelvisHeightRange": [
+        0.45409268140792847,
+        0.5084030628204346
+      ],
+      "contacts": {
+        "left": [
+          [
+            0.016666666666666666,
+            0.6333333333333333
+          ],
+          [
+            0.9333333333333333,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0.5,
+            0.13333333333333333
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.6833333333333333,
+          "contactSampleCount": 82,
+          "soleHeightRange": [
+            -0.0028226166986888663,
+            0.21852102126708406
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.041946457453032805,
+            0.14270909552723304,
+            0.058000593176656394
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.040873741055234614,
+              0.1271777599731429,
+              0.050105838598484234
+            ],
+            "max": [
+              0.042929130004704635,
+              0.18469029988657917,
+              0.11615745245381984
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.6333333333333333,
+          "contactSampleCount": 76,
+          "soleHeightRange": [
+            -0.030900050459505737,
+            0.20978750025258225
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.01729365746323981,
+            0.14849016152634295,
+            0.058084893165299474
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.0176925694047802,
+              0.1278543356677654,
+              0.050146527038396255
+            ],
+            "max": [
+              -0.016715278466270828,
+              0.18381488041397012,
+              0.11783851330414438
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 121,
+        "effectiveSampleRateHz": 60,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 0.6599188585794686,
+      "stanceRatio": 0.6583333333333333,
+      "stanceTravelMetres": 0.8688931637963003,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 20199,
+        "p10Mps": 0.3378100810735341,
+        "p90Mps": 0.8872058754805128,
+        "lateralMedianMps": 0.017262970972577514
+      }
+    },
+    {
+      "name": "idle",
+      "sourceAction": "Idle_Loop",
+      "loop": true,
+      "durationSeconds": 2.5,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.0006215637549757957,
+        -0.0002578906714916229
+      ],
+      "pelvisHeightRange": [
+        0.8168885707855225,
+        0.8245292901992798
+      ],
+      "aliasOf": "idle_breathe",
+      "contacts": {
+        "left": [
+          [
+            0,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 1,
+          "contactSampleCount": 150,
+          "soleHeightRange": [
+            0.00008341293588813939,
+            0.03215188394444207
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.04190641968749985,
+            0.13208236211573093,
+            0.05685429894033263
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.04189447109052091,
+              0.13194242947279955,
+              0.05672253879968582
+            ],
+            "max": [
+              0.041929965604421804,
+              0.13230509698030873,
+              0.05708976082952716
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 1,
+          "contactSampleCount": 150,
+          "soleHeightRange": [
+            -0.000624166130645195,
+            0.02742577478497526
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.016700486772558983,
+            0.13062417100868412,
+            0.05368402823208522
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.01673924424897577,
+              0.13039444721819182,
+              0.053393660900937126
+            ],
+            "max": [
+              -0.01667502034646212,
+              0.13092332037994342,
+              0.054054898077685744
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 151,
+        "effectiveSampleRateHz": 60,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "idle_breathe",
+      "sourceAction": "Idle_Loop",
+      "loop": true,
+      "durationSeconds": 2.5,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.0006215637549757957,
+        -0.0002578906714916229
+      ],
+      "pelvisHeightRange": [
+        0.8168885707855225,
+        0.8245292901992798
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 1,
+          "contactSampleCount": 150,
+          "soleHeightRange": [
+            0.00008341293588813939,
+            0.03215188394444207
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.04190641968749985,
+            0.13208236211573093,
+            0.05685429894033263
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.04189447109052091,
+              0.13194242947279955,
+              0.05672253879968582
+            ],
+            "max": [
+              0.041929965604421804,
+              0.13230509698030873,
+              0.05708976082952716
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 1,
+          "contactSampleCount": 150,
+          "soleHeightRange": [
+            -0.000624166130645195,
+            0.02742577478497526
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.016700486772558983,
+            0.13062417100868412,
+            0.05368402823208522
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.01673924424897577,
+              0.13039444721819182,
+              0.053393660900937126
+            ],
+            "max": [
+              -0.01667502034646212,
+              0.13092332037994342,
+              0.054054898077685744
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 151,
+        "effectiveSampleRateHz": 60,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "jump_run_left",
+      "sourceAction": "Jump_Start + Jog_Fwd_Loop",
+      "phases": {
+        "anticipation": [
+          0,
+          0.15
+        ],
+        "flight": [
+          0.15,
+          0.85
+        ],
+        "landing": [
+          0.85,
+          1
+        ]
+      },
+      "contactReadyFromPhase": 0.8333333333333334,
+      "adaptation": "Real source takeoff/tuck/ready poses resampled for physics-driven flight; world jump height excluded",
+      "sourcePoseIndices": {
+        "Jump_Start": [
+          0,
+          2,
+          9,
+          18
+        ],
+        "ready": "Jog_Fwd_Loop[1 or 15]"
+      },
+      "loop": false,
+      "durationSeconds": 1.2000000476837158,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.00866224616765976,
+        0.33038195967674255
+      ],
+      "pelvisHeightRange": [
+        0.5299340486526489,
+        0.8245292901992798
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.1388888888888889
+          ],
+          [
+            0.8611111111111112,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            0.1388888888888889
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.2777777777777778,
+          "contactSampleCount": 20,
+          "soleHeightRange": [
+            -0.015280677092254061,
+            0.6584303692526079
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.041718355031496596,
+            0.12950354137942482,
+            0.05218260634943174
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.041647985310283964,
+              0.12859563025853157,
+              0.034809327312178624
+            ],
+            "max": [
+              0.05845818860112803,
+              0.1967967985278155,
+              0.06263109320916732
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.1388888888888889,
+          "contactSampleCount": 10,
+          "soleHeightRange": [
+            -0.03605465057685719,
+            0.587226135546792
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.016276058322529756,
+            0.1287472707812938,
+            0.05157255444109571
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.030062211137827713,
+              0.12783231651644547,
+              -0.01284814711370963
+            ],
+            "max": [
+              -0.004151546074271817,
+              0.19879429647548266,
+              0.061196483695347276
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 73,
+        "effectiveSampleRateHz": 59.9999976158143,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "jump_run_right",
+      "sourceAction": "Jump_Start + Jog_Fwd_Loop",
+      "phases": {
+        "anticipation": [
+          0,
+          0.15
+        ],
+        "flight": [
+          0.15,
+          0.85
+        ],
+        "landing": [
+          0.85,
+          1
+        ]
+      },
+      "contactReadyFromPhase": 0.8333333333333334,
+      "adaptation": "Real source takeoff/tuck/ready poses resampled for physics-driven flight; world jump height excluded",
+      "sourcePoseIndices": {
+        "Jump_Start": [
+          0,
+          2,
+          9,
+          18
+        ],
+        "ready": "Jog_Fwd_Loop[1 or 15]"
+      },
+      "loop": false,
+      "durationSeconds": 1.2000000476837158,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.00866224616765976,
+        0.33038195967674255
+      ],
+      "pelvisHeightRange": [
+        0.5299340486526489,
+        0.8245292901992798
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.1388888888888889
+          ]
+        ],
+        "right": [
+          [
+            0,
+            0.1388888888888889
+          ],
+          [
+            0.8611111111111112,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.1388888888888889,
+          "contactSampleCount": 10,
+          "soleHeightRange": [
+            -0.015280637118134155,
+            0.6584304845986009
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.04178872390397321,
+            0.1296190526852949,
+            0.053867062296642954
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.03912934923365735,
+              0.1285956302967033,
+              -0.012495394221295475
+            ],
+            "max": [
+              0.058458188603113886,
+              0.20015975672560113,
+              0.06238655985220587
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.2777777777777778,
+          "contactSampleCount": 20,
+          "soleHeightRange": [
+            -0.03605461347227912,
+            0.47227634550922887
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.01666184797913457,
+            0.1295150835538463,
+            0.05099311316638122
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.030062210651045,
+              0.12783231652427754,
+              0.050413670254337184
+            ],
+            "max": [
+              -0.016051716632678903,
+              0.1586013263726445,
+              0.06016785660706167
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 73,
+        "effectiveSampleRateHz": 59.9999976158143,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "jump_small",
+      "sourceAction": "Jump_Start + Jump_Land",
+      "phases": {
+        "anticipation": [
+          0,
+          0.15
+        ],
+        "flight": [
+          0.15,
+          0.85
+        ],
+        "landing": [
+          0.85,
+          1
+        ]
+      },
+      "contactReadyFromPhase": 0.8333333333333334,
+      "adaptation": "Real source takeoff/tuck/ready poses resampled for physics-driven flight; world jump height excluded",
+      "sourcePoseIndices": {
+        "Jump_Start": [
+          0,
+          2,
+          9,
+          18
+        ],
+        "ready": "45 percent Jump_Land[0] with source idle, exactly land_soft[0]"
+      },
+      "loop": false,
+      "durationSeconds": 1.2000000476837158,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.00866224616765976,
+        0.33038195967674255
+      ],
+      "pelvisHeightRange": [
+        0.5299340486526489,
+        0.8444917798042297
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.1388888888888889
+          ],
+          [
+            0.8611111111111112,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            0.1388888888888889
+          ],
+          [
+            0.8611111111111112,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.2777777777777778,
+          "contactSampleCount": 20,
+          "soleHeightRange": [
+            -0.01528071526736281,
+            0.6584302577199135
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.041646012797853335,
+            0.13298910822725923,
+            0.054190342302834
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.04150329976747519,
+              0.1285956302701397,
+              0.03480932727748679
+            ],
+            "max": [
+              0.05845818867574029,
+              0.19679679850560977,
+              0.0623865599577387
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.2777777777777778,
+          "contactSampleCount": 20,
+          "soleHeightRange": [
+            -0.036054628786483287,
+            0.4722762870752226
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.016489514096797542,
+            0.1319394594497145,
+            0.052625554934324005
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.03006221077209202,
+              0.12783231651645616,
+              0.05043023426832823
+            ],
+            "max": [
+              -0.01605171670600375,
+              0.1586013263782535,
+              0.06016785649482337
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 73,
+        "effectiveSampleRateHz": 59.9999976158143,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "land_run_left",
+      "sourceAction": "Jog_Fwd_Loop",
+      "adaptation": "Unmodified real jog heel/toe support interval; no kneeling or horizontal root brake",
+      "sourceFrameRange": [
+        1,
+        6
+      ],
+      "nextClip": "run_soft",
+      "nextPhase": 0.21428571428571427,
+      "contactSide": "left",
+      "loop": false,
+      "durationSeconds": 0.16666670143604279,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -1.1140946298837662e-7,
+        0.11286666989326477
+      ],
+      "pelvisHeightRange": [
+        0.6663511991500854,
+        0.795020580291748
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.8
+          ]
+        ],
+        "right": []
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.8,
+          "contactSampleCount": 8,
+          "soleHeightRange": [
+            -0.011868451435222862,
+            0.3599095504010116
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.0417898949160075,
+            0.14734298202240076,
+            0.057654970320938165
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.04164798690175911,
+              0.12938803349381103,
+              0.03049299486466034
+            ],
+            "max": [
+              0.041923826830007366,
+              0.1983694976840042,
+              0.0614588708449691
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0,
+          "contactSampleCount": 0,
+          "soleHeightRange": [
+            0.1446932437408713,
+            0.5872261356173234
+          ],
+          "supportAnkleToSoleOffsetLocalMean": null,
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.02997623588115561,
+              0.142995419321106,
+              -0.012992505166749824
+            ],
+            "max": [
+              -0.016977674170630175,
+              0.20012595893212376,
+              0.06053064547039025
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 11,
+        "effectiveSampleRateHz": 59.999987483027205,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 5.531101445850619,
+      "stanceRatio": 0.4,
+      "stanceTravelMetres": 0.3687401733152199,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 186,
+        "p10Mps": 5.246999724239415,
+        "p90Mps": 5.657826902832785,
+        "lateralMedianMps": 0.08283149556358925
+      }
+    },
+    {
+      "name": "land_run_right",
+      "sourceAction": "Jog_Fwd_Loop",
+      "adaptation": "Unmodified real jog heel/toe support interval; no kneeling or horizontal root brake",
+      "sourceFrameRange": [
+        15,
+        20
+      ],
+      "nextClip": "run_soft",
+      "nextPhase": 0.7142857142857143,
+      "contactSide": "right",
+      "loop": false,
+      "durationSeconds": 0.16666670143604279,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -6.705522537231445e-8,
+        0.11286644637584686
+      ],
+      "pelvisHeightRange": [
+        0.6662611961364746,
+        0.7950067520141602
+      ],
+      "contacts": {
+        "left": [],
+        "right": [
+          [
+            0,
+            0.8
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0,
+          "contactSampleCount": 0,
+          "soleHeightRange": [
+            0.16608955045661258,
+            0.5527363333332892
+          ],
+          "supportAnkleToSoleOffsetLocalMean": null,
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.028884587118551852,
+              0.1474340286156458,
+              -0.01249538657729421
+            ],
+            "max": [
+              0.04198511713486938,
+              0.19863074561102967,
+              0.05973788483629472
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.8,
+          "contactSampleCount": 8,
+          "soleHeightRange": [
+            -0.01170486326363315,
+            0.36199428488772045
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.01694903934612014,
+            0.14823992349461793,
+            0.05748805333230449
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.01704763697678069,
+              0.13028289932233658,
+              0.03013583475661591
+            ],
+            "max": [
+              -0.016925881943992166,
+              0.19907650529156304,
+              0.061279221248817295
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 11,
+        "effectiveSampleRateHz": 59.999987483027205,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 5.467260871058411,
+      "stanceRatio": 0.4,
+      "stanceTravelMetres": 0.36448413410786057,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 194,
+        "p10Mps": 5.238820409886908,
+        "p90Mps": 5.587054814425385,
+        "lateralMedianMps": 0.022402778654894064
+      }
+    },
+    {
+      "name": "land_soft",
+      "sourceAction": "Jump_Land + Idle_Loop",
+      "adaptation": "45 percent source landing pose blended with source idle for small standing hops; retained joint-space chronology; not a recorded new action",
+      "loop": false,
+      "durationSeconds": 0.6000000238418579,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.0005883155390620232,
+        9.996583685278893e-7
+      ],
+      "pelvisHeightRange": [
+        0.6441865563392639,
+        0.8444917798042297
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 1,
+          "contactSampleCount": 36,
+          "soleHeightRange": [
+            -0.011564117015990347,
+            0.03812508358228357
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.042122458634005815,
+            0.13079098804023293,
+            0.05469276842937858
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.04150330135635116,
+              0.12824638160776308,
+              0.05072079102374774
+            ],
+            "max": [
+              0.04236007569441547,
+              0.13635917404147158,
+              0.05716802350770664
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 1,
+          "contactSampleCount": 36,
+          "soleHeightRange": [
+            -0.011216448044959002,
+            0.03711845277405482
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.016765517992796835,
+            0.12986791954497068,
+            0.052650989439513546
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.0168570554510305,
+              0.12800168121058383,
+              0.05068923092265534
+            ],
+            "max": [
+              -0.016366217724621213,
+              0.13513164502667005,
+              0.054031068446306424
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 37,
+        "effectiveSampleRateHz": 59.9999976158143,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "land_stand_full",
+      "sourceAction": "Jump_Land",
+      "loop": false,
+      "durationSeconds": 1.2666666507720947,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.0006104875355958939,
+        0.00000161072239279747
+      ],
+      "pelvisHeightRange": [
+        0.42376774549484253,
+        0.8688904047012329
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 1,
+          "contactSampleCount": 76,
+          "soleHeightRange": [
+            -0.006660957589798865,
+            0.10273705692670901
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.04240948285761455,
+            0.13124927925817276,
+            0.05453802202358638
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.04094414140937058,
+              0.127518104105461,
+              0.05082834054969901
+            ],
+            "max": [
+              0.04290959863582544,
+              0.15730569039317457,
+              0.0598349672167417
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 1,
+          "contactSampleCount": 76,
+          "soleHeightRange": [
+            -0.00683175340027678,
+            0.09652036550491573
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.01681415802973498,
+            0.1301779900934921,
+            0.052609705794918
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.016996193548977523,
+              0.12766907019479448,
+              0.05043286214556087
+            ],
+            "max": [
+              -0.016032583312241777,
+              0.1530895214735628,
+              0.06004688191760048
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 77,
+        "effectiveSampleRateHz": 60.00000075290079,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "run_soft",
+      "sourceAction": "Jog_Fwd_Loop",
+      "loop": true,
+      "durationSeconds": 0.9333333373069763,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -1.1140946298837662e-7,
+        0.2255559265613556
+      ],
+      "pelvisHeightRange": [
+        0.6662611961364746,
+        0.8859556913375854
+      ],
+      "contacts": {
+        "left": [
+          [
+            0.017857142857142856,
+            0.17857142857142858
+          ]
+        ],
+        "right": [
+          [
+            0.5178571428571429,
+            0.6785714285714286
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.16071428571428573,
+          "contactSampleCount": 9,
+          "soleHeightRange": [
+            -0.011868421179851993,
+            0.6107454979162023
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.041826301502904166,
+            0.14659009712216872,
+            0.06256451621259024
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.028884593727164093,
+              0.117290032207304,
+              -0.012495383084310918
+            ],
+            "max": [
+              0.0421175604425888,
+              0.20090704562741066,
+              0.1545516165850929
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.16071428571428573,
+          "contactSampleCount": 9,
+          "soleHeightRange": [
+            -0.011705087743266385,
+            0.6134587405731404
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.01688019549739188,
+            0.14747855516432837,
+            0.062439393648504066
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.02997623951264053,
+              0.1178992480886108,
+              -0.012992501846642468
+            ],
+            "max": [
+              -0.01632944655598839,
+              0.20163430931675355,
+              0.15471061323858237
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 57,
+        "effectiveSampleRateHz": 59.99999974455152,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 5.513395437678877,
+      "stanceRatio": 0.16071428571428573,
+      "stanceTravelMetres": 0.8270093191728028,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 407,
+        "p10Mps": 5.246997884321951,
+        "p90Mps": 5.666467397864805,
+        "lateralMedianMps": 0.024433477283420522
+      }
+    },
+    {
+      "name": "walk_forward",
+      "sourceAction": "Walk_Loop",
+      "loop": true,
+      "durationSeconds": 1.3333333730697632,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.027622563764452934,
+        0.0012048111530020833
+      ],
+      "pelvisHeightRange": [
+        0.813730001449585,
+        0.8609656691551208
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.6125
+          ]
+        ],
+        "right": [
+          [
+            0.5,
+            0.1125
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.6125,
+          "contactSampleCount": 49,
+          "soleHeightRange": [
+            -0.026610995726398603,
+            0.4073385118544637
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.042379264686877756,
+            0.1398009427964003,
+            0.06515398868559943
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.041712053834701224,
+              0.12878456472198901,
+              0.008429618642071729
+            ],
+            "max": [
+              0.04387163392308477,
+              0.20095823645345162,
+              0.13352335914103705
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.6125,
+          "contactSampleCount": 49,
+          "soleHeightRange": [
+            -0.02762407216945843,
+            0.40901053682380767
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.017633200384579262,
+            0.13845238738294338,
+            0.06318693447204565
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.018615000228130646,
+              0.12930180024050064,
+              0.008063891528936662
+            ],
+            "max": [
+              -0.016832900282499286,
+              0.20168918907019223,
+              0.1336421175726293
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 60,
+        "samples": 81,
+        "effectiveSampleRateHz": 59.99999821186071,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 0.8880437751737856,
+      "stanceRatio": 0.6125,
+      "stanceTravelMetres": 0.725235771338968,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 11916,
+        "p10Mps": 0.8570515466051313,
+        "p90Mps": 1.0047480601967,
+        "lateralMedianMps": 0.002497394823360941
+      }
+    }
+  ],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "recommendedControllerSpeeds": {
+    "walkMps": 1.3,
+    "runMps": 4.8,
+    "notAnimationReferenceSpeeds": true
+  },
+  "runtimeRecommendations": {
+    "walkSpeedMetresPerSecond": 1.3,
+    "runSpeedMetresPerSecond": 4.8
+  },
+  "contactIk": {
+    "schemaVersion": "1.0",
+    "feet": {
+      "left": {
+        "ankleBone": "Foot_L",
+        "soleHeight": 0.11611969487492386,
+        "soleOffsetLocal": [
+          0.041628698059685776,
+          0.129435671871587,
+          0.05065577050382274
+        ],
+        "soleNormalLocal": [
+          0.0000018911016099891672,
+          -0.5776688639023024,
+          -0.816271207181931
+        ],
+        "bindSoleContactWorld": [
+          0.1929887261679367,
+          0.0008403943971793532,
+          0.0763923106016109
+        ],
+        "bindSolePatchCentroidWorld": [
+          0.1929887261679367,
+          0.010314463858382084,
+          0.0763923106016109
+        ],
+        "bindSoleMinY": 8.842595695093219e-8,
+        "selectedVertexCount": 178,
+        "method": "Fixed bind-pose vertices with >25% matching Foot/Toe influence, below ankle+35mm, bottom 18mm; representative point uses patch centroid XZ and 5th-percentile Y, not the elevated patch mean Y",
+        "status": "measured_geometry_requires_shoe_review"
+      },
+      "right": {
+        "ankleBone": "Foot_R",
+        "soleHeight": 0.11641378114373936,
+        "soleOffsetLocal": [
+          -0.016705113299026436,
+          0.13025458063465115,
+          0.05043645537626759
+        ],
+        "soleNormalLocal": [
+          -0.0000017957611228554086,
+          -0.577668862085135,
+          -0.8162712084681417
+        ],
+        "bindSoleContactWorld": [
+          -0.16806477247680976,
+          0.0005463064999949703,
+          0.0771874485541992
+        ],
+        "bindSolePatchCentroidWorld": [
+          -0.16806477247680976,
+          0.0102569994884516,
+          0.0771874485541992
+        ],
+        "bindSoleMinY": 7.357160195490831e-8,
+        "selectedVertexCount": 174,
+        "method": "Fixed bind-pose vertices with >25% matching Foot/Toe influence, below ankle+35mm, bottom 18mm; representative point uses patch centroid XZ and 5th-percentile Y, not the elevated patch mean Y",
+        "status": "measured_geometry_requires_shoe_review"
+      }
+    },
+    "calibratedFromLod": 0,
+    "lod1AndLod2ShoePatchReview": "pending",
+    "runtimeIntegrated": false
+  },
+  "transitionChecks": [
+    {
+      "assetId": "xi-light",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "6bec0e24440742b8bd60a3555b233bbfb0bb9e95d567f8ed719cbaf0a28336d2",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "land_run_left",
+      "phase": 1,
+      "nextClip": "run_soft",
+      "nextPhase": 0.21428571428571427,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 3.756616113977604e-7,
+      "maxJointAngularErrorDegrees": 0.00008002733315156451,
+      "method": "Exact exported terminal landing pose versus run_soft at nextPhase; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    },
+    {
+      "assetId": "xi-light",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "6bec0e24440742b8bd60a3555b233bbfb0bb9e95d567f8ed719cbaf0a28336d2",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "land_run_right",
+      "phase": 1,
+      "nextClip": "run_soft",
+      "nextPhase": 0.7142857142857143,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 7.929638405170636e-7,
+      "maxJointAngularErrorDegrees": 0.0001284468330598175,
+      "method": "Exact exported terminal landing pose versus run_soft at nextPhase; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    }
+  ],
+  "entryTransitionChecks": [
+    {
+      "assetId": "xi-light",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "6bec0e24440742b8bd60a3555b233bbfb0bb9e95d567f8ed719cbaf0a28336d2",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "jump_small",
+      "phase": 0.85,
+      "nextClip": "land_soft",
+      "nextPhase": 0,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 6.314570205504372e-7,
+      "maxJointAngularErrorDegrees": 0.0000983656920564089,
+      "method": "Exact exported jump at flight end 0.85 versus corresponding landing at phase 0; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    },
+    {
+      "assetId": "xi-light",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "6bec0e24440742b8bd60a3555b233bbfb0bb9e95d567f8ed719cbaf0a28336d2",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "jump_run_left",
+      "phase": 0.85,
+      "nextClip": "land_run_left",
+      "nextPhase": 0,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 4.618586658908693e-7,
+      "maxJointAngularErrorDegrees": 0.00002623183925019106,
+      "method": "Exact exported jump at flight end 0.85 versus corresponding landing at phase 0; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    },
+    {
+      "assetId": "xi-light",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "6bec0e24440742b8bd60a3555b233bbfb0bb9e95d567f8ed719cbaf0a28336d2",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "jump_run_right",
+      "phase": 0.85,
+      "nextClip": "land_run_right",
+      "nextPhase": 0,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 3.3559588433009775e-7,
+      "maxJointAngularErrorDegrees": 0.000024178532008893128,
+      "method": "Exact exported jump at flight end 0.85 versus corresponding landing at phase 0; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    }
+  ],
+  "sourceMesh": {
+    "file": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/sourceMesh/file",
+    "sha256": "53fffa8c34593b6a191aa79bc25f6559ad21580a93d1bdc3404be2470e50f79d"
+  },
+  "motionSource": {
+    "source": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/motionSource/source",
+    "sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+    "license": "CC0-1.0",
+    "author": "Quaternius"
+  },
+  "weightRefinements": {
+    "vertices": 24414,
+    "sleeveActiveVertices": 4304,
+    "sleeveFullVertices": 3136,
+    "shoeActiveVertices": 1176,
+    "shoeFullVertices": 561,
+    "lowCentralVerticesProtected": 0,
+    "maximumWeightSumError": 3.3306690738754696e-16,
+    "maxChangedWeight": 0.2779989975012388,
+    "smoothingPasses": 250,
+    "revisionTwo": {
+      "applied": true,
+      "assetId": "xi-light",
+      "profile": "xi-light-local-topology-smoothing-revision2",
+      "inputStage": "final-v5-after-compact-four",
+      "smoothingPasses": 20,
+      "correctionStrength": 0.5,
+      "topologyIncludesLongEdges": true,
+      "target": "neighboring-original-weight-field",
+      "activeVertices": 145,
+      "activeUniqueVertices": 72,
+      "seedDistanceMetres": [
+        0.0007862302461747359
+      ],
+      "canonicalActiveBoundsMetres": {
+        "min": [
+          -0.308793306350708,
+          0.6234685182571411,
+          0.028988754376769066
+        ],
+        "max": [
+          -0.1676306277513504,
+          0.927640438079834,
+          0.21552515029907227
+        ]
+      },
+      "maximumChangedWeightBeforeCompact": 0.08252737331430948,
+      "outsideMaskUnchanged": true,
+      "protectedSeam": null
+    },
+    "changedVertices": 23508
+  },
+  "garmentDerivation": {
+    "revision": 3,
+    "method": "continuous gravity, leg clearance and canonical ground envelope for authored lower cloth; local trouser thigh ownership correction and conforming subdivision",
+    "helperJointsAdded": 10,
+    "bodyMotionChanged": false,
+    "localTopologyChanged": true,
+    "authoredFacelessHeadPreserved": true,
+    "visualAccepted": false,
+    "levels": [
+      {
+        "kind": "derived_garment_controls_not_new_body_mocap",
+        "source": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/garmentDerivation/levels/0/source",
+        "sourceSha256": "0ecc4e14ec5536757986125032ec7985842c6f523ff07da8214543cb134dd258",
+        "target": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/garmentDerivation/levels/0/target",
+        "targetSha256": "6bec0e24440742b8bd60a3555b233bbfb0bb9e95d567f8ed719cbaf0a28336d2",
+        "bodyJointCount": 23,
+        "helperNames": [
+          "Cloth_Xi_0_Upper",
+          "Cloth_Xi_0_Lower",
+          "Cloth_Xi_1_Upper",
+          "Cloth_Xi_1_Lower",
+          "Cloth_Xi_2_Upper",
+          "Cloth_Xi_2_Lower",
+          "Cloth_Xi_3_Upper",
+          "Cloth_Xi_3_Lower",
+          "Cloth_Xi_4_Upper",
+          "Cloth_Xi_4_Lower"
+        ],
+        "helperParentNode": 24,
+        "sourceBodyAnimationBinaryPreserved": true,
+        "derivedTopology": true,
+        "samplePoseCacheEntries": 384,
+        "clips": [
+          {
+            "clip": "crouch_walk",
+            "durationSeconds": 2,
+            "samples": 61,
+            "maximumHelperFrameRotationDegrees": 8.632029321746684,
+            "elapsedSeconds": 4.059
+          },
+          {
+            "clip": "idle",
+            "durationSeconds": 2.5,
+            "samples": 76,
+            "maximumHelperFrameRotationDegrees": 0.1523782689711984,
+            "elapsedSeconds": 9.145
+          },
+          {
+            "clip": "idle_breathe",
+            "durationSeconds": 2.5,
+            "samples": 76,
+            "maximumHelperFrameRotationDegrees": 0.1523782689711984,
+            "elapsedSeconds": 9.209
+          },
+          {
+            "clip": "jump_run_left",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.65700124626304,
+            "elapsedSeconds": 11.732
+          },
+          {
+            "clip": "jump_run_right",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.657001781982377,
+            "elapsedSeconds": 13.966
+          },
+          {
+            "clip": "jump_small",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.657001758142442,
+            "elapsedSeconds": 16.272
+          },
+          {
+            "clip": "land_run_left",
+            "durationSeconds": 0.1666666716337204,
+            "samples": 6,
+            "maximumHelperFrameRotationDegrees": 12.660591658465467,
+            "elapsedSeconds": 16.642
+          },
+          {
+            "clip": "land_run_right",
+            "durationSeconds": 0.1666666716337204,
+            "samples": 6,
+            "maximumHelperFrameRotationDegrees": 11.717000688756318,
+            "elapsedSeconds": 17.009
+          },
+          {
+            "clip": "land_soft",
+            "durationSeconds": 0.6000000238418579,
+            "samples": 19,
+            "maximumHelperFrameRotationDegrees": 6.460275625811233,
+            "elapsedSeconds": 18.243
+          },
+          {
+            "clip": "land_stand_full",
+            "durationSeconds": 1.2666666507720947,
+            "samples": 39,
+            "maximumHelperFrameRotationDegrees": 10.495080379372693,
+            "elapsedSeconds": 20.844
+          },
+          {
+            "clip": "run_soft",
+            "durationSeconds": 0.9333333373069763,
+            "samples": 29,
+            "maximumHelperFrameRotationDegrees": 12.66063244831361,
+            "elapsedSeconds": 22.857
+          },
+          {
+            "clip": "walk_forward",
+            "durationSeconds": 1.3333333730697632,
+            "samples": 41,
+            "maximumHelperFrameRotationDegrees": 1.4559288714022744,
+            "elapsedSeconds": 25.71
+          }
+        ],
+        "visualAccepted": false,
+        "topology": {
+          "originalVertices": 24423,
+          "derivedVertices": 26687,
+          "originalTriangles": 19503,
+          "derivedTriangles": 23305,
+          "localSubdivisionRounds": 2,
+          "targetEdgeMetres": 0.03
+        },
+        "semanticSelection": {
+          "clothVertices": 3920,
+          "pantsVertices": 1468,
+          "orphanTassels": [
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 5.509468395408031,
+              "distancePantsMm": 99.99047059095184,
+              "bounds": [
+                [
+                  0.282745,
+                  0.268041,
+                  -0.219726
+                ],
+                [
+                  0.291988,
+                  0.324338,
+                  -0.204602
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 17.82446490080422,
+              "distancePantsMm": 61.021206322064785,
+              "bounds": [
+                [
+                  0.23233,
+                  0.541124,
+                  0.107973
+                ],
+                [
+                  0.244094,
+                  0.593219,
+                  0.118056
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.657261936655846,
+              "distancePantsMm": 87.71683288856251,
+              "bounds": [
+                [
+                  0.335681,
+                  0.402482,
+                  -0.039912
+                ],
+                [
+                  0.344084,
+                  0.451217,
+                  -0.026468
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 7.420830479130967,
+              "distancePantsMm": 106.83487680528303,
+              "bounds": [
+                [
+                  -0.286946,
+                  0.49491,
+                  -0.127298
+                ],
+                [
+                  -0.272662,
+                  0.542804,
+                  -0.118056
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 9.870915357756846,
+              "distancePantsMm": 72.40370165951461,
+              "bounds": [
+                [
+                  -0.286106,
+                  0.378114,
+                  0.055037
+                ],
+                [
+                  -0.277704,
+                  0.42853,
+                  0.069321
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 7.179772141231212,
+              "distancePantsMm": 95.33393348645592,
+              "bounds": [
+                [
+                  -0.20124,
+                  0.247035,
+                  -0.239052
+                ],
+                [
+                  -0.188637,
+                  0.300811,
+                  -0.23149
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.657261936655848,
+              "distancePantsMm": 36.63486686204823,
+              "bounds": [
+                [
+                  0.193678,
+                  0.335261,
+                  -0.186956
+                ],
+                [
+                  0.202081,
+                  0.382316,
+                  -0.176033
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 14,
+              "distanceClothMm": 5.941818324385227,
+              "distancePantsMm": 78.04932662746039,
+              "bounds": [
+                [
+                  0.334001,
+                  0.349546,
+                  -0.122257
+                ],
+                [
+                  0.349125,
+                  0.409204,
+                  -0.09873
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 6,
+              "distanceClothMm": 7.561666681360673,
+              "distancePantsMm": 85.06984126586813,
+              "bounds": [
+                [
+                  -0.16511,
+                  0.552887,
+                  0.194519
+                ],
+                [
+                  -0.158388,
+                  0.597421,
+                  0.201241
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.657261936655848,
+              "distancePantsMm": 95.12676139762145,
+              "bounds": [
+                [
+                  0.339882,
+                  0.39576,
+                  -0.055037
+                ],
+                [
+                  0.347445,
+                  0.442814,
+                  -0.039912
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 5.179730012268977,
+              "distancePantsMm": 65.95291885125329,
+              "bounds": [
+                [
+                  -0.284426,
+                  0.315095,
+                  -0.137382
+                ],
+                [
+                  -0.276023,
+                  0.361309,
+                  -0.123097
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 0.8400000000000005,
+              "distancePantsMm": 95.0231960891655,
+              "bounds": [
+                [
+                  0.341563,
+                  0.387357,
+                  -0.070161
+                ],
+                [
+                  0.349965,
+                  0.435252,
+                  -0.053356
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 5.179405564348051,
+              "distancePantsMm": 107.27913335779702,
+              "bounds": [
+                [
+                  -0.244093,
+                  0.236952,
+                  -0.23149
+                ],
+                [
+                  -0.230649,
+                  0.284846,
+                  -0.222247
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.8787445276034846,
+              "distancePantsMm": 89.9389755389731,
+              "bounds": [
+                [
+                  0.344924,
+                  0.369712,
+                  -0.10041
+                ],
+                [
+                  0.352486,
+                  0.417606,
+                  -0.086126
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.520000000000013,
+              "distancePantsMm": 85.47903290281192,
+              "bounds": [
+                [
+                  -0.282745,
+                  0.385677,
+                  0.071001
+                ],
+                [
+                  -0.273502,
+                  0.436092,
+                  0.085286
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 1.879638795088053,
+              "distancePantsMm": 94.02190593154344,
+              "bounds": [
+                [
+                  0.343243,
+                  0.378114,
+                  -0.086966
+                ],
+                [
+                  0.351646,
+                  0.426009,
+                  -0.071001
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.521666710729231,
+              "distancePantsMm": 100.00424684982131,
+              "bounds": [
+                [
+                  -0.19788,
+                  0.520958,
+                  0.195359
+                ],
+                [
+                  -0.188637,
+                  0.567172,
+                  0.203762
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.65757822086199,
+              "distancePantsMm": 88.11424795684296,
+              "bounds": [
+                [
+                  -0.282745,
+                  0.537763,
+                  -0.051676
+                ],
+                [
+                  -0.267621,
+                  0.585657,
+                  -0.036551
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 11.551800465728277,
+              "distancePantsMm": 63.60460843366619,
+              "bounds": [
+                [
+                  -0.128979,
+                  0.305852,
+                  -0.205442
+                ],
+                [
+                  -0.115535,
+                  0.357948,
+                  -0.196199
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 5.445210923371107,
+              "distancePantsMm": 130.7616591360021,
+              "bounds": [
+                [
+                  0.195359,
+                  0.762951,
+                  -0.151666
+                ],
+                [
+                  0.203762,
+                  0.810005,
+                  -0.143263
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.1879393923934103,
+              "distancePantsMm": 92.19054854484813,
+              "bounds": [
+                [
+                  -0.241573,
+                  0.433571,
+                  0.119736
+                ],
+                [
+                  -0.23317,
+                  0.481466,
+                  0.134861
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.058796250239425,
+              "distancePantsMm": 92.15583598991441,
+              "bounds": [
+                [
+                  -0.281905,
+                  0.616747,
+                  0.091168
+                ],
+                [
+                  -0.26594,
+                  0.670523,
+                  0.10041
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 6.453854894557217,
+              "distancePantsMm": 149.39059693970032,
+              "bounds": [
+                [
+                  -0.281065,
+                  0.721778,
+                  0.185276
+                ],
+                [
+                  -0.270142,
+                  0.768833,
+                  0.194519
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.8787445276034536,
+              "distancePantsMm": 71.15471148139103,
+              "bounds": [
+                [
+                  -0.280224,
+                  0.308373,
+                  -0.151666
+                ],
+                [
+                  -0.272662,
+                  0.354587,
+                  -0.138222
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.0583879614883176,
+              "distancePantsMm": 95.9617391776535,
+              "bounds": [
+                [
+                  -0.237371,
+                  0.445335,
+                  0.13318
+                ],
+                [
+                  -0.229809,
+                  0.493229,
+                  0.147465
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 0.8400000000000074,
+              "distancePantsMm": 87.94611478627127,
+              "bounds": [
+                [
+                  -0.278544,
+                  0.394079,
+                  0.079404
+                ],
+                [
+                  -0.269301,
+                  0.441133,
+                  0.093688
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.878744527603466,
+              "distancePantsMm": 63.29362553211815,
+              "bounds": [
+                [
+                  0.246614,
+                  0.52936,
+                  0.096209
+                ],
+                [
+                  0.255857,
+                  0.577255,
+                  0.105452
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 5.380342275357583,
+              "distancePantsMm": 92.01864457815059,
+              "bounds": [
+                [
+                  0.291988,
+                  0.283166,
+                  -0.202921
+                ],
+                [
+                  0.301231,
+                  0.339463,
+                  -0.188637
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 6.825546278504035,
+              "distancePantsMm": 100.19428450765042,
+              "bounds": [
+                [
+                  0.10041,
+                  0.447855,
+                  -0.221407
+                ],
+                [
+                  0.109653,
+                  0.501632,
+                  -0.212164
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.7859648238985475,
+              "distancePantsMm": 66.20951589462047,
+              "bounds": [
+                [
+                  -0.10041,
+                  0.322658,
+                  -0.196199
+                ],
+                [
+                  -0.086126,
+                  0.371392,
+                  -0.188637
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.7871709671277882,
+              "distancePantsMm": 72.90899875872663,
+              "bounds": [
+                [
+                  -0.276863,
+                  0.301651,
+                  -0.16511
+                ],
+                [
+                  -0.268461,
+                  0.347865,
+                  -0.152506
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 6,
+              "distanceClothMm": 1.1886467094978332,
+              "distancePantsMm": 111.57632611804351,
+              "bounds": [
+                [
+                  -0.23317,
+                  0.220987,
+                  -0.239892
+                ],
+                [
+                  -0.222247,
+                  0.270562,
+                  -0.23065
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 4.899371592357543,
+              "distancePantsMm": 132.54975757805065,
+              "bounds": [
+                [
+                  0.005462,
+                  0.436092,
+                  -0.237372
+                ],
+                [
+                  0.019746,
+                  0.500791,
+                  -0.228969
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 8.444084615871617,
+              "distancePantsMm": 103.3686925524358,
+              "bounds": [
+                [
+                  -0.190317,
+                  0.789839,
+                  0.206282
+                ],
+                [
+                  -0.181075,
+                  0.836053,
+                  0.213845
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.520666776866792,
+              "distancePantsMm": 98.9079472893862,
+              "bounds": [
+                [
+                  -0.23401,
+                  0.456258,
+                  0.144944
+                ],
+                [
+                  -0.226448,
+                  0.503312,
+                  0.160909
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 6,
+              "distanceClothMm": 2.5210001983339128,
+              "distancePantsMm": 100.38453158231104,
+              "bounds": [
+                [
+                  -0.275183,
+                  0.483146,
+                  -0.1315
+                ],
+                [
+                  -0.261739,
+                  0.533561,
+                  -0.123097
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.8791915815052012,
+              "distancePantsMm": 44.37417816703766,
+              "bounds": [
+                [
+                  0.251656,
+                  0.506673,
+                  0.050835
+                ],
+                [
+                  0.260058,
+                  0.553727,
+                  0.061759
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 7.608953016020005,
+              "distancePantsMm": 77.61750560279556,
+              "bounds": [
+                [
+                  -0.274343,
+                  0.545325,
+                  -0.029829
+                ],
+                [
+                  -0.261739,
+                  0.591539,
+                  -0.017225
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 12.826498353019035,
+              "distancePantsMm": 66.65600111767881,
+              "bounds": [
+                [
+                  -0.06764,
+                  0.333581,
+                  -0.194519
+                ],
+                [
+                  -0.052516,
+                  0.381475,
+                  -0.186116
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 1.8791915815052385,
+              "distancePantsMm": 103.94785339293927,
+              "bounds": [
+                [
+                  -0.230649,
+                  0.468022,
+                  0.160909
+                ],
+                [
+                  -0.222247,
+                  0.517597,
+                  0.176033
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 10,
+              "distanceClothMm": 5.941676951837743,
+              "distancePantsMm": 57.5494324298685,
+              "bounds": [
+                [
+                  0.203761,
+                  0.320137,
+                  -0.215525
+                ],
+                [
+                  0.214685,
+                  0.373073,
+                  -0.191158
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 7.9265582064348745,
+              "distancePantsMm": 121.3462223103793,
+              "bounds": [
+                [
+                  -0.014704,
+                  0.400801,
+                  -0.224768
+                ],
+                [
+                  -0.002101,
+                  0.454577,
+                  -0.209643
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.1879393923934103,
+              "distancePantsMm": 47.576107837863304,
+              "bounds": [
+                [
+                  0.137381,
+                  0.375594,
+                  -0.186116
+                ],
+                [
+                  0.145784,
+                  0.43105,
+                  -0.176033
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 1.8791915815051763,
+              "distancePantsMm": 118.88591062443015,
+              "bounds": [
+                [
+                  0.253336,
+                  0.259639,
+                  -0.251656
+                ],
+                [
+                  0.26678,
+                  0.310894,
+                  -0.242413
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.5200000000000036,
+              "distancePantsMm": 77.10175435098739,
+              "bounds": [
+                [
+                  -0.272662,
+                  0.293249,
+                  -0.179394
+                ],
+                [
+                  -0.263419,
+                  0.339463,
+                  -0.16595
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.4641364003168347,
+              "distancePantsMm": 39.45610093508986,
+              "bounds": [
+                [
+                  0.253336,
+                  0.494069,
+                  0.026468
+                ],
+                [
+                  0.263419,
+                  0.541964,
+                  0.043273
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.5206667768668103,
+              "distancePantsMm": 122.36961873765893,
+              "bounds": [
+                [
+                  -0.228969,
+                  0.76043,
+                  0.201241
+                ],
+                [
+                  -0.212164,
+                  0.813366,
+                  0.209643
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.5200000000000222,
+              "distancePantsMm": 90.33392327359638,
+              "bounds": [
+                [
+                  -0.187796,
+                  0.258798,
+                  -0.237372
+                ],
+                [
+                  -0.177713,
+                  0.310894,
+                  -0.227289
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 15.124666674012987,
+              "distancePantsMm": 50.701036488419064,
+              "bounds": [
+                [
+                  0.202081,
+                  0.573053,
+                  0.13234
+                ],
+                [
+                  0.215525,
+                  0.625989,
+                  0.143263
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 7.179186931679663,
+              "distancePantsMm": 55.240674733388246,
+              "bounds": [
+                [
+                  0.252496,
+                  0.516756,
+                  0.073522
+                ],
+                [
+                  0.260058,
+                  0.566331,
+                  0.087807
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 4.524466929926677,
+              "distancePantsMm": 130.38328996079213,
+              "bounds": [
+                [
+                  0.207123,
+                  0.757069,
+                  -0.150826
+                ],
+                [
+                  0.215525,
+                  0.803283,
+                  -0.142423
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 13.311763744898693,
+              "distancePantsMm": 147.6694537472121,
+              "bounds": [
+                [
+                  0.041592,
+                  0.486507,
+                  -0.245774
+                ],
+                [
+                  0.055877,
+                  0.546165,
+                  -0.238212
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.6572619366558614,
+              "distancePantsMm": 131.9330844670888,
+              "bounds": [
+                [
+                  -0.316355,
+                  0.671363,
+                  0.111334
+                ],
+                [
+                  -0.303752,
+                  0.722619,
+                  0.126458
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 5.041666688705206,
+              "distancePantsMm": 123.96291188900011,
+              "bounds": [
+                [
+                  -0.315515,
+                  0.66044,
+                  0.09873
+                ],
+                [
+                  -0.303752,
+                  0.708334,
+                  0.106292
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 10,
+              "distanceClothMm": 6.174755460744972,
+              "distancePantsMm": 79.02903741030886,
+              "bounds": [
+                [
+                  0.107972,
+                  0.425169,
+                  -0.211324
+                ],
+                [
+                  0.122257,
+                  0.486507,
+                  -0.196199
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 14.382164440723127,
+              "distancePantsMm": 54.38297103873604,
+              "bounds": [
+                [
+                  0.174353,
+                  0.608344,
+                  0.155867
+                ],
+                [
+                  0.184436,
+                  0.655398,
+                  0.16511
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.4560776078217548,
+              "distancePantsMm": 77.3124749636176,
+              "bounds": [
+                [
+                  -0.270141,
+                  0.604143,
+                  0.089487
+                ],
+                [
+                  -0.255857,
+                  0.657079,
+                  0.09873
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 3.4634087255188652,
+              "distancePantsMm": 105.233561158026,
+              "bounds": [
+                [
+                  -0.225608,
+                  0.480625,
+                  0.178554
+                ],
+                [
+                  -0.217205,
+                  0.52852,
+                  0.187797
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 4.60196501507782,
+              "distancePantsMm": 138.66450032362283,
+              "bounds": [
+                [
+                  -0.312994,
+                  0.681446,
+                  0.129819
+                ],
+                [
+                  -0.300391,
+                  0.732702,
+                  0.143263
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 1.4549226783579017,
+              "distancePantsMm": 147.56415838881742,
+              "bounds": [
+                [
+                  -0.269301,
+                  0.731861,
+                  0.192838
+                ],
+                [
+                  -0.251656,
+                  0.783957,
+                  0.201241
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 6,
+              "distanceClothMm": 5.3800300185036445,
+              "distancePantsMm": 59.75844846546806,
+              "bounds": [
+                [
+                  0.256697,
+                  0.548686,
+                  0.039072
+                ],
+                [
+                  0.26594,
+                  0.597421,
+                  0.048315
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.5209999999999955,
+              "distancePantsMm": 112.76346313855389,
+              "bounds": [
+                [
+                  -0.311314,
+                  0.647836,
+                  0.086126
+                ],
+                [
+                  -0.294509,
+                  0.699932,
+                  0.095369
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 1.6800000000000002,
+              "distancePantsMm": 62.48984382281651,
+              "bounds": [
+                [
+                  -0.268461,
+                  0.552887,
+                  -0.018065
+                ],
+                [
+                  -0.254177,
+                  0.599101,
+                  -0.00042
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 9,
+              "distanceClothMm": 5.042333388422469,
+              "distancePantsMm": 29.718532719500118,
+              "bounds": [
+                [
+                  0.176033,
+                  0.347865,
+                  -0.175193
+                ],
+                [
+                  0.191157,
+                  0.39744,
+                  -0.16679
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 3.4643788765087367,
+              "distancePantsMm": 84.57065577373749,
+              "bounds": [
+                [
+                  0.302071,
+                  0.299131,
+                  -0.186116
+                ],
+                [
+                  0.310473,
+                  0.353747,
+                  -0.171832
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.1879393923933712,
+              "distancePantsMm": 145.6336798134278,
+              "bounds": [
+                [
+                  -0.309633,
+                  0.691529,
+                  0.146624
+                ],
+                [
+                  -0.295349,
+                  0.741944,
+                  0.158388
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 4.201400004760273,
+              "distancePantsMm": 142.3254236775707,
+              "bounds": [
+                [
+                  0.076883,
+                  0.491549,
+                  -0.240733
+                ],
+                [
+                  0.085286,
+                  0.543644,
+                  -0.23233
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 4.826825250617641,
+              "distancePantsMm": 85.3837662146617,
+              "bounds": [
+                [
+                  -0.26678,
+                  0.280645,
+                  -0.195359
+                ],
+                [
+                  -0.256697,
+                  0.327699,
+                  -0.181075
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 4.524838339653688,
+              "distancePantsMm": 83.67568766374137,
+              "bounds": [
+                [
+                  -0.268461,
+                  0.406683,
+                  0.093688
+                ],
+                [
+                  -0.256697,
+                  0.453737,
+                  0.107132
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.144061386169173,
+              "distancePantsMm": 80.85225558387349,
+              "bounds": [
+                [
+                  0.328959,
+                  0.415086,
+                  -0.025628
+                ],
+                [
+                  0.336521,
+                  0.46382,
+                  -0.008823
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 10,
+              "distanceClothMm": 2.375878784786801,
+              "distancePantsMm": 88.08183895673385,
+              "bounds": [
+                [
+                  -0.188637,
+                  0.536922,
+                  0.196199
+                ],
+                [
+                  -0.16679,
+                  0.589858,
+                  0.202921
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 5.636232961828315,
+              "distancePantsMm": 51.99380194792452,
+              "bounds": [
+                [
+                  -0.26426,
+                  0.558769,
+                  0.003781
+                ],
+                [
+                  -0.249135,
+                  0.604143,
+                  0.016385
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 4.899714583524225,
+              "distancePantsMm": 77.7578520408068,
+              "bounds": [
+                [
+                  0.215525,
+                  0.306693,
+                  -0.23233
+                ],
+                [
+                  0.224768,
+                  0.354587,
+                  -0.216365
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 3.4646214800465494,
+              "distancePantsMm": 65.04246789598314,
+              "bounds": [
+                [
+                  -0.26426,
+                  0.592379,
+                  0.078564
+                ],
+                [
+                  -0.251656,
+                  0.639433,
+                  0.086966
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.520666776866799,
+              "distancePantsMm": 78.88118773193011,
+              "bounds": [
+                [
+                  -0.03235,
+                  0.345344,
+                  -0.195359
+                ],
+                [
+                  -0.023947,
+                  0.402482,
+                  -0.186957
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 6,
+              "distanceClothMm": 2.785964823898552,
+              "distancePantsMm": 130.9207594577728,
+              "bounds": [
+                [
+                  0.216365,
+                  0.751187,
+                  -0.149145
+                ],
+                [
+                  0.223928,
+                  0.799082,
+                  -0.140743
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.5213333774017417,
+              "distancePantsMm": 57.81322269169914,
+              "bounds": [
+                [
+                  -0.262579,
+                  0.582296,
+                  0.063439
+                ],
+                [
+                  -0.250816,
+                  0.631031,
+                  0.072682
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 3.7574886560041763,
+              "distancePantsMm": 46.79875862669863,
+              "bounds": [
+                [
+                  0.26426,
+                  0.479785,
+                  0.018906
+                ],
+                [
+                  0.273502,
+                  0.52768,
+                  0.028149
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 4.366500085881132,
+              "distancePantsMm": 148.85580128768916,
+              "bounds": [
+                [
+                  -0.302071,
+                  0.702452,
+                  0.160068
+                ],
+                [
+                  -0.286106,
+                  0.752027,
+                  0.171832
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 4.7531717831359375,
+              "distancePantsMm": 59.675766647777536,
+              "bounds": [
+                [
+                  0.145784,
+                  0.641114,
+                  0.172672
+                ],
+                [
+                  0.159228,
+                  0.689849,
+                  0.182755
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.3758787847868095,
+              "distancePantsMm": 47.990558873595134,
+              "bounds": [
+                [
+                  -0.261739,
+                  0.563811,
+                  0.014704
+                ],
+                [
+                  -0.245774,
+                  0.610025,
+                  0.028989
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 5.821422764239002,
+              "distancePantsMm": 65.35647843175151,
+              "bounds": [
+                [
+                  -0.145784,
+                  0.293249,
+                  -0.213845
+                ],
+                [
+                  -0.130659,
+                  0.346185,
+                  -0.203762
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.1443285451746505,
+              "distancePantsMm": 100.09253855807634,
+              "bounds": [
+                [
+                  -0.216365,
+                  0.23275,
+                  -0.240733
+                ],
+                [
+                  -0.202081,
+                  0.288207,
+                  -0.23233
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 5.1797300122689816,
+              "distancePantsMm": 76.68013193128972,
+              "bounds": [
+                [
+                  0.310473,
+                  0.312575,
+                  -0.169311
+                ],
+                [
+                  0.318876,
+                  0.366351,
+                  -0.155867
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 0.8400000000000005,
+              "distancePantsMm": 47.48035192582294,
+              "bounds": [
+                [
+                  -0.30039,
+                  0.345345,
+                  -0.034871
+                ],
+                [
+                  -0.292828,
+                  0.393239,
+                  -0.023107
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 6,
+              "distanceClothMm": 1.8791918475770302,
+              "distancePantsMm": 48.130103490435175,
+              "bounds": [
+                [
+                  -0.260899,
+                  0.570533,
+                  0.036551
+                ],
+                [
+                  -0.245774,
+                  0.615906,
+                  0.044954
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.05838820439687,
+              "distancePantsMm": 51.31132998666088,
+              "bounds": [
+                [
+                  -0.260899,
+                  0.570533,
+                  0.043273
+                ],
+                [
+                  -0.247455,
+                  0.619267,
+                  0.052516
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 1.879638795088028,
+              "distancePantsMm": 54.30536132832556,
+              "bounds": [
+                [
+                  -0.260899,
+                  0.581456,
+                  0.051676
+                ],
+                [
+                  -0.249135,
+                  0.624309,
+                  0.060918
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.9110001717622707,
+              "distancePantsMm": 81.90562382400856,
+              "bounds": [
+                [
+                  -0.177713,
+                  0.268041,
+                  -0.23065
+                ],
+                [
+                  -0.161749,
+                  0.322658,
+                  -0.219726
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.144061386169169,
+              "distancePantsMm": 71.89918763101572,
+              "bounds": [
+                [
+                  0.262579,
+                  0.548686,
+                  0.027308
+                ],
+                [
+                  0.276863,
+                  0.597421,
+                  0.039912
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.7868693905527793,
+              "distancePantsMm": 50.02893640684363,
+              "bounds": [
+                [
+                  -0.29871,
+                  0.350386,
+                  -0.021426
+                ],
+                [
+                  -0.291988,
+                  0.3966,
+                  -0.013024
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.464621480046549,
+              "distancePantsMm": 76.25947154944097,
+              "bounds": [
+                [
+                  0.311314,
+                  0.42937,
+                  -0.002941
+                ],
+                [
+                  0.328119,
+                  0.481466,
+                  0.006302
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 6.826531037064103,
+              "distancePantsMm": 53.00304849723269,
+              "bounds": [
+                [
+                  0.217206,
+                  0.557089,
+                  0.119736
+                ],
+                [
+                  0.23065,
+                  0.609184,
+                  0.13066
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.941228488682178,
+              "distancePantsMm": 93.66126892691558,
+              "bounds": [
+                [
+                  -0.259218,
+                  0.266361,
+                  -0.210484
+                ],
+                [
+                  -0.249135,
+                  0.314255,
+                  -0.196199
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.786869390552784,
+              "distancePantsMm": 130.44569043858826,
+              "bounds": [
+                [
+                  0.183596,
+                  0.769673,
+                  -0.152506
+                ],
+                [
+                  0.192838,
+                  0.815887,
+                  -0.144944
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 6,
+              "distanceClothMm": 0.8400000000000074,
+              "distancePantsMm": 62.866795138610335,
+              "bounds": [
+                [
+                  -0.114694,
+                  0.315936,
+                  -0.19872
+                ],
+                [
+                  -0.105452,
+                  0.36383,
+                  -0.190318
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 6.454375647574287,
+              "distancePantsMm": 47.4424590214293,
+              "bounds": [
+                [
+                  -0.297029,
+                  0.354587,
+                  -0.007982
+                ],
+                [
+                  -0.290307,
+                  0.400801,
+                  -0.00042
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 14,
+              "distanceClothMm": 3.564761001806439,
+              "distancePantsMm": 48.10011021816893,
+              "bounds": [
+                [
+                  -0.30039,
+                  0.331901,
+                  -0.088647
+                ],
+                [
+                  -0.287787,
+                  0.381475,
+                  -0.059238
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 10,
+              "distanceClothMm": 1.1879393923934054,
+              "distancePantsMm": 45.93833386181956,
+              "bounds": [
+                [
+                  -0.301231,
+                  0.340303,
+                  -0.057557
+                ],
+                [
+                  -0.293668,
+                  0.389038,
+                  -0.036551
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.455500257643396,
+              "distancePantsMm": 103.35133333440841,
+              "bounds": [
+                [
+                  -0.296189,
+                  0.515076,
+                  -0.093688
+                ],
+                [
+                  -0.285266,
+                  0.565491,
+                  -0.080244
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.0583882043968362,
+              "distancePantsMm": 128.97325906559078,
+              "bounds": [
+                [
+                  0.223087,
+                  0.747826,
+                  -0.144104
+                ],
+                [
+                  0.234851,
+                  0.79488,
+                  -0.1315
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 0.8399999999999996,
+              "distancePantsMm": 47.931413217221106,
+              "bounds": [
+                [
+                  -0.295349,
+                  0.359629,
+                  0.00126
+                ],
+                [
+                  -0.287787,
+                  0.405003,
+                  0.013024
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.1443285451746212,
+              "distancePantsMm": 36.48964484617518,
+              "bounds": [
+                [
+                  0.149145,
+                  0.361309,
+                  -0.173512
+                ],
+                [
+                  0.16595,
+                  0.414245,
+                  -0.16427
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.0575713839378196,
+              "distancePantsMm": 95.98754101444626,
+              "bounds": [
+                [
+                  0.224768,
+                  0.293249,
+                  -0.241573
+                ],
+                [
+                  0.238212,
+                  0.341143,
+                  -0.23233
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 3.5647610018064255,
+              "distancePantsMm": 68.4386870929009,
+              "bounds": [
+                [
+                  -0.084445,
+                  0.327699,
+                  -0.195359
+                ],
+                [
+                  -0.069321,
+                  0.376434,
+                  -0.186957
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.9416548555143573,
+              "distancePantsMm": 84.63274090445137,
+              "bounds": [
+                [
+                  -0.255857,
+                  0.420127,
+                  0.106292
+                ],
+                [
+                  -0.243253,
+                  0.467181,
+                  0.120576
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 9,
+              "distanceClothMm": 3.4651064918700674,
+              "distancePantsMm": 106.55348105998227,
+              "bounds": [
+                [
+                  -0.293669,
+                  0.504993,
+                  -0.116375
+                ],
+                [
+                  -0.281065,
+                  0.557089,
+                  -0.096209
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 3.143526840986113,
+              "distancePantsMm": 97.47270574884028,
+              "bounds": [
+                [
+                  -0.293669,
+                  0.523478,
+                  -0.077724
+                ],
+                [
+                  -0.281905,
+                  0.570533,
+                  -0.069321
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 5.380029925567373,
+              "distancePantsMm": 110.1667108567738,
+              "bounds": [
+                [
+                  -0.209643,
+                  0.775555,
+                  0.203762
+                ],
+                [
+                  -0.192838,
+                  0.82765,
+                  0.212164
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 10,
+              "distanceClothMm": 3.5647610018064353,
+              "distancePantsMm": 52.63453388223362,
+              "bounds": [
+                [
+                  -0.292828,
+                  0.36467,
+                  0.014704
+                ],
+                [
+                  -0.283585,
+                  0.413405,
+                  0.036551
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 13,
+              "distanceClothMm": 2.9110001717622787,
+              "distancePantsMm": 99.65457162619285,
+              "bounds": [
+                [
+                  -0.302911,
+                  0.62683,
+                  0.083605
+                ],
+                [
+                  -0.280225,
+                  0.684807,
+                  0.096209
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.5649967741921023,
+              "distancePantsMm": 55.29057374453627,
+              "bounds": [
+                [
+                  -0.291988,
+                  0.326859,
+                  -0.105452
+                ],
+                [
+                  -0.283585,
+                  0.372233,
+                  -0.090327
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.1886467094978137,
+              "distancePantsMm": 101.77102753731043,
+              "bounds": [
+                [
+                  -0.252496,
+                  0.252076,
+                  -0.222247
+                ],
+                [
+                  -0.241573,
+                  0.299971,
+                  -0.211324
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 9,
+              "distanceClothMm": 8.27598507731858,
+              "distancePantsMm": 62.139283243371914,
+              "bounds": [
+                [
+                  0.277704,
+                  0.46214,
+                  0.007142
+                ],
+                [
+                  0.29703,
+                  0.513395,
+                  0.018906
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.46437902083481,
+              "distancePantsMm": 137.03132307979806,
+              "bounds": [
+                [
+                  0.023947,
+                  0.457098,
+                  -0.241573
+                ],
+                [
+                  0.039072,
+                  0.52768,
+                  -0.234011
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 6,
+              "distanceClothMm": 2.5206667768667366,
+              "distancePantsMm": 102.36293785350242,
+              "bounds": [
+                [
+                  -0.206282,
+                  0.510034,
+                  0.193679
+                ],
+                [
+                  -0.19788,
+                  0.557088,
+                  0.202081
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 4.5235384379930235,
+              "distancePantsMm": 148.77469413176422,
+              "bounds": [
+                [
+                  -0.291148,
+                  0.712536,
+                  0.175193
+                ],
+                [
+                  -0.276023,
+                  0.762111,
+                  0.184436
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 5.179405564348105,
+              "distancePantsMm": 74.26234726966281,
+              "bounds": [
+                [
+                  0.318036,
+                  0.325178,
+                  -0.153346
+                ],
+                [
+                  0.326438,
+                  0.378955,
+                  -0.139902
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 5.636232961828331,
+              "distancePantsMm": 64.2612838807318,
+              "bounds": [
+                [
+                  0.123937,
+                  0.402482,
+                  -0.19788
+                ],
+                [
+                  0.13402,
+                  0.453737,
+                  -0.185276
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.7574886560041203,
+              "distancePantsMm": 123.97640916319523,
+              "bounds": [
+                [
+                  0.087806,
+                  0.471383,
+                  -0.23233
+                ],
+                [
+                  0.09873,
+                  0.52768,
+                  -0.223087
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 3.9405889153780227,
+              "distancePantsMm": 74.47940927531582,
+              "bounds": [
+                [
+                  0.325598,
+                  0.336942,
+                  -0.138222
+                ],
+                [
+                  0.334001,
+                  0.391559,
+                  -0.123097
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 2.786869390552766,
+              "distancePantsMm": 61.33309739447372,
+              "bounds": [
+                [
+                  -0.289467,
+                  0.370552,
+                  0.038232
+                ],
+                [
+                  -0.280224,
+                  0.420127,
+                  0.052516
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.0579798346922997,
+              "distancePantsMm": 148.65370502278105,
+              "bounds": [
+                [
+                  0.058398,
+                  0.506673,
+                  -0.244934
+                ],
+                [
+                  0.070161,
+                  0.556248,
+                  -0.237372
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 6.059544949911631,
+              "distancePantsMm": 137.27082691526266,
+              "bounds": [
+                [
+                  -0.249975,
+                  0.745305,
+                  0.19704
+                ],
+                [
+                  -0.23149,
+                  0.798241,
+                  0.204602
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 5.509468395408066,
+              "distancePantsMm": 91.5753237668314,
+              "bounds": [
+                [
+                  -0.288627,
+                  0.52936,
+                  -0.06512
+                ],
+                [
+                  -0.276023,
+                  0.577255,
+                  -0.054196
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 8,
+              "distanceClothMm": 1.680000000000001,
+              "distancePantsMm": 59.35499764131074,
+              "bounds": [
+                [
+                  -0.287787,
+                  0.320977,
+                  -0.122257
+                ],
+                [
+                  -0.279384,
+                  0.366351,
+                  -0.107132
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 2.521333377401723,
+              "distancePantsMm": 69.23849718906384,
+              "bounds": [
+                [
+                  -0.050835,
+                  0.337782,
+                  -0.193679
+                ],
+                [
+                  -0.042433,
+                  0.384836,
+                  -0.185276
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 1.1879393923934103,
+              "distancePantsMm": 50.457103256132335,
+              "bounds": [
+                [
+                  0.191158,
+                  0.589018,
+                  0.144944
+                ],
+                [
+                  0.2004,
+                  0.640274,
+                  0.154187
+                ]
+              ]
+            },
+            {
+              "uniqueVertexCount": 7,
+              "distanceClothMm": 5.882000085005089,
+              "distancePantsMm": 98.9434320508441,
+              "bounds": [
+                [
+                  -0.023107,
+                  0.368871,
+                  -0.210484
+                ],
+                [
+                  -0.014704,
+                  0.424328,
+                  -0.200401
+                ]
+              ]
+            }
+          ],
+          "seedDistanceMetres": 4.4905456240396446e-7,
+          "clothBounds": [
+            [
+              -0.31635548203448094,
+              0.2209869462628246,
+              -0.25165605479942843
+            ],
+            [
+              0.3524861716174378,
+              0.9999024974171361,
+              0.21552516936441216
+            ]
+          ]
+        }
+      },
+      {
+        "kind": "derived_garment_controls_not_new_body_mocap",
+        "source": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/garmentDerivation/levels/1/source",
+        "sourceSha256": "010efc9e638292756bafbec6c5b34315da72ea775d4eb28952a15d5def04bfff",
+        "target": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/garmentDerivation/levels/1/target",
+        "targetSha256": "76f12442436c6a18b92cda7ba04f707a02974db940349444944e6b1adabdbd59",
+        "bodyJointCount": 23,
+        "helperNames": [
+          "Cloth_Xi_0_Upper",
+          "Cloth_Xi_0_Lower",
+          "Cloth_Xi_1_Upper",
+          "Cloth_Xi_1_Lower",
+          "Cloth_Xi_2_Upper",
+          "Cloth_Xi_2_Lower",
+          "Cloth_Xi_3_Upper",
+          "Cloth_Xi_3_Lower",
+          "Cloth_Xi_4_Upper",
+          "Cloth_Xi_4_Lower"
+        ],
+        "helperParentNode": 24,
+        "sourceBodyAnimationBinaryPreserved": true,
+        "derivedTopology": true,
+        "samplePoseCacheEntries": 384,
+        "clips": [
+          {
+            "clip": "crouch_walk",
+            "durationSeconds": 2,
+            "samples": 61,
+            "maximumHelperFrameRotationDegrees": 8.632029321746684,
+            "elapsedSeconds": 3.201
+          },
+          {
+            "clip": "idle",
+            "durationSeconds": 2.5,
+            "samples": 76,
+            "maximumHelperFrameRotationDegrees": 0.1523782689711984,
+            "elapsedSeconds": 7.091
+          },
+          {
+            "clip": "idle_breathe",
+            "durationSeconds": 2.5,
+            "samples": 76,
+            "maximumHelperFrameRotationDegrees": 0.1523782689711984,
+            "elapsedSeconds": 7.163
+          },
+          {
+            "clip": "jump_run_left",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.65700124626304,
+            "elapsedSeconds": 9.151
+          },
+          {
+            "clip": "jump_run_right",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.657001781982377,
+            "elapsedSeconds": 11.006
+          },
+          {
+            "clip": "jump_small",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.657001758142442,
+            "elapsedSeconds": 12.978
+          },
+          {
+            "clip": "land_run_left",
+            "durationSeconds": 0.1666666716337204,
+            "samples": 6,
+            "maximumHelperFrameRotationDegrees": 12.660591658465467,
+            "elapsedSeconds": 13.345
+          },
+          {
+            "clip": "land_run_right",
+            "durationSeconds": 0.1666666716337204,
+            "samples": 6,
+            "maximumHelperFrameRotationDegrees": 11.717000688756318,
+            "elapsedSeconds": 13.695
+          },
+          {
+            "clip": "land_soft",
+            "durationSeconds": 0.6000000238418579,
+            "samples": 19,
+            "maximumHelperFrameRotationDegrees": 6.460275625811233,
+            "elapsedSeconds": 14.652
+          },
+          {
+            "clip": "land_stand_full",
+            "durationSeconds": 1.2666666507720947,
+            "samples": 39,
+            "maximumHelperFrameRotationDegrees": 10.495080379372693,
+            "elapsedSeconds": 16.562
+          },
+          {
+            "clip": "run_soft",
+            "durationSeconds": 0.9333333373069763,
+            "samples": 29,
+            "maximumHelperFrameRotationDegrees": 12.66063244831361,
+            "elapsedSeconds": 18.029
+          },
+          {
+            "clip": "walk_forward",
+            "durationSeconds": 1.3333333730697632,
+            "samples": 41,
+            "maximumHelperFrameRotationDegrees": 1.4559288714022744,
+            "elapsedSeconds": 20.01
+          }
+        ],
+        "visualAccepted": false,
+        "topology": {
+          "originalVertices": 17667,
+          "derivedVertices": 17984,
+          "originalTriangles": 11700,
+          "derivedTriangles": 12180,
+          "localSubdivisionRounds": 1,
+          "targetEdgeMetres": 0.05
+        },
+        "semanticSelection": {
+          "method": "canonical-rest-position-and-uv",
+          "clothMaximumMatchMetres": 0.04987126988117002,
+          "pantsMaximumMatchMetres": 0.03448089234552473
+        }
+      },
+      {
+        "kind": "derived_garment_controls_not_new_body_mocap",
+        "source": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/garmentDerivation/levels/2/source",
+        "sourceSha256": "cb12df50fec0eb9c71d40b7ccedceaa884ea890b21a262ca65dfa58080eb9119",
+        "target": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/garmentDerivation/levels/2/target",
+        "targetSha256": "51bba6b15dc50adf9db208747c4a7116b20b0e53342eb36ad7343766e210f2e9",
+        "bodyJointCount": 23,
+        "helperNames": [
+          "Cloth_Xi_0_Upper",
+          "Cloth_Xi_0_Lower",
+          "Cloth_Xi_1_Upper",
+          "Cloth_Xi_1_Lower",
+          "Cloth_Xi_2_Upper",
+          "Cloth_Xi_2_Lower",
+          "Cloth_Xi_3_Upper",
+          "Cloth_Xi_3_Lower",
+          "Cloth_Xi_4_Upper",
+          "Cloth_Xi_4_Lower"
+        ],
+        "helperParentNode": 24,
+        "sourceBodyAnimationBinaryPreserved": true,
+        "derivedTopology": true,
+        "samplePoseCacheEntries": 384,
+        "clips": [
+          {
+            "clip": "crouch_walk",
+            "durationSeconds": 2,
+            "samples": 61,
+            "maximumHelperFrameRotationDegrees": 8.632029321746684,
+            "elapsedSeconds": 3.151
+          },
+          {
+            "clip": "idle",
+            "durationSeconds": 2.5,
+            "samples": 76,
+            "maximumHelperFrameRotationDegrees": 0.1523782689711984,
+            "elapsedSeconds": 7.098
+          },
+          {
+            "clip": "idle_breathe",
+            "durationSeconds": 2.5,
+            "samples": 76,
+            "maximumHelperFrameRotationDegrees": 0.1523782689711984,
+            "elapsedSeconds": 7.163
+          },
+          {
+            "clip": "jump_run_left",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.65700124626304,
+            "elapsedSeconds": 9.157
+          },
+          {
+            "clip": "jump_run_right",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.657001781982377,
+            "elapsedSeconds": 11.017
+          },
+          {
+            "clip": "jump_small",
+            "durationSeconds": 1.2000000476837158,
+            "samples": 37,
+            "maximumHelperFrameRotationDegrees": 19.657001758142442,
+            "elapsedSeconds": 12.904
+          },
+          {
+            "clip": "land_run_left",
+            "durationSeconds": 0.1666666716337204,
+            "samples": 6,
+            "maximumHelperFrameRotationDegrees": 12.660591658465467,
+            "elapsedSeconds": 13.225
+          },
+          {
+            "clip": "land_run_right",
+            "durationSeconds": 0.1666666716337204,
+            "samples": 6,
+            "maximumHelperFrameRotationDegrees": 11.717000688756318,
+            "elapsedSeconds": 13.517
+          },
+          {
+            "clip": "land_soft",
+            "durationSeconds": 0.6000000238418579,
+            "samples": 19,
+            "maximumHelperFrameRotationDegrees": 6.460275625811233,
+            "elapsedSeconds": 14.473
+          },
+          {
+            "clip": "land_stand_full",
+            "durationSeconds": 1.2666666507720947,
+            "samples": 39,
+            "maximumHelperFrameRotationDegrees": 10.495080379372693,
+            "elapsedSeconds": 16.841
+          },
+          {
+            "clip": "run_soft",
+            "durationSeconds": 0.9333333373069763,
+            "samples": 29,
+            "maximumHelperFrameRotationDegrees": 12.66063244831361,
+            "elapsedSeconds": 18.396
+          },
+          {
+            "clip": "walk_forward",
+            "durationSeconds": 1.3333333730697632,
+            "samples": 41,
+            "maximumHelperFrameRotationDegrees": 1.4559288714022744,
+            "elapsedSeconds": 20.615
+          }
+        ],
+        "visualAccepted": false,
+        "topology": {
+          "originalVertices": 8726,
+          "derivedVertices": 8880,
+          "originalTriangles": 5850,
+          "derivedTriangles": 6080,
+          "localSubdivisionRounds": 1,
+          "targetEdgeMetres": 0.075
+        },
+        "semanticSelection": {
+          "method": "canonical-rest-position-and-uv",
+          "clothMaximumMatchMetres": 0.04987126988117002,
+          "pantsMaximumMatchMetres": 0.042592882428266664
+        }
+      }
+    ]
+  },
+  "sources": [
+    {
+      "file": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/sources/0/file",
+      "sha256": "53fffa8c34593b6a191aa79bc25f6559ad21580a93d1bdc3404be2470e50f79d",
+      "role": "user mesh"
+    },
+    {
+      "file": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/xi-light/xi-light.asset/sources/1/file",
+      "sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "role": "UAL motion library",
+      "license": "CC0-1.0"
+    }
+  ],
+  "checks": {
+    "exactGlbHashes": true,
+    "threeLodClipAgreement": true,
+    "runtimeFootIK": false,
+    "visualAccepted": false,
+    "contactIntervalsReviewed": false,
+    "runtimeRegistryIntegrated": true,
+    "browserGameplayReviewed": false
+  },
+  "limitations": [
+    "No authored turn or start/stop source clips in the acquired free library",
+    "No runtime slope or stair foot IK; flat-ground asset review only",
+    "Contact intervals and representative sole-point offsets are measured geometric candidates; shoe, phase and terrain review remains required",
+    "No authored start/stop/turn source clips are claimed; these asset URLs are integrated locally, with browser gameplay review still pending.",
+    "Motion licensing and user-supplied character provenance are recorded separately"
+  ],
+  "license": "Motion: Quaternius CC0-1.0. Original mesh/textures: user supplied; use and deployment within this NOMA project authorized by the user. No general relicensing or standalone redistribution permission asserted."
+}

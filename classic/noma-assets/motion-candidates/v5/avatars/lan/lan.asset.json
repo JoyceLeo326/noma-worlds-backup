@@ -1,0 +1,1562 @@
+{
+  "id": "lan",
+  "name": "岚",
+  "kind": "avatar",
+  "version": "noma-motion-candidate-v5",
+  "status": "integrated_candidate_pending_gameplay_review",
+  "heightMeters": 1.72,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/lan/lan-motion-v5-lod0.glb",
+      "sha256": "3517531318455b350f8f04d5071e7d78ef459ae83728b74ae4d23758c6542546",
+      "bytes": 1837264,
+      "triangles": 18628
+    },
+    {
+      "lod": 1,
+      "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/lan/lan-motion-v5-lod1.glb",
+      "sha256": "41d4eef93866ddfd69836dd9d18793e76f7a17e45e55a2dd75fae6be353e9e16",
+      "bytes": 1483224,
+      "triangles": 11176
+    },
+    {
+      "lod": 2,
+      "url": "/noma-worlds-backup/classic/noma-assets/motion-candidates/v5/avatars/lan/lan-motion-v5-lod2.glb",
+      "sha256": "e876caafe1b285c804f4e35915d7cb7a2b7660621d009886f37f2c96b10f1445",
+      "bytes": 1082456,
+      "triangles": 5588
+    }
+  ],
+  "animations": [
+    {
+      "name": "crouch_walk",
+      "sourceAction": "Crouch_Fwd_Loop",
+      "loop": true,
+      "durationSeconds": 2,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.018655579537153244,
+        1.4156103134155273e-7
+      ],
+      "pelvisHeightRange": [
+        0.45409268140792847,
+        0.5084030628204346
+      ],
+      "contacts": {
+        "left": [
+          [
+            0.016666666666666666,
+            0.6333333333333333
+          ],
+          [
+            0.9333333333333333,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0.5,
+            0.13333333333333333
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.6833333333333333,
+          "contactSampleCount": 164,
+          "soleHeightRange": [
+            -0.0023989464181012783,
+            0.20078057642339145
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.035959810499993014,
+            0.13424784749333607,
+            0.069277485884881
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.034561326048937135,
+              0.11343449060666429,
+              0.06091576957483674
+            ],
+            "max": [
+              0.03698198081838025,
+              0.2021665629438395,
+              0.111484874732247
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.6333333333333333,
+          "contactSampleCount": 152,
+          "soleHeightRange": [
+            -0.01865913307825127,
+            0.1976006913588162
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.004812337993382903,
+            0.14574147122074088,
+            0.06734369278752134
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.005251282339856278,
+              0.1182016853646434,
+              0.05818134859254584
+            ],
+            "max": [
+              -0.0043203122598654276,
+              0.1974167969302123,
+              0.10933615882389798
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 241,
+        "effectiveSampleRateHz": 120,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 0.6553399837385547,
+      "stanceRatio": 0.6583333333333333,
+      "stanceTravelMetres": 0.8628643119224304,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 22152,
+        "p10Mps": 0.2771436828068519,
+        "p90Mps": 0.8745084809355589,
+        "lateralMedianMps": 0.024498214547807595
+      }
+    },
+    {
+      "name": "idle",
+      "sourceAction": "Idle_Loop",
+      "loop": true,
+      "durationSeconds": 2.5,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -2.6868656277656555e-7,
+        1.5320256352424622e-7
+      ],
+      "pelvisHeightRange": [
+        0.8168885707855225,
+        0.8245292901992798
+      ],
+      "aliasOf": "idle_breathe",
+      "contacts": {
+        "left": [
+          [
+            0,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 1,
+          "contactSampleCount": 300,
+          "soleHeightRange": [
+            -0.000003305505522345443,
+            0.029595414970489828
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.03604735553293384,
+            0.11461612100130265,
+            0.06416034122206091
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.03604696709872701,
+              0.11461273005128399,
+              0.06415987378675424
+            ],
+            "max": [
+              0.036048091176833275,
+              0.11462073808958566,
+              0.06416097577830739
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 1,
+          "contactSampleCount": 300,
+          "soleHeightRange": [
+            -0.0000033136788678931207,
+            0.029594567125909785
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.0045038436610065746,
+            0.12081486002199922,
+            0.06189752180514099
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.004529975605814529,
+              0.12077704143080206,
+              0.061865076376397085
+            ],
+            "max": [
+              -0.00448793113958873,
+              0.12086952502406756,
+              0.06191998221002518
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 301,
+        "effectiveSampleRateHz": 120,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "idle_breathe",
+      "sourceAction": "Idle_Loop",
+      "loop": true,
+      "durationSeconds": 2.5,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -2.6868656277656555e-7,
+        1.5320256352424622e-7
+      ],
+      "pelvisHeightRange": [
+        0.8168885707855225,
+        0.8245292901992798
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 1,
+          "contactSampleCount": 300,
+          "soleHeightRange": [
+            -0.000003305505522345443,
+            0.029595414970489828
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.03604735553293384,
+            0.11461612100130265,
+            0.06416034122206091
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.03604696709872701,
+              0.11461273005128399,
+              0.06415987378675424
+            ],
+            "max": [
+              0.036048091176833275,
+              0.11462073808958566,
+              0.06416097577830739
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 1,
+          "contactSampleCount": 300,
+          "soleHeightRange": [
+            -0.0000033136788678931207,
+            0.029594567125909785
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.0045038436610065746,
+            0.12081486002199922,
+            0.06189752180514099
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.004529975605814529,
+              0.12077704143080206,
+              0.061865076376397085
+            ],
+            "max": [
+              -0.00448793113958873,
+              0.12086952502406756,
+              0.06191998221002518
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 301,
+        "effectiveSampleRateHz": 120,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "jump_run_left",
+      "sourceAction": "Jump_Start + Jog_Fwd_Loop",
+      "phases": {
+        "anticipation": [
+          0,
+          0.15
+        ],
+        "flight": [
+          0.15,
+          0.85
+        ],
+        "landing": [
+          0.85,
+          1
+        ]
+      },
+      "contactReadyFromPhase": 0.8333333333333334,
+      "adaptation": "Real source takeoff/tuck/ready poses resampled for physics-driven flight; world jump height excluded",
+      "sourcePoseIndices": {
+        "Jump_Start": [
+          0,
+          2,
+          9,
+          18
+        ],
+        "ready": "Jog_Fwd_Loop[1 or 15]"
+      },
+      "loop": false,
+      "durationSeconds": 1.2000000476837158,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.005484917666763067,
+        0.32354575395584106
+      ],
+      "pelvisHeightRange": [
+        0.5299340486526489,
+        0.8245292901992798
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.14583333333333334
+          ],
+          [
+            0.8541666666666666,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            0.14583333333333334
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.2916666666666667,
+          "contactSampleCount": 42,
+          "soleHeightRange": [
+            -0.015124331759925468,
+            0.6364709953183221
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.03603430312207001,
+            0.11429449579635882,
+            0.06300725268514674
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.035978522681963276,
+              0.11379034892977914,
+              0.04254430894840303
+            ],
+            "max": [
+              0.06152580813941755,
+              0.2191533699540123,
+              0.08189256158778727
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.14583333333333334,
+          "contactSampleCount": 21,
+          "soleHeightRange": [
+            -0.037432600645121765,
+            0.5591689175861069
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.004247299353563116,
+            0.12028630948718921,
+            0.06220051372624526
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.02474749782993113,
+              0.12002721345993597,
+              -0.02435829316683169
+            ],
+            "max": [
+              0.013357390186629181,
+              0.21803192063863389,
+              0.07592622700645818
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 145,
+        "effectiveSampleRateHz": 119.9999952316286,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "jump_run_right",
+      "sourceAction": "Jump_Start + Jog_Fwd_Loop",
+      "phases": {
+        "anticipation": [
+          0,
+          0.15
+        ],
+        "flight": [
+          0.15,
+          0.85
+        ],
+        "landing": [
+          0.85,
+          1
+        ]
+      },
+      "contactReadyFromPhase": 0.8333333333333334,
+      "adaptation": "Real source takeoff/tuck/ready poses resampled for physics-driven flight; world jump height excluded",
+      "sourcePoseIndices": {
+        "Jump_Start": [
+          0,
+          2,
+          9,
+          18
+        ],
+        "ready": "Jog_Fwd_Loop[1 or 15]"
+      },
+      "loop": false,
+      "durationSeconds": 1.2000000476837158,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.005484917666763067,
+        0.32354575395584106
+      ],
+      "pelvisHeightRange": [
+        0.5299340486526489,
+        0.8245292901992798
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.14583333333333334
+          ]
+        ],
+        "right": [
+          [
+            0,
+            0.14583333333333334
+          ],
+          [
+            0.8541666666666666,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.14583333333333334,
+          "contactSampleCount": 21,
+          "soleHeightRange": [
+            -0.015124293070799343,
+            0.6364711097613098
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.036033451146069755,
+            0.11456425390512552,
+            0.06412517255422523
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.03212909089713367,
+              0.1137903489284854,
+              -0.029028247372571703
+            ],
+            "max": [
+              0.061525808140144245,
+              0.2259162869613955,
+              0.08189256158030214
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.2916666666666667,
+          "contactSampleCount": 42,
+          "soleHeightRange": [
+            -0.037432577241900127,
+            0.46906823462344854
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.004321123402988239,
+            0.11997852391266009,
+            0.06008037798649979
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.024747497524575668,
+              0.11967073592506541,
+              0.057960241396648515
+            ],
+            "max": [
+              -0.004112243711058561,
+              0.1638136174139593,
+              0.07592622705793367
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 145,
+        "effectiveSampleRateHz": 119.9999952316286,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "jump_small",
+      "sourceAction": "Jump_Start + Jump_Land",
+      "phases": {
+        "anticipation": [
+          0,
+          0.15
+        ],
+        "flight": [
+          0.15,
+          0.85
+        ],
+        "landing": [
+          0.85,
+          1
+        ]
+      },
+      "contactReadyFromPhase": 0.8333333333333334,
+      "adaptation": "Real source takeoff/tuck/ready poses resampled for physics-driven flight; world jump height excluded",
+      "sourcePoseIndices": {
+        "Jump_Start": [
+          0,
+          2,
+          9,
+          18
+        ],
+        "ready": "45 percent Jump_Land[0] with source idle, exactly land_soft[0]"
+      },
+      "loop": false,
+      "durationSeconds": 1.2000000476837158,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.005484917666763067,
+        0.32354575395584106
+      ],
+      "pelvisHeightRange": [
+        0.5299340486526489,
+        0.8444917798042297
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.14583333333333334
+          ],
+          [
+            0.8541666666666666,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            0.14583333333333334
+          ],
+          [
+            0.8541666666666666,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.2916666666666667,
+          "contactSampleCount": 42,
+          "soleHeightRange": [
+            -0.015124364946080791,
+            0.6364708847792765
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.036035286882135455,
+            0.11835014919111495,
+            0.06613139933473497
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.035978522681292646,
+              0.11379034893926783,
+              0.04254430895452912
+            ],
+            "max": [
+              0.061525808141405874,
+              0.21915336995383597,
+              0.08189256158588529
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.2916666666666667,
+          "contactSampleCount": 42,
+          "soleHeightRange": [
+            -0.03743258245544811,
+            0.4690681478353136
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.004380387638161977,
+            0.12270387440665138,
+            0.061956266502560864
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.024747497373372326,
+              0.12002721339312535,
+              0.05916819632744542
+            ],
+            "max": [
+              -0.004112243696746509,
+              0.1638136174485737,
+              0.07592622713996644
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 145,
+        "effectiveSampleRateHz": 119.9999952316286,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "land_run_left",
+      "sourceAction": "Jog_Fwd_Loop",
+      "adaptation": "Unmodified real jog heel/toe support interval; no kneeling or horizontal root brake",
+      "sourceFrameRange": [
+        1,
+        6
+      ],
+      "nextClip": "run_soft",
+      "nextPhase": 0.21428571428571427,
+      "contactSide": "left",
+      "loop": false,
+      "durationSeconds": 0.1666666716337204,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -1.4546094462275505e-7,
+        0.09163740277290344
+      ],
+      "pelvisHeightRange": [
+        0.6663511991500854,
+        0.795020580291748
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.8
+          ]
+        ],
+        "right": []
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.8,
+          "contactSampleCount": 16,
+          "soleHeightRange": [
+            -0.011127018858921821,
+            0.33736819886580716
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.03604722892767365,
+            0.14370355798628143,
+            0.07459760480582078
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.03598896454206413,
+              0.11402474038605415,
+              0.035632698398353146
+            ],
+            "max": [
+              0.036104866367793836,
+              0.22349344144791738,
+              0.0812976514122864
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0,
+          "contactSampleCount": 0,
+          "soleHeightRange": [
+            0.12595837129890602,
+            0.5591689003470652
+          ],
+          "supportAnkleToSoleOffsetLocalMean": null,
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.023151687909638563,
+              0.13923693501874573,
+              -0.024425776935286747
+            ],
+            "max": [
+              -0.004404280882041173,
+              0.2220796928518394,
+              0.07574484051217298
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 21,
+        "effectiveSampleRateHz": 119.99999642372141,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 5.483169124790228,
+      "stanceRatio": 0.4,
+      "stanceTravelMetres": 0.36554461921342685,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 326,
+        "p10Mps": 5.298673567831073,
+        "p90Mps": 5.685302383194508,
+        "lateralMedianMps": 0.11226101395803306
+      }
+    },
+    {
+      "name": "land_run_right",
+      "sourceAction": "Jog_Fwd_Loop",
+      "adaptation": "Unmodified real jog heel/toe support interval; no kneeling or horizontal root brake",
+      "sourceFrameRange": [
+        15,
+        20
+      ],
+      "nextClip": "run_soft",
+      "nextPhase": 0.7142857142857143,
+      "contactSide": "right",
+      "loop": false,
+      "durationSeconds": 0.1666666716337204,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -4.470348358154297e-8,
+        0.09163714945316315
+      ],
+      "pelvisHeightRange": [
+        0.6662611961364746,
+        0.7950067520141602
+      ],
+      "contacts": {
+        "left": [],
+        "right": [
+          [
+            0,
+            0.8
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0,
+          "contactSampleCount": 0,
+          "soleHeightRange": [
+            0.1457373225710444,
+            0.527510892905932
+          ],
+          "supportAnkleToSoleOffsetLocalMean": null,
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.017132169720431578,
+              0.14264740737964507,
+              -0.029028236253292705
+            ],
+            "max": [
+              0.03604641501185138,
+              0.22319004981484655,
+              0.07894146222666676
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.8,
+          "contactSampleCount": 16,
+          "soleHeightRange": [
+            -0.010462013125255005,
+            0.33732824085951196
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.0043759876444376036,
+            0.14643100154454008,
+            0.06977309237460141
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.004476319485650748,
+              0.11967073512741169,
+              0.03376373056074072
+            ],
+            "max": [
+              -0.004321592580736527,
+              0.21799660605366555,
+              0.0758197601285135
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 21,
+        "effectiveSampleRateHz": 119.99999642372141,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 5.466152297303768,
+      "stanceRatio": 0.4,
+      "stanceTravelMetres": 0.36441016401385345,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 338,
+        "p10Mps": 5.281344524288128,
+        "p90Mps": 5.643473511838178,
+        "lateralMedianMps": 0.020128331903634895
+      }
+    },
+    {
+      "name": "land_soft",
+      "sourceAction": "Jump_Land + Idle_Loop",
+      "adaptation": "45 percent source landing pose blended with source idle for small standing hops; retained joint-space chronology; not a recorded new action",
+      "loop": false,
+      "durationSeconds": 0.6000000238418579,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -2.1792948246002197e-7,
+        8.516944944858551e-7
+      ],
+      "pelvisHeightRange": [
+        0.6441865563392639,
+        0.8444917798042297
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 1,
+          "contactSampleCount": 72,
+          "soleHeightRange": [
+            -0.011886472136163631,
+            0.04355673702642292
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.036250854795997996,
+            0.1147739798552233,
+            0.06414026732630874
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.03603712356979849,
+              0.11353465353127998,
+              0.061870496996598495
+            ],
+            "max": [
+              0.03649522646274461,
+              0.12213605462805137,
+              0.06813762967239106
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 1,
+          "contactSampleCount": 72,
+          "soleHeightRange": [
+            -0.011381388582431807,
+            0.03704359017055755
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.004550020572070354,
+            0.12051324924203227,
+            0.06176101650604742
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.0046910388912501655,
+              0.1188368797472083,
+              0.0584170571949196
+            ],
+            "max": [
+              -0.004296595436878936,
+              0.12512143737630527,
+              0.06229842955335861
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 73,
+        "effectiveSampleRateHz": 119.9999952316286,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "land_stand_full",
+      "sourceAction": "Jump_Land",
+      "loop": false,
+      "durationSeconds": 1.2666666507720947,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -2.942979335784912e-7,
+        0.000001516193151473999
+      ],
+      "pelvisHeightRange": [
+        0.42376774549484253,
+        0.8688904047012329
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            1
+          ]
+        ],
+        "right": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 1,
+          "contactSampleCount": 152,
+          "soleHeightRange": [
+            -0.00477305808468205,
+            0.1166806477760311
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.03653297889150193,
+            0.11607585204993774,
+            0.06504787614211745
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.036017994735639935,
+              0.11356597647953706,
+              0.06187443670328094
+            ],
+            "max": [
+              0.03717314530492327,
+              0.15612987569729642,
+              0.08105322778640991
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 1,
+          "contactSampleCount": 152,
+          "soleHeightRange": [
+            -0.005474709163854237,
+            0.10178638588486602
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.004547870876334433,
+            0.12117323222309173,
+            0.06234179544735361
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.00477776702294358,
+              0.11874584741981796,
+              0.058728030678434864
+            ],
+            "max": [
+              -0.0040999121757748225,
+              0.15156172849166116,
+              0.07371872010664839
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 153,
+        "effectiveSampleRateHz": 120.00000150580158,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      }
+    },
+    {
+      "name": "run_soft",
+      "sourceAction": "Jog_Fwd_Loop",
+      "loop": true,
+      "durationSeconds": 0.9333333373069763,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -1.4546094462275505e-7,
+        0.21575383841991425
+      ],
+      "pelvisHeightRange": [
+        0.6662611961364746,
+        0.8859556913375854
+      ],
+      "contacts": {
+        "left": [
+          [
+            0.017857142857142856,
+            0.17857142857142858
+          ]
+        ],
+        "right": [
+          [
+            0.5178571428571429,
+            0.6785714285714286
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.16071428571428573,
+          "contactSampleCount": 18,
+          "soleHeightRange": [
+            -0.011126910935555425,
+            0.5875564918388768
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.036069778617052295,
+            0.14105910503372057,
+            0.07592336915033926
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.01713217941761372,
+              0.10397007859796603,
+              -0.029028233402520476
+            ],
+            "max": [
+              0.03639395651752611,
+              0.2264480821415218,
+              0.13884354967112061
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.16071428571428573,
+          "contactSampleCount": 18,
+          "soleHeightRange": [
+            -0.010462264570428767,
+            0.58756585982686
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.004334720609273825,
+            0.1441486755825656,
+            0.0713407101174524
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.023151686364762586,
+              0.10925074424038989,
+              -0.024425772120547307
+            ],
+            "max": [
+              -0.0036891765302310975,
+              0.22207969601957228,
+              0.13826731914552903
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 113,
+        "effectiveSampleRateHz": 119.99999948910305,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 5.478478854339845,
+      "stanceRatio": 0.16071428571428573,
+      "stanceTravelMetres": 0.8217718316496495,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 682,
+        "p10Mps": 5.2888565268672725,
+        "p90Mps": 5.687616881759559,
+        "lateralMedianMps": 0.03403011853004976
+      }
+    },
+    {
+      "name": "walk_forward",
+      "sourceAction": "Walk_Loop",
+      "loop": true,
+      "durationSeconds": 1.3333333730697632,
+      "rootMotion": false,
+      "sourceScale": 0.8973647732903173,
+      "rawFloorRange": [
+        -0.015861282125115395,
+        0.00044634402729570866
+      ],
+      "pelvisHeightRange": [
+        0.813730001449585,
+        0.8609656691551208
+      ],
+      "contacts": {
+        "left": [
+          [
+            0,
+            0.60625
+          ]
+        ],
+        "right": [
+          [
+            0.5,
+            0.10625
+          ]
+        ]
+      },
+      "contactMeasurements": {
+        "left": {
+          "contactRatio": 0.60625,
+          "contactSampleCount": 97,
+          "soleHeightRange": [
+            -0.015861816791632417,
+            0.3957541515488169
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            0.03673992738074632,
+            0.12838255905358195,
+            0.07599654959056956
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              0.03603664669083512,
+              0.11346914134383661,
+              0.0017775620753664179
+            ],
+            "max": [
+              0.038543289781414136,
+              0.22644239841010622,
+              0.12304982601812597
+            ]
+          }
+        },
+        "right": {
+          "contactRatio": 0.60625,
+          "contactSampleCount": 97,
+          "soleHeightRange": [
+            -0.015499843543208252,
+            0.39587587878913705
+          ],
+          "supportAnkleToSoleOffsetLocalMean": [
+            -0.005168273679334379,
+            0.12993437479559042,
+            0.07021731374900061
+          ],
+          "ankleToSoleOffsetLocalRange": {
+            "min": [
+              -0.006434877520467924,
+              0.11931350327942375,
+              0.0031490124905556582
+            ],
+            "max": [
+              -0.004350584107067845,
+              0.22049872134042414,
+              0.12231078686037551
+            ]
+          }
+        }
+      },
+      "contactCalibration": {
+        "status": "geometric_candidate_unreviewed",
+        "sampleRateHz": 120,
+        "samples": 161,
+        "effectiveSampleRateHz": 119.99999642372141,
+        "surfaceY": 0,
+        "maxSoleHeight": 0.035,
+        "maxPenetration": 0.04,
+        "speedMeasurementMaxVerticalSpeedMps": 0.35,
+        "minimumSupportingVertexFraction": 0.15,
+        "minimumIntervalSeconds": 0.025,
+        "method": "Exact exported weighted sole vertices; fixed world floor; support intervals are geometric estimates; jump flight explicitly excluded"
+      },
+      "referenceSpeedMetresPerSecond": 0.8891314110145112,
+      "stanceRatio": 0.60625,
+      "stanceTravelMetres": 0.7187145786560929,
+      "calibrationMethod": "Median backwards +Z projected velocity of actual skinned sole vertices during detected support; excludes lateral skating and all flight samples",
+      "speedCalibration": {
+        "sampleCount": 13934,
+        "p10Mps": 0.8725263860859679,
+        "p90Mps": 1.027272341667972,
+        "lateralMedianMps": 0.002535714698512677
+      }
+    }
+  ],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "recommendedControllerSpeeds": {
+    "walkMps": 1.3,
+    "runMps": 4.8,
+    "notAnimationReferenceSpeeds": true
+  },
+  "runtimeRecommendations": {
+    "walkSpeedMetresPerSecond": 1.3,
+    "runSpeedMetresPerSecond": 4.8
+  },
+  "contactIk": {
+    "schemaVersion": "1.0",
+    "feet": {
+      "left": {
+        "ankleBone": "Foot_L",
+        "soleHeight": 0.11653982786017222,
+        "soleOffsetLocal": [
+          0.03603192609319672,
+          0.1141680888568348,
+          0.06197520669881137
+        ],
+        "soleNormalLocal": [
+          0.0000018911016099891672,
+          -0.5776688639023024,
+          -0.816271207181931
+        ],
+        "bindSoleContactWorld": [
+          0.18739187107533906,
+          0.0004202614119309902,
+          0.05739094108461442
+        ],
+        "bindSolePatchCentroidWorld": [
+          0.18739187107533906,
+          0.009488641289292235,
+          0.05739094108461442
+        ],
+        "bindSoleMinY": 1.4580477552913773e-7,
+        "selectedVertexCount": 106,
+        "method": "Fixed bind-pose vertices with >25% matching Foot/Toe influence, below ankle+35mm, bottom 18mm; representative point uses patch centroid XZ and 5th-percentile Y, not the elevated patch mean Y",
+        "status": "measured_geometry_requires_shoe_review"
+      },
+      "right": {
+        "ankleBone": "Foot_R",
+        "soleHeight": 0.11653983308592067,
+        "soleOffsetLocal": [
+          -0.004213833651183108,
+          0.11977798201759185,
+          0.05800506037118139
+        ],
+        "soleNormalLocal": [
+          -0.0000017957611228554086,
+          -0.577668862085135,
+          -0.8162712084681417
+        ],
+        "bindSoleContactWorld": [
+          -0.15557330953361256,
+          0.000420254557813663,
+          0.06426355804700974
+        ],
+        "bindSolePatchCentroidWorld": [
+          -0.15557330953361256,
+          0.009338020472965985,
+          0.06426355804700974
+        ],
+        "bindSoleMinY": 1.433312612415183e-7,
+        "selectedVertexCount": 106,
+        "method": "Fixed bind-pose vertices with >25% matching Foot/Toe influence, below ankle+35mm, bottom 18mm; representative point uses patch centroid XZ and 5th-percentile Y, not the elevated patch mean Y",
+        "status": "measured_geometry_requires_shoe_review"
+      }
+    },
+    "calibratedFromLod": 0,
+    "lod1AndLod2ShoePatchReview": "pending",
+    "runtimeIntegrated": false
+  },
+  "transitionChecks": [
+    {
+      "assetId": "lan",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "3517531318455b350f8f04d5071e7d78ef459ae83728b74ae4d23758c6542546",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "land_run_left",
+      "phase": 1,
+      "nextClip": "run_soft",
+      "nextPhase": 0.21428571428571427,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 5.66875342523128e-7,
+      "maxJointAngularErrorDegrees": 0.00008274119464575123,
+      "method": "Exact exported terminal landing pose versus run_soft at nextPhase; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    },
+    {
+      "assetId": "lan",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "3517531318455b350f8f04d5071e7d78ef459ae83728b74ae4d23758c6542546",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "land_run_right",
+      "phase": 1,
+      "nextClip": "run_soft",
+      "nextPhase": 0.7142857142857143,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 7.156303355504363e-7,
+      "maxJointAngularErrorDegrees": 0.00013014938457124326,
+      "method": "Exact exported terminal landing pose versus run_soft at nextPhase; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    }
+  ],
+  "entryTransitionChecks": [
+    {
+      "assetId": "lan",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "3517531318455b350f8f04d5071e7d78ef459ae83728b74ae4d23758c6542546",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "jump_small",
+      "phase": 0.85,
+      "nextClip": "land_soft",
+      "nextPhase": 0,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 7.667316470307629e-7,
+      "maxJointAngularErrorDegrees": 0.00011279509931242155,
+      "method": "Exact exported jump at flight end 0.85 versus corresponding landing at phase 0; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    },
+    {
+      "assetId": "lan",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "3517531318455b350f8f04d5071e7d78ef459ae83728b74ae4d23758c6542546",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "jump_run_left",
+      "phase": 0.85,
+      "nextClip": "land_run_left",
+      "nextPhase": 0,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 3.9985877798757513e-7,
+      "maxJointAngularErrorDegrees": 0.00002813569566921457,
+      "method": "Exact exported jump at flight end 0.85 versus corresponding landing at phase 0; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    },
+    {
+      "assetId": "lan",
+      "assetVersion": "noma-motion-candidate-v5",
+      "lod0Sha256": "3517531318455b350f8f04d5071e7d78ef459ae83728b74ae4d23758c6542546",
+      "motionSourceSha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "clipName": "jump_run_right",
+      "phase": 0.85,
+      "nextClip": "land_run_right",
+      "nextPhase": 0,
+      "phaseMatchVerified": true,
+      "maxJointPositionErrorMeters": 3.8130094644839213e-7,
+      "maxJointAngularErrorDegrees": 0.00001924308070525986,
+      "method": "Exact exported jump at flight end 0.85 versus corresponding landing at phase 0; all skin joints; position tolerance 1mm, orientation tolerance 0.1degree",
+      "visualAcceptance": false
+    }
+  ],
+  "sourceMesh": {
+    "file": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/lan/lan.asset/sourceMesh/file",
+    "sha256": "4d555463c5d5adad713b750bbe2bc413f3efcb4db4c692460feb896ac952d645"
+  },
+  "motionSource": {
+    "source": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/lan/lan.asset/motionSource/source",
+    "sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+    "license": "CC0-1.0",
+    "author": "Quaternius"
+  },
+  "weightRefinements": {
+    "vertices": 21446,
+    "sleeveActiveVertices": 2830,
+    "sleeveFullVertices": 1985,
+    "shoeActiveVertices": 1967,
+    "shoeFullVertices": 1114,
+    "lowCentralVerticesProtected": 0,
+    "maximumWeightSumError": 2.220446049250313e-16,
+    "maxChangedWeight": 0.5535380973357529,
+    "smoothingPasses": 250,
+    "waistAccessory": {
+      "profile": "lan-front-waist-accessory-v1",
+      "applied": true,
+      "seedDistanceMetres": 0.005938955632095587,
+      "shortTopologyComponentUniqueVertices": 189,
+      "affectedVertices": 143,
+      "fullPelvisVertices": 75,
+      "canonicalActiveBoundsMetres": {
+        "min": [
+          -0.17435267567634583,
+          0.6587591767311096,
+          0.04999511316418648
+        ],
+        "max": [
+          0.20712265372276306,
+          0.9419247508049011,
+          0.15250609815120697
+        ]
+      },
+      "boundarySmoothingPasses": 160
+    },
+    "changedVertices": 20781
+  },
+  "sources": [
+    {
+      "file": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/lan/lan.asset/sources/0/file",
+      "sha256": "4d555463c5d5adad713b750bbe2bc413f3efcb4db4c692460feb896ac952d645",
+      "role": "user mesh"
+    },
+    {
+      "file": "local-archive://classic/noma-assets/motion-candidates/v5/avatars/lan/lan.asset/sources/1/file",
+      "sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "role": "UAL motion library",
+      "license": "CC0-1.0"
+    }
+  ],
+  "checks": {
+    "exactGlbHashes": true,
+    "threeLodClipAgreement": true,
+    "runtimeFootIK": false,
+    "visualAccepted": false,
+    "contactIntervalsReviewed": false,
+    "runtimeRegistryIntegrated": true,
+    "browserGameplayReviewed": false
+  },
+  "limitations": [
+    "No authored turn or start/stop source clips in the acquired free library",
+    "No runtime slope or stair foot IK; flat-ground asset review only",
+    "Contact intervals and representative sole-point offsets are measured geometric candidates; shoe, phase and terrain review remains required",
+    "This avatar is referenced by the local runtime registry; browser gameplay acceptance of this integrated candidate is pending.",
+    "CC0 motion rights do not alter user-mesh redistribution restrictions"
+  ],
+  "license": "Motion: Quaternius CC0-1.0. Original mesh/textures: user supplied; use and deployment within this NOMA project authorized by the user. No general relicensing or standalone redistribution permission asserted.",
+  "integration": {
+    "registry": "src/noma/runtime/userCharacters.ts",
+    "stage": "local_candidate",
+    "gameplayReview": "pending",
+    "scope": "This avatar only; the remaining avatars retain their registered asset versions."
+  }
+}

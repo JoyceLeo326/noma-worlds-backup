@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "worldVersion": "dawn-world-1.0.1",
+  "method": "Runtime-generated original 3D geometry. No image backdrop or remote asset dependency.",
+  "editableRecipes": [
+    {
+      "id": "dawn-procedural-index",
+      "filename": "index.ts",
+      "sha256": "a9decb4946119e5626e34bb600b9008868c04748a0d9a8b2ea3f2110c332df05"
+    },
+    {
+      "id": "dawn-procedural-state",
+      "filename": "state.ts",
+      "sha256": "9df86427dd7840374be4efb38066118194642d42f996da2f91327b5acc343f2a"
+    },
+    {
+      "id": "dawn-procedural-terrain",
+      "filename": "terrain.ts",
+      "sha256": "c3aae95d3eda3f6d483639834083692ae58e3f9d2a0c92996608a99e1b17479c"
+    },
+    {
+      "id": "dawn-procedural-scenery",
+      "filename": "scenery.ts",
+      "sha256": "ca18eb75bdc42000ac24d7ed718bf47ef8f18d380d74336c68c93e39c8521ac5"
+    },
+    {
+      "id": "dawn-procedural-figures",
+      "filename": "figures.ts",
+      "sha256": "be708ad1691d11d52dcc8f1a7b62038ad676f4388aead526995fb89368ebe4b4"
+    },
+    {
+      "id": "dawn-procedural-ecology",
+      "filename": "ecology.ts",
+      "sha256": "5fa117fa19d3a3f70fbdb2a4848126a7b0026a47809978aaf36cacce26e166fd"
+    }
+  ],
+  "palette": {
+    "earlySky": "#778b91",
+    "morningMist": "#aeb5ad",
+    "stone": "#a7a290",
+    "grass": "#697563",
+    "sun": "#f5d4a0"
+  },
+  "quality": {
+    "grassLayers": 3,
+    "farClouds": {
+      "high": 7,
+      "medium": 4,
+      "low": 3
+    },
+    "shadowMap": {
+      "high": 2048,
+      "medium": 1024,
+      "low": 512
+    },
+    "allNarrativeInteractionsRemain": true
+  },
+  "sharedDependencies": [
+    "Runtime player skeleton and its licensed Body_Face_Hair",
+    "Fixed journey companion and dawn-wind-gust response",
+    "Dawn audio catalogue",
+    "Dialogue content and repository commits"
+  ],
+  "verification": "Local type/geometry/state checks; browser/GPU/audio/six real avatars/mobile remain awaiting review"
+}

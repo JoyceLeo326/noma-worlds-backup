@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.0.0",
+  "assetId": "ember",
+  "displayName": "焰点",
+  "kind": "companion",
+  "version": "noma-companions-1.1.0",
+  "contentVersion": "noma-companions-1.1.0",
+  "status": "awaiting_review",
+  "unit": "meter",
+  "upAxis": "+Y",
+  "forwardAxis": "+Z",
+  "exports": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/classic/noma-assets/companions/ember/ember-lod0.glb",
+      "sha256": "07d58b17e4784b8fce0a44a5d782bc1e90cf13b2ba55a50ba7d15ee05c2ef31b",
+      "bytes": 193760,
+      "metrics": {
+        "vertices": 1050,
+        "triangles": 2084,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.05469086766242981,
+            -0.027861300855875015,
+            0.012000000104308128
+          ],
+          "max": [
+            0.08353947848081589,
+            0.03237509727478027,
+            0.23499999940395355
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    },
+    {
+      "lod": 1,
+      "url": "/noma-worlds-backup/classic/noma-assets/companions/ember/ember-lod1.glb",
+      "sha256": "1a303c63372a7d2b28103966b630e97de958d0c5a8ecbfe91ad44555ff318268",
+      "bytes": 171516,
+      "metrics": {
+        "vertices": 705,
+        "triangles": 1394,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.054531436413526535,
+            -0.027755392715334892,
+            0.012000000104308128
+          ],
+          "max": [
+            0.08330146968364716,
+            0.03216743469238281,
+            0.23499999940395355
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    },
+    {
+      "lod": 2,
+      "url": "/noma-worlds-backup/classic/noma-assets/companions/ember/ember-lod2.glb",
+      "sha256": "177385a98d891c7a22db7813330fae2ea3a59d16ef0aa92a806243d5465c269b",
+      "bytes": 152780,
+      "metrics": {
+        "vertices": 414,
+        "triangles": 812,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.054007574915885925,
+            -0.02741895616054535,
+            0.012000000104308128
+          ],
+          "max": [
+            0.08316769450902939,
+            0.03150776028633118,
+            0.23499999940395355
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    }
+  ],
+  "animationClips": [
+    {
+      "name": "idle",
+      "durationSeconds": 2.8,
+      "loop": true,
+      "frameRange": [
+        1,
+        85
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "observe",
+      "durationSeconds": 3.6,
+      "loop": false,
+      "frameRange": [
+        1,
+        109
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "approach",
+      "durationSeconds": 2.4,
+      "loop": false,
+      "frameRange": [
+        1,
+        73
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "follow",
+      "durationSeconds": 2.4,
+      "loop": true,
+      "frameRange": [
+        1,
+        73
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "rest",
+      "durationSeconds": 4.8,
+      "loop": true,
+      "frameRange": [
+        1,
+        145
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "respond",
+      "durationSeconds": 2.6,
+      "loop": false,
+      "frameRange": [
+        1,
+        79
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    }
+  ],
+  "coordinateSystem": {
+    "units": "meters",
+    "blenderUp": "+Z",
+    "blenderForward": "-Y",
+    "gltfUp": "+Y",
+    "gltfForward": "+Z",
+    "origin": "local attachment root at base; no world shoulder height"
+  },
+  "runtimeHints": {
+    "placement": "Place outer object at chosen follow/held anchor; animate the inner Root.",
+    "clipLoopModes": {
+      "idle": "repeat",
+      "observe": "once",
+      "approach": "once",
+      "follow": "repeat",
+      "rest": "repeat",
+      "respond": "once"
+    },
+    "reducedMotion": "Freeze idle/rest at an attractive frame; keep navigation in outer object.",
+    "collision": "Visual companion: avoid using tiny model geometry for world collision."
+  },
+  "sourceDifferences": [
+    {
+      "source": "spec/03 REQ-CHAR-003 negative Z suggestion",
+      "resolution": "Current character production contract overrides: glTF +Z forward."
+    },
+    {
+      "source": "B original companion-ember",
+      "resolution": "Canonical persistence/asset ID is ember."
+    },
+    {
+      "source": "B three billboard layers with deform shader",
+      "resolution": "Three curved, closed, bone-deformed membranes preserve 360-degree silhouette in stock GLB; runtime may add camera-facing shader later. No volumetric fire."
+    }
+  ],
+  "integrationStatus": {
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalPhoneReviewed": false
+  }
+}

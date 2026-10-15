@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "noma-content-1.0.0",
+  "worldId": "dawn",
+  "factory": "createDawnWorld",
+  "units": "metres",
+  "bounds": {
+    "minX": -80,
+    "maxX": 80,
+    "minZ": -62.5,
+    "maxZ": 62.5
+  },
+  "heightRangeApprox": [
+    0,
+    24
+  ],
+  "nodes": [
+    {
+      "id": "dawn-entry",
+      "xz": [
+        -62,
+        -48
+      ]
+    },
+    {
+      "id": "dawn-shuo",
+      "xz": [
+        -22,
+        -25
+      ]
+    },
+    {
+      "id": "dawn-wind-corridor",
+      "xz": [
+        -5,
+        -13
+      ]
+    },
+    {
+      "id": "dawn-stone-platform",
+      "xz": [
+        12,
+        0
+      ]
+    },
+    {
+      "id": "dawn-cheng",
+      "xz": [
+        21,
+        7
+      ]
+    },
+    {
+      "id": "dawn-ridge",
+      "xz": [
+        39,
+        23
+      ]
+    },
+    {
+      "id": "dawn-first-light",
+      "xz": [
+        51,
+        38
+      ]
+    },
+    {
+      "id": "dawn-exit-nexus",
+      "xz": [
+        67,
+        49
+      ]
+    }
+  ],
+  "discoveries": [
+    "dawn-dew",
+    "dawn-wind-ribbons",
+    "dawn-old-sign"
+  ],
+  "detailIds": [
+    "dawn-detail-grass-waves",
+    "dawn-detail-morning-birds",
+    "dawn-detail-kite-line",
+    "dawn-detail-valley-mist",
+    "dawn-detail-layered-cloud",
+    "dawn-detail-sun-edge",
+    "dawn-detail-insects",
+    "dawn-detail-stone-dust",
+    "dawn-detail-cloth-wind",
+    "dawn-detail-distant-city",
+    "dawn-detail-dew",
+    "dawn-detail-companion-wind"
+  ],
+  "coreEventId": "dawn-first-direct-light",
+  "portal": {
+    "spaceId": "nexus",
+    "anchorId": "from-dawn"
+  },
+  "sourceRecipe": "src/noma/worlds/dawn/terrain.ts",
+  "groundSampling": "Exact barycentric interpolation of the rendered grid"
+}

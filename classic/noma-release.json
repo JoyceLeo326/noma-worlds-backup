@@ -1,0 +1,11 @@
+{
+  "product": "NOMA",
+  "edition": "classic",
+  "commit": "d5dcd3b81e2f3d4dab129d605c1ec2b24e8567b3",
+  "builtFrom": "git-archive-committed-source",
+  "builtAt": "2026-10-15T10:44:19.0976469Z",
+  "assetVersion": "motion-v5-all-six-avatars",
+  "musicIncluded": false,
+  "acceptance": "local-integrated-candidate-final-gameplay-review",
+  "update": "six-avatar-motion-camera-traversal-world-expansion-task-feedback-precision-walk-water-repair"
+}

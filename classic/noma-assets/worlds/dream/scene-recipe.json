@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.0.0",
+  "version": "dream-world-1.0.0",
+  "worldId": "dream",
+  "units": "metres",
+  "bounds": {
+    "minX": -70,
+    "maxX": 70,
+    "minZ": -65,
+    "maxZ": 65
+  },
+  "factory": "createDreamWorld",
+  "runtimeRepresentation": "authored procedural BufferGeometry + instancing + actual identity pose clones",
+  "sourceFiles": [
+    {
+      "name": "index.ts",
+      "sha256": "55c3b02c2d69f021f6b6be8d8b19f0df4c9f7e7ded6cb985ef9711c1168f0d13"
+    },
+    {
+      "name": "state.ts",
+      "sha256": "8260d13e3f2d1bf9312cb873b496f0df8de01299cbc83f95610170a125b0809e"
+    },
+    {
+      "name": "terrain.ts",
+      "sha256": "6c56da214caad18e7b31c7078252809345c41a6dd5da1f28dfd4f73b1e4dd6fb"
+    },
+    {
+      "name": "environment.ts",
+      "sha256": "e1eac3a9f9fc5cf96bef1fb1edb91e0f34dae30891c8959ab0db30de2ea27c4c"
+    },
+    {
+      "name": "npcs.ts",
+      "sha256": "9082aec819e4e93541c2a8840b20a930e734b183e41adc7150802c39720152e2"
+    },
+    {
+      "name": "reflection.ts",
+      "sha256": "412c2827aa6a55d139dfd105691f9849e4deb2e2cbda57c90bdc21b9c32dce2b"
+    }
+  ],
+  "details": [
+    {
+      "requirementId": "REQ-DREAM-101",
+      "label": "影子错位",
+      "position": [
+        -25,
+        0,
+        -34
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-102",
+      "label": "本人倒影延迟",
+      "position": [
+        -34,
+        0,
+        -32
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-103",
+      "label": "纸屑向上",
+      "position": [
+        -47,
+        0,
+        -18
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-104",
+      "label": "门后场景变化",
+      "position": [
+        18,
+        2,
+        -2
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-105",
+      "label": "悬根花向上生长",
+      "position": [
+        58,
+        2,
+        26
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-106",
+      "label": "灯呼吸",
+      "position": [
+        45,
+        2,
+        31
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-107",
+      "label": "镜湖扰动",
+      "position": [
+        15,
+        1,
+        37.7
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-108",
+      "label": "视野外远建筑轻移",
+      "position": [
+        -28,
+        8,
+        61
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-109",
+      "label": "脚步材质切换",
+      "position": [
+        34,
+        2,
+        18
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-110",
+      "label": "固定星伴倒影先侧头",
+      "position": [
+        52,
+        2.35,
+        36
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-111",
+      "label": "无影阶梯接触影",
+      "position": [
+        -10,
+        2,
+        -25
+      ]
+    },
+    {
+      "requirementId": "REQ-DREAM-112",
+      "label": "小铃错位声源",
+      "position": [
+        -8,
+        1,
+        32
+      ]
+    }
+  ],
+  "npcIds": [
+    "dream-jingyu",
+    "dream-mian"
+  ],
+  "discoveryIds": [
+    "dream-paper",
+    "dream-flower",
+    "dream-bell"
+  ],
+  "coreEventId": "dream-reflection-solo",
+  "reflection": {
+    "ordinaryDelayMs": 250,
+    "coreSyncSeconds": 5,
+    "highCaptureHz": 60,
+    "lowCaptureHz": 30,
+    "identity": "borrow current runtime avatar and companion meshes, independent clone materials/skeletons",
+    "reducedMotion": "static solo head pose and explicit rejoin action"
+  },
+  "validation": "Headless structure only; browser and physical mobile acceptance pending."
+}

@@ -99,8 +99,8 @@
         ],
         "review": "local-reference-only"
       },
-      "downloadBytes": 5082,
-      "sha256": "fb42b7ffb54965532e10ab38f711a76941f2e82ae62a48386af0091733a64b7c"
+      "downloadBytes": 5139,
+      "sha256": "c8a0ea2d2807d082a11bbb05622d7c77c7882044b01e7a2c4c65215368c232cd"
     },
     {
       "id": "asset-companions-drop-drop-lod0-glb",
@@ -199,8 +199,8 @@
         ],
         "review": "local-reference-only"
       },
-      "downloadBytes": 5314,
-      "sha256": "12e3251822c5ef50d6a0c1dc47693d4fcf51b36aecd4cdd9e455daf6538fcefa"
+      "downloadBytes": 5371,
+      "sha256": "3bcb8f5e8236fef5da3fb992c7a696beaab3d0e570ce22e84441852b3db6422c"
     },
     {
       "id": "asset-companions-ember-ember-lod0-glb",
@@ -299,8 +299,8 @@
         ],
         "review": "local-reference-only"
       },
-      "downloadBytes": 5351,
-      "sha256": "c2ce13b976766f10d19b1fef6f4db97d12c07c186acb045e0bb90f6f53fac53b"
+      "downloadBytes": 5408,
+      "sha256": "d85e344812358946e18dd580abaeb1ef697615d5b284ae3ad51526f6f1eb7433"
     },
     {
       "id": "asset-companions-fawn-fawn-lod0-glb",
@@ -399,8 +399,8 @@
         ],
         "review": "local-reference-only"
       },
-      "downloadBytes": 5296,
-      "sha256": "1c423a8d681e5e2df27480d4f50460932cf9c74ff8503595eb76ab8c1b7b5ebb"
+      "downloadBytes": 5353,
+      "sha256": "2d6b7970cd29ba7b5b7958af9a5c8036af4ae2583396e2381ceba59778844c49"
     },
     {
       "id": "asset-companions-orbit-orbit-lod0-glb",
@@ -499,8 +499,8 @@
         ],
         "review": "local-reference-only"
       },
-      "downloadBytes": 5081,
-      "sha256": "c9e3d36d6e644640d9b457650324ddf6ffbf43b276c1bac3d7c21a0be3f8969d"
+      "downloadBytes": 5138,
+      "sha256": "dfdde86176f79424325fbb7f354c7520bccb2d3e3e2d57360809e3b5ffea977a"
     },
     {
       "id": "asset-companions-sprout-sprout-lod0-glb",
@@ -599,8 +599,8 @@
         ],
         "review": "local-reference-only"
       },
-      "downloadBytes": 5096,
-      "sha256": "699ac45371c974a2fd9af8aec7ccec93062cc4d92cf1fc3615522dd2f2556126"
+      "downloadBytes": 5153,
+      "sha256": "bcb58e1771c131e0833e78de3c5c4916f1e3d989c99c94d7a26d6eacc167dbdb"
     },
     {
       "id": "asset-polyhaven-forest-ground-04-diff-1k",

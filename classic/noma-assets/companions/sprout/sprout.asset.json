@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "assetId": "sprout",
+  "displayName": "星芽",
+  "kind": "companion",
+  "version": "noma-companions-1.1.0",
+  "contentVersion": "noma-companions-1.1.0",
+  "status": "awaiting_review",
+  "unit": "meter",
+  "upAxis": "+Y",
+  "forwardAxis": "+Z",
+  "exports": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/classic/noma-assets/companions/sprout/sprout-lod0.glb",
+      "sha256": "cfaeb08b5e56bccdc50edf7136ef6a1ce3ba7ce0afd7884d2f07b3b4d9e779e5",
+      "bytes": 370552,
+      "metrics": {
+        "vertices": 3239,
+        "triangles": 5844,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.12912911176681519,
+            -0.06165318936109543,
+            0.009902222082018852
+          ],
+          "max": [
+            0.1291317492723465,
+            0.06165318936109543,
+            0.3087429702281952
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    },
+    {
+      "lod": 1,
+      "url": "/noma-worlds-backup/classic/noma-assets/companions/sprout/sprout-lod1.glb",
+      "sha256": "3ac01c21d169918e12d65db508baa577966886858b4e347d38e9fcf716bf5c13",
+      "bytes": 299456,
+      "metrics": {
+        "vertices": 2183,
+        "triangles": 3852,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.12912032008171082,
+            -0.06152957305312157,
+            0.009892424568533897
+          ],
+          "max": [
+            0.1291513293981552,
+            0.06152957305312157,
+            0.30861154198646545
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    },
+    {
+      "lod": 2,
+      "url": "/noma-worlds-backup/classic/noma-assets/companions/sprout/sprout-lod2.glb",
+      "sha256": "c807a62e6501194e0857f1bf0b6b2fe955d0bccef8714cc36f588ae459f38364",
+      "bytes": 237932,
+      "metrics": {
+        "vertices": 1267,
+        "triangles": 2156,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.1291188895702362,
+            -0.06148313358426094,
+            0.009886589832603931
+          ],
+          "max": [
+            0.1291304975748062,
+            0.06148313358426094,
+            0.3087429702281952
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    }
+  ],
+  "animationClips": [
+    {
+      "name": "idle",
+      "durationSeconds": 2.8,
+      "loop": true,
+      "frameRange": [
+        1,
+        85
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "observe",
+      "durationSeconds": 3.6,
+      "loop": false,
+      "frameRange": [
+        1,
+        109
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "approach",
+      "durationSeconds": 2.4,
+      "loop": false,
+      "frameRange": [
+        1,
+        73
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "follow",
+      "durationSeconds": 2.4,
+      "loop": true,
+      "frameRange": [
+        1,
+        73
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "rest",
+      "durationSeconds": 4.8,
+      "loop": true,
+      "frameRange": [
+        1,
+        145
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "respond",
+      "durationSeconds": 2.6,
+      "loop": false,
+      "frameRange": [
+        1,
+        79
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    }
+  ],
+  "coordinateSystem": {
+    "units": "meters",
+    "blenderUp": "+Z",
+    "blenderForward": "-Y",
+    "gltfUp": "+Y",
+    "gltfForward": "+Z",
+    "origin": "local attachment root at base; no world shoulder height"
+  },
+  "runtimeHints": {
+    "placement": "Place outer object at chosen follow/held anchor; animate the inner Root.",
+    "clipLoopModes": {
+      "idle": "repeat",
+      "observe": "once",
+      "approach": "once",
+      "follow": "repeat",
+      "rest": "repeat",
+      "respond": "once"
+    },
+    "reducedMotion": "Freeze idle/rest at an attractive frame; keep navigation in outer object.",
+    "collision": "Visual companion: avoid using tiny model geometry for world collision."
+  },
+  "sourceDifferences": [
+    {
+      "source": "spec/03 REQ-CHAR-003 negative Z suggestion",
+      "resolution": "Current character production contract overrides: glTF +Z forward."
+    },
+    {
+      "source": "B original companion-sprout",
+      "resolution": "Canonical persistence/asset ID is sprout."
+    }
+  ],
+  "integrationStatus": {
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalPhoneReviewed": false
+  }
+}

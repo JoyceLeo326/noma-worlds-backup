@@ -1,11 +1,11 @@
 {
   "product": "NOMA",
   "edition": "worlds",
-  "commit": "e93aebca931c37a50b768a8710a08baf562e37dc",
-  "builtFrom": "committed-worktree",
-  "builtAt": "2026-10-14T23:54:15.4098279Z",
-  "assetVersion": "noma-user-characters-2026-10-15-v3",
-  "update": "camera-follow-and-traversal",
+  "commit": "d5dcd3b81e2f3d4dab129d605c1ec2b24e8567b3",
+  "builtFrom": "git-archive-committed-source",
+  "builtAt": "2026-10-15T10:44:19.0696021Z",
+  "assetVersion": "motion-v5-all-six-avatars",
   "musicIncluded": false,
-  "classicUrl": "https://noma-bijing.netlify.app/"
+  "acceptance": "local-integrated-candidate-final-gameplay-review",
+  "update": "six-avatar-motion-camera-traversal-world-expansion-task-feedback-precision-walk-water-repair"
 }
