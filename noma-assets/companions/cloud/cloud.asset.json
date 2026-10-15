@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "assetId": "cloud",
+  "displayName": "云绒",
+  "kind": "companion",
+  "version": "noma-companions-1.1.0",
+  "contentVersion": "noma-companions-1.1.0",
+  "status": "awaiting_review",
+  "unit": "meter",
+  "upAxis": "+Y",
+  "forwardAxis": "+Z",
+  "exports": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/companions/cloud/cloud-lod0.glb",
+      "sha256": "b962e5d2f8a9fc95d42911b0c94809911dec49956b110d1eb1b05d49c998fa70",
+      "bytes": 147452,
+      "metrics": {
+        "vertices": 1166,
+        "triangles": 2320,
+        "materials": 2,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 2,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.14121542870998383,
+            -0.05795380100607872,
+            0.04106876254081726
+          ],
+          "max": [
+            0.1481979638338089,
+            0.08493386954069138,
+            0.20503294467926025
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 2
+    },
+    {
+      "lod": 1,
+      "url": "/noma-worlds-backup/noma-assets/companions/cloud/cloud-lod1.glb",
+      "sha256": "dced26974015af3025429c7984096fc483b0e78fed9d141829a02751f5700e0b",
+      "bytes": 119792,
+      "metrics": {
+        "vertices": 760,
+        "triangles": 1508,
+        "materials": 2,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 2,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.1433277577161789,
+            -0.05795380100607872,
+            0.04225775599479675
+          ],
+          "max": [
+            0.1487191915512085,
+            0.08326742798089981,
+            0.20405805110931396
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 2
+    },
+    {
+      "lod": 2,
+      "url": "/noma-worlds-backup/noma-assets/companions/cloud/cloud-lod2.glb",
+      "sha256": "19c649212a3373cd7071c7b6fcb889fdf25b2a9c6a24f7ee58c46a16354a776a",
+      "bytes": 98848,
+      "metrics": {
+        "vertices": 452,
+        "triangles": 892,
+        "materials": 2,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 2,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.13976886868476868,
+            -0.05795380100607872,
+            0.04134475439786911
+          ],
+          "max": [
+            0.14553114771842957,
+            0.08463528007268906,
+            0.2048790454864502
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 2
+    }
+  ],
+  "animationClips": [
+    {
+      "name": "idle",
+      "durationSeconds": 2.8,
+      "loop": true,
+      "frameRange": [
+        1,
+        85
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "observe",
+      "durationSeconds": 3.6,
+      "loop": false,
+      "frameRange": [
+        1,
+        109
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "approach",
+      "durationSeconds": 2.4,
+      "loop": false,
+      "frameRange": [
+        1,
+        73
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "follow",
+      "durationSeconds": 2.4,
+      "loop": true,
+      "frameRange": [
+        1,
+        73
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "rest",
+      "durationSeconds": 4.8,
+      "loop": true,
+      "frameRange": [
+        1,
+        145
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "respond",
+      "durationSeconds": 2.6,
+      "loop": false,
+      "frameRange": [
+        1,
+        79
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    }
+  ],
+  "coordinateSystem": {
+    "units": "meters",
+    "blenderUp": "+Z",
+    "blenderForward": "-Y",
+    "gltfUp": "+Y",
+    "gltfForward": "+Z",
+    "origin": "local attachment root at base; no world shoulder height"
+  },
+  "runtimeHints": {
+    "placement": "Place outer object at chosen follow/held anchor; animate the inner Root.",
+    "clipLoopModes": {
+      "idle": "repeat",
+      "observe": "once",
+      "approach": "once",
+      "follow": "repeat",
+      "rest": "repeat",
+      "respond": "once"
+    },
+    "reducedMotion": "Freeze idle/rest at an attractive frame; keep navigation in outer object.",
+    "collision": "Visual companion: avoid using tiny model geometry for world collision."
+  },
+  "sourceDifferences": [
+    {
+      "source": "spec/03 REQ-CHAR-003 negative Z suggestion",
+      "resolution": "Current character production contract overrides: glTF +Z forward."
+    },
+    {
+      "source": "B original companion-cloud",
+      "resolution": "Canonical persistence/asset ID is cloud."
+    }
+  ],
+  "integrationStatus": {
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalPhoneReviewed": false
+  }
+}

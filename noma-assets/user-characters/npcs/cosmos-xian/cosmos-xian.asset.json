@@ -1,0 +1,60 @@
+{
+  "id": "cosmos-xian",
+  "name": "轨迹员·弦",
+  "kind": "npc",
+  "version": "noma-user-characters-2026-10-15-v1",
+  "status": "awaiting_review",
+  "heightMeters": 1.83,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/cosmos-xian/cosmos-xian-lod0.glb",
+      "sha256": "e68514b42b405222134e1829716cafc358681a9aedfd76d9b99785264b887f5e",
+      "bytes": 851200,
+      "triangles": 11026
+    }
+  ],
+  "animations": [],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "sources": [
+    {
+      "file": "角色\\轨迹员·弦\\轨迹员·弦.blend",
+      "sha256": "8167226a391f27d1d70a4f9f087c5cda65f1665810d9b85cb0555ce3ac0f71ba"
+    },
+    {
+      "file": "角色\\轨迹员·弦\\轨迹员·弦.fbm\\轨迹员·弦_basecolor.jpg",
+      "sha256": "7a44d6dbfd8002580fb2f025f52a6c0da14d0a68beabd3dc84e4cd654586c28f"
+    }
+  ],
+  "processing": [
+    "Original UV retained without vertical flip",
+    "Source +X face rotated to Blender -Y / glTF +Z",
+    "Embedded 1024px sRGB JPEG basecolor",
+    "Canonical metre height, feet origin"
+  ],
+  "checks": {
+    "sourceInspected": true,
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalMobileReviewed": false
+  },
+  "limitations": [
+    "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+    "No facial morphs in the source",
+    "Clothing is skinned with body; no cloth simulation",
+    "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+  ],
+  "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+}

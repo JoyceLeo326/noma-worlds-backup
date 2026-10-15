@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "noma-content-1.0.0",
+  "assetVersion": "noma-cosmos-1.0.0",
+  "worldId": "cosmos",
+  "factory": "createCosmosWorld",
+  "construction": "Original authored parametric meshes and procedural surface maps; built by the world module, no remote fetch",
+  "units": "metres",
+  "bounds": {
+    "minZ": -60,
+    "minX": -65,
+    "maxX": 65,
+    "maxZ": 60
+  },
+  "sources": [
+    {
+      "file": "core.ts",
+      "sourcePath": "C:\\Users\\Jerry\\NOMA-Production\\source\\worlds\\cosmos\\core.ts",
+      "runtimeSourcePath": "D:\\iCAN大赛\\qingheng\\frontend\\src\\noma\\worlds\\cosmos\\core.ts",
+      "sha256": "e002d3fd0008e360ec4fdf95e84a4e91070bb91f769601667662b1dae5f33a48",
+      "bytes": 2719
+    },
+    {
+      "file": "craft.ts",
+      "sourcePath": "C:\\Users\\Jerry\\NOMA-Production\\source\\worlds\\cosmos\\craft.ts",
+      "runtimeSourcePath": "D:\\iCAN大赛\\qingheng\\frontend\\src\\noma\\worlds\\cosmos\\craft.ts",
+      "sha256": "db544d662d6211f805b712ce6691cedc21cf41b36c81d2bb21e624dfc61389bd",
+      "bytes": 5908
+    },
+    {
+      "file": "firmament.ts",
+      "sourcePath": "C:\\Users\\Jerry\\NOMA-Production\\source\\worlds\\cosmos\\firmament.ts",
+      "runtimeSourcePath": "D:\\iCAN大赛\\qingheng\\frontend\\src\\noma\\worlds\\cosmos\\firmament.ts",
+      "sha256": "a2f0fca1c9f63d5f72da75391d8f5b2be3cd953dae8f55d833263a948041ede0",
+      "bytes": 11577
+    },
+    {
+      "file": "index.ts",
+      "sourcePath": "C:\\Users\\Jerry\\NOMA-Production\\source\\worlds\\cosmos\\index.ts",
+      "runtimeSourcePath": "D:\\iCAN大赛\\qingheng\\frontend\\src\\noma\\worlds\\cosmos\\index.ts",
+      "sha256": "1925c435c12f4261eabdc96a20b05b6c480516e802d6e49510bcfa96b2f97579",
+      "bytes": 18827
+    },
+    {
+      "file": "installations.ts",
+      "sourcePath": "C:\\Users\\Jerry\\NOMA-Production\\source\\worlds\\cosmos\\installations.ts",
+      "runtimeSourcePath": "D:\\iCAN大赛\\qingheng\\frontend\\src\\noma\\worlds\\cosmos\\installations.ts",
+      "sha256": "c8fefd617cdecde92fc5af3ee7488798f1db9aa4ab2a74f6bffac5c5ab2650d3",
+      "bytes": 12215
+    },
+    {
+      "file": "residents.ts",
+      "sourcePath": "C:\\Users\\Jerry\\NOMA-Production\\source\\worlds\\cosmos\\residents.ts",
+      "runtimeSourcePath": "D:\\iCAN大赛\\qingheng\\frontend\\src\\noma\\worlds\\cosmos\\residents.ts",
+      "sha256": "31ac3a7b450a0d59c527f9065c187e3a3b4e265418f95799386d5629604508c5",
+      "bytes": 26755
+    },
+    {
+      "file": "terrain.ts",
+      "sourcePath": "C:\\Users\\Jerry\\NOMA-Production\\source\\worlds\\cosmos\\terrain.ts",
+      "runtimeSourcePath": "D:\\iCAN大赛\\qingheng\\frontend\\src\\noma\\worlds\\cosmos\\terrain.ts",
+      "sha256": "cddae6d906fbfb28af3825f0559d71ae16cfad8c289759d212f5f29f70645ecd",
+      "bytes": 30360
+    }
+  ],
+  "seeds": {
+    "starField": 196709,
+    "terrain": "deterministic spatial hash",
+    "planetSurface": [
+      11,
+      21,
+      34
+    ]
+  },
+  "npcIds": [
+    "cosmos-xian",
+    "cosmos-luo"
+  ],
+  "interactions": [
+    "cosmos-shadow-study",
+    "cosmos-tuning-plate",
+    "cosmos-stone-trial"
+  ],
+  "core": {
+    "id": "cosmos-open-orbit-v1",
+    "phases": [
+      "settling",
+      "track",
+      "companion",
+      "silence",
+      "gate"
+    ],
+    "seconds": [
+      0.8,
+      3.2,
+      3,
+      4,
+      1.6
+    ]
+  },
+  "editableSource": "C:\\Users\\Jerry\\NOMA-Production\\source\\worlds\\cosmos",
+  "rebuild": "Import createCosmosWorld from index.ts using the project Three.js dependency; call mount(context) inside the shared runtime",
+  "license": {
+    "identifier": "LicenseRef-NOMA-Original-Local",
+    "author": "NOMA project procedural production",
+    "note": "Local project creation authorized. External publication and redistribution remain subject to project review.",
+    "review": "local-reference-only",
+    "thirdPartyMedia": false
+  }
+}

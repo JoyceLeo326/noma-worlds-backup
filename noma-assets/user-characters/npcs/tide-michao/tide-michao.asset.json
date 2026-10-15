@@ -1,0 +1,60 @@
+{
+  "id": "tide-michao",
+  "name": "回声鲸·弥潮",
+  "kind": "npc",
+  "version": "noma-user-characters-2026-10-15-v1",
+  "status": "awaiting_review",
+  "heightMeters": 2.3,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/tide-michao/tide-michao-lod0.glb",
+      "sha256": "89f5290affc0ce407e03cb3950d7994153d519bea3ed00e476ff6feb2b36800c",
+      "bytes": 630912,
+      "triangles": 10117
+    }
+  ],
+  "animations": [],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "sources": [
+    {
+      "file": "角色\\回声鲸·弥潮\\回声鲸·弥潮.blend",
+      "sha256": "161569cf65966b66950f2f3ac581aea2e868376d73e96854ee7ab07a110c4edf"
+    },
+    {
+      "file": "角色\\回声鲸·弥潮\\回声鲸·弥潮.fbm\\回声鲸·弥潮_basecolor.jpg",
+      "sha256": "224740cad0f2d2518b92a08bb5cba8a7defdf14ce79aa29024109bd2e9642e43"
+    }
+  ],
+  "processing": [
+    "Original UV retained without vertical flip",
+    "Source +X face rotated to Blender -Y / glTF +Z",
+    "Embedded 1024px sRGB JPEG basecolor",
+    "Canonical metre height, feet origin"
+  ],
+  "checks": {
+    "sourceInspected": true,
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalMobileReviewed": false
+  },
+  "limitations": [
+    "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+    "No facial morphs in the source",
+    "Clothing is skinned with body; no cloth simulation",
+    "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+  ],
+  "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+}

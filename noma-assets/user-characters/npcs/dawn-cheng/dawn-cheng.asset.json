@@ -1,0 +1,60 @@
+{
+  "id": "dawn-cheng",
+  "name": "远行者·澄",
+  "kind": "npc",
+  "version": "noma-user-characters-2026-10-15-v1",
+  "status": "awaiting_review",
+  "heightMeters": 1.8,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/dawn-cheng/dawn-cheng-lod0.glb",
+      "sha256": "2007f9088f0f398f67d6e28fa23f3dfb171e872f9a9801185986d45e87ed810d",
+      "bytes": 1230296,
+      "triangles": 20327
+    }
+  ],
+  "animations": [],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "sources": [
+    {
+      "file": "角色\\远行者·澄\\远行者·澄.blend",
+      "sha256": "26fd538f7a460310db10d3602dc45631f7d6889908c65109556392bb16269740"
+    },
+    {
+      "file": "角色\\远行者·澄\\远行者·澄.fbm\\远行者·澄_basecolor.jpg",
+      "sha256": "ab2dae48d3aff1fd6163945533d7dfac75f39218d207b7aec4ca565dde1489d4"
+    }
+  ],
+  "processing": [
+    "Original UV retained without vertical flip",
+    "Source +X face rotated to Blender -Y / glTF +Z",
+    "Embedded 1024px sRGB JPEG basecolor",
+    "Canonical metre height, feet origin"
+  ],
+  "checks": {
+    "sourceInspected": true,
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalMobileReviewed": false
+  },
+  "limitations": [
+    "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+    "No facial morphs in the source",
+    "Clothing is skinned with body; no cloth simulation",
+    "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+  ],
+  "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+}

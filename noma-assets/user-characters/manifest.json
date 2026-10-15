@@ -1,0 +1,2309 @@
+{
+  "version": "noma-user-characters-2026-10-15-v3",
+  "assets": [
+    {
+      "id": "che",
+      "name": "澈",
+      "kind": "avatar",
+      "version": "noma-user-characters-2026-10-15-v3",
+      "status": "awaiting_review",
+      "heightMeters": 1.78,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/che/che-lod0.glb",
+          "sha256": "5a6fa8dbc73925f13dbc589ae4553d418d439fa49b6542f88834a1f2afa07a3b",
+          "bytes": 1924560,
+          "triangles": 20788
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/che/che-lod1.glb",
+          "sha256": "f7fc6650d454e75ead5a687d60c76b7bea13609c92a4ba3412dd200a5e73b196",
+          "bytes": 1517680,
+          "triangles": 12472
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/che/che-lod2.glb",
+          "sha256": "32480509770b0574bb94cfed9f56a64ecf92a4c38119d1c0904ced4481df46ec",
+          "bytes": 1059904,
+          "triangles": 6236
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle_breathe",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.659193954153262,
+          "pelvisHeightRangeMetres": [
+            0.889080286026001,
+            0.8928383588790894
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.0028383976314216852,
+            0.000919691170565784
+          ]
+        },
+        {
+          "name": "walk_forward",
+          "sourceFBX": "Walking.fbx",
+          "durationSeconds": 0.9,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6591838995418302,
+          "pelvisHeightRangeMetres": [
+            0.8150677680969238,
+            0.9129449129104614
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.022944949567317963,
+            0.07493222504854202
+          ],
+          "referenceSpeedMetresPerSecond": 1.0172690546484822,
+          "sourceRootReferenceSpeedMetresPerSecond": 2.328018247060526,
+          "stanceRatio": 0.36574074074074076,
+          "stanceTravelMetres": 0.3348510549512682,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "run_soft",
+          "sourceFBX": "Run.fbx",
+          "durationSeconds": 0.6333333333333333,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.659197342702134,
+          "pelvisHeightRangeMetres": [
+            0.7224372029304504,
+            0.81281578540802
+          ],
+          "floorCorrectionRangeMetres": [
+            0.07718421518802643,
+            0.167562797665596
+          ],
+          "referenceSpeedMetresPerSecond": 3.310237780455253,
+          "sourceRootReferenceSpeedMetresPerSecond": 3.7834255503578067,
+          "stanceRatio": 0.34868421052631576,
+          "stanceTravelMetres": 0.7310108340108912,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "jump_small",
+          "sourceFBX": "Jump.fbx",
+          "durationSeconds": 1.2,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6591972697832142,
+          "pelvisHeightRangeMetres": [
+            0.7009567022323608,
+            0.8935925960540771
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.0035926366690546274,
+            0.18904325366020203
+          ],
+          "phases": {
+            "anticipation": [
+              0,
+              0.2
+            ],
+            "flight": [
+              0.2,
+              0.78
+            ],
+            "landing": [
+              0.78,
+              1
+            ]
+          },
+          "sourceFrameRanges": {
+            "jumpFBX": [
+              1,
+              24
+            ],
+            "anticipationAndLanding": {
+              "source": "Crouched Walking.fbx",
+              "frames": [
+                1,
+                1
+              ]
+            },
+            "exportFrames": [
+              1,
+              37
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "crouch_walk",
+          "sourceFBX": "Crouched Walking.fbx",
+          "durationSeconds": 1.0333333333333334,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 163.3706157916715,
+          "pelvisHeightRangeMetres": [
+            0.6747420430183411,
+            0.7907842397689819
+          ],
+          "floorCorrectionRangeMetres": [
+            0.09921574592590332,
+            0.215257927775383
+          ],
+          "sourceRootReferenceSpeedMetresPerSecond": null,
+          "referenceSpeedMetresPerSecond": 1.1485843530490587,
+          "stanceRatio": 0.43548387096774194,
+          "stanceTravelMetres": 0.5168629429714657,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "land_soft",
+          "sourceFBX": "Crouched Walking.fbx, frame 1 + anatomical neutral (grounded landing adaptation)",
+          "durationSeconds": 0.4,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 163.3706157916715,
+          "pelvisHeightRangeMetres": [
+            0.8482216000556946,
+            0.8900002837181091
+          ],
+          "floorCorrectionRangeMetres": [
+            -3.0042400567253935e-07,
+            0.041778359562158585
+          ],
+          "sourceFrameRanges": {
+            "source": "Crouched Walking.fbx",
+            "frames": [
+              1,
+              1
+            ],
+            "exportFrames": [
+              1,
+              13
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "idle",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.659193954153262,
+          "pelvisHeightRangeMetres": [
+            0.889080286026001,
+            0.8928383588790894
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.0028383976314216852,
+            0.000919691170565784
+          ],
+          "aliasOf": "idle_breathe"
+        }
+      ],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\澈\\澈.blend",
+          "sha256": "5bd1f2d38a9a556cc27af6833b50837d5e7f61850a62308a7c159cec560746a6"
+        },
+        {
+          "file": "角色\\澈\\澈.fbm\\澈_basecolor.jpg",
+          "sha256": "46dc46d4a3f4377a6b01bcce120ab223cbae068ec96e3e86644f77b262f5e84f"
+        },
+        {
+          "file": "GAME\\Crouched Walking.fbx",
+          "sha256": "cac37d5fa6a34ea42bcabd285ce5f95036b7eca343176a415e9f3d73561ee910"
+        },
+        {
+          "file": "GAME\\Jump.fbx",
+          "sha256": "913e5bf7d3fab102ee6ee28d00438e4c9ce7e96f1243d3a42e24f692d5b5df81"
+        },
+        {
+          "file": "GAME\\Ninja Idle.fbx",
+          "sha256": "d1af993cb45065dc999e7e8658a5954dca89a6bcde2a861a28020a2a368ec0e0"
+        },
+        {
+          "file": "GAME\\Run.fbx",
+          "sha256": "ad9ad2292266ebedf364e4192333674894c6b3836237e3ba933ffc9e60b10e45"
+        },
+        {
+          "file": "GAME\\Walking.fbx",
+          "sha256": "52794539cd02117b7dc3a8092115ecdc451f468f707e33a84803f33f4fdff81d"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin",
+        "23-bone anatomical rig fitted to static source A-pose",
+        "Four normalized weights maximum, actual exported JOINTS/WEIGHTS",
+        "Source FBX anatomical directions retargeted, per-clip source scale normalized",
+        "Horizontal root motion stripped, skinned sole grounding baked",
+        "Jump pose in place: world altitude belongs to runtime physics",
+        "Actual exported skinned sole sampled at 120 Hz; exact GLB pelvis channel corrected before final SHA",
+        "Continuous left/right priors, 150 rounds of actual topology influence smoothing, compact coat torso/cuff palette",
+        "Relaxed source ninja idle; walk/run arm counter-swing derives from original FBX leg phase",
+        "Run keeps source leg cycle and adds anatomically bent elbows instead of source arms held behind",
+        "1.20s composed jump: crouch preparation, explicit paired knee tuck and arm support, smooth landing; genuine 0.40s land_soft"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "lan",
+      "name": "岚",
+      "kind": "avatar",
+      "version": "noma-user-characters-2026-10-15-v3",
+      "status": "awaiting_review",
+      "heightMeters": 1.72,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/lan/lan-lod0.glb",
+          "sha256": "63887a4565a8678354b8d75289401166400f306df3838ea1b73595a550ef8be4",
+          "bytes": 1786596,
+          "triangles": 18628
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/lan/lan-lod1.glb",
+          "sha256": "2ba74cc88926372b273bacc7908a64e4b518c92f8e91ad5c86f981045b108a8d",
+          "bytes": 1432556,
+          "triangles": 11176
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/lan/lan-lod2.glb",
+          "sha256": "2d01138c581ec815f29f8fbad89e4ec736f85710686540c4b539f700a480820d",
+          "bytes": 1032124,
+          "triangles": 5588
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle_breathe",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6032660680582083,
+          "pelvisHeightRangeMetres": [
+            0.8594770431518555,
+            0.8627163767814636
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.0027163445483893156,
+            0.000522974762134254
+          ]
+        },
+        {
+          "name": "walk_forward",
+          "sourceFBX": "Walking.fbx",
+          "durationSeconds": 0.9,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6032563523662628,
+          "pelvisHeightRangeMetres": [
+            0.7899071574211121,
+            0.8740391135215759
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.014039118774235249,
+            0.07009285688400269
+          ],
+          "referenceSpeedMetresPerSecond": 0.9808262032551387,
+          "sourceRootReferenceSpeedMetresPerSecond": 2.2495457218787105,
+          "stanceRatio": 0.3888888888888889,
+          "stanceTravelMetres": 0.3432891620452411,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "run_soft",
+          "sourceFBX": "Run.fbx",
+          "durationSeconds": 0.6333333333333333,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.603269342386332,
+          "pelvisHeightRangeMetres": [
+            0.7025017142295837,
+            0.7808930277824402
+          ],
+          "floorCorrectionRangeMetres": [
+            0.07910696417093277,
+            0.15749822556972504
+          ],
+          "referenceSpeedMetresPerSecond": 3.1986643622079405,
+          "sourceRootReferenceSpeedMetresPerSecond": 3.6558943520311398,
+          "stanceRatio": 0.34868421052631576,
+          "stanceTravelMetres": 0.7063717044571233,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "jump_small",
+          "sourceFBX": "Jump.fbx",
+          "durationSeconds": 1.2,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6032692719253532,
+          "pelvisHeightRangeMetres": [
+            0.6781139969825745,
+            0.8706916570663452
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.010691659525036812,
+            0.1818859577178955
+          ],
+          "phases": {
+            "anticipation": [
+              0,
+              0.2
+            ],
+            "flight": [
+              0.2,
+              0.78
+            ],
+            "landing": [
+              0.78,
+              1
+            ]
+          },
+          "sourceFrameRanges": {
+            "jumpFBX": [
+              1,
+              24
+            ],
+            "anticipationAndLanding": {
+              "source": "Crouched Walking.fbx",
+              "frames": [
+                1,
+                1
+              ]
+            },
+            "exportFrames": [
+              1,
+              37
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "crouch_walk",
+          "sourceFBX": "Crouched Walking.fbx",
+          "durationSeconds": 1.0333333333333334,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 157.8637411020646,
+          "pelvisHeightRangeMetres": [
+            0.6538339257240295,
+            0.7658078074455261
+          ],
+          "floorCorrectionRangeMetres": [
+            0.09419222921133041,
+            0.20616604387760162
+          ],
+          "sourceRootReferenceSpeedMetresPerSecond": null,
+          "referenceSpeedMetresPerSecond": 1.108035054916618,
+          "stanceRatio": 0.45161290322580644,
+          "stanceTravelMetres": 0.5170830097203744,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "land_soft",
+          "sourceFBX": "Crouched Walking.fbx, frame 1 + anatomical neutral (grounded landing adaptation)",
+          "durationSeconds": 0.4,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 157.8637411020646,
+          "pelvisHeightRangeMetres": [
+            0.8208930492401123,
+            0.8600000143051147
+          ],
+          "floorCorrectionRangeMetres": [
+            -1.652222358927702e-08,
+            0.039106935262680054
+          ],
+          "sourceFrameRanges": {
+            "source": "Crouched Walking.fbx",
+            "frames": [
+              1,
+              1
+            ],
+            "exportFrames": [
+              1,
+              13
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "idle",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6032660680582083,
+          "pelvisHeightRangeMetres": [
+            0.8594770431518555,
+            0.8627163767814636
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.0027163445483893156,
+            0.000522974762134254
+          ],
+          "aliasOf": "idle_breathe"
+        }
+      ],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\岚\\岚.blend",
+          "sha256": "4d555463c5d5adad713b750bbe2bc413f3efcb4db4c692460feb896ac952d645"
+        },
+        {
+          "file": "角色\\岚\\岚.fbm\\岚_basecolor.jpg",
+          "sha256": "8912c8f346837da2677e13ea5655e359ea9ec43ebdb1e9428a46124ae36bd339"
+        },
+        {
+          "file": "GAME\\Crouched Walking.fbx",
+          "sha256": "cac37d5fa6a34ea42bcabd285ce5f95036b7eca343176a415e9f3d73561ee910"
+        },
+        {
+          "file": "GAME\\Jump.fbx",
+          "sha256": "913e5bf7d3fab102ee6ee28d00438e4c9ce7e96f1243d3a42e24f692d5b5df81"
+        },
+        {
+          "file": "GAME\\Ninja Idle.fbx",
+          "sha256": "d1af993cb45065dc999e7e8658a5954dca89a6bcde2a861a28020a2a368ec0e0"
+        },
+        {
+          "file": "GAME\\Run.fbx",
+          "sha256": "ad9ad2292266ebedf364e4192333674894c6b3836237e3ba933ffc9e60b10e45"
+        },
+        {
+          "file": "GAME\\Walking.fbx",
+          "sha256": "52794539cd02117b7dc3a8092115ecdc451f468f707e33a84803f33f4fdff81d"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin",
+        "23-bone anatomical rig fitted to static source A-pose",
+        "Four normalized weights maximum, actual exported JOINTS/WEIGHTS",
+        "Source FBX anatomical directions retargeted, per-clip source scale normalized",
+        "Horizontal root motion stripped, skinned sole grounding baked",
+        "Jump pose in place: world altitude belongs to runtime physics",
+        "Actual exported skinned sole sampled at 120 Hz; exact GLB pelvis channel corrected before final SHA",
+        "Continuous left/right priors, 150 rounds of actual topology influence smoothing, compact coat torso/cuff palette",
+        "Relaxed source ninja idle; walk/run arm counter-swing derives from original FBX leg phase",
+        "Run keeps source leg cycle and adds anatomically bent elbows instead of source arms held behind",
+        "1.20s composed jump: crouch preparation, explicit paired knee tuck and arm support, smooth landing; genuine 0.40s land_soft"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "ling",
+      "name": "翎",
+      "kind": "avatar",
+      "version": "noma-user-characters-2026-10-15-v3",
+      "status": "awaiting_review",
+      "heightMeters": 1.74,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/ling/ling-lod0.glb",
+          "sha256": "5a6def6b6fbc4f3a7639beb5f9212c09d2464721b726ed608b8a59bb86dc0ca0",
+          "bytes": 1985144,
+          "triangles": 20359
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/ling/ling-lod1.glb",
+          "sha256": "e577226b26c29bcc401e095d71ea7a540d5760f68e4057b0ebca68d912f425b2",
+          "bytes": 1576336,
+          "triangles": 12215
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/ling/ling-lod2.glb",
+          "sha256": "f041325308612723750289c66e9907bdaca9b18759ea17ae75d73aa379dc5892",
+          "bytes": 1133252,
+          "triangles": 6106
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle_breathe",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6219086967565595,
+          "pelvisHeightRangeMetres": [
+            0.8741754293441772,
+            0.8821656703948975
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.012165685184299946,
+            -0.004175452049821615
+          ]
+        },
+        {
+          "name": "walk_forward",
+          "sourceFBX": "Walking.fbx",
+          "durationSeconds": 0.9,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6218988680914521,
+          "pelvisHeightRangeMetres": [
+            0.8022406101226807,
+            0.8697408437728882
+          ],
+          "floorCorrectionRangeMetres": [
+            0.0002591758966445923,
+            0.06775940954685211
+          ],
+          "referenceSpeedMetresPerSecond": 0.9778311201706958,
+          "sourceRootReferenceSpeedMetresPerSecond": 2.275703230272649,
+          "stanceRatio": 0.4537037037037037,
+          "stanceTravelMetres": 0.3992810301590321,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "run_soft",
+          "sourceFBX": "Run.fbx",
+          "durationSeconds": 0.6333333333333333,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.621912009158266,
+          "pelvisHeightRangeMetres": [
+            0.7102048397064209,
+            0.8227938413619995
+          ],
+          "floorCorrectionRangeMetres": [
+            0.04720615595579147,
+            0.15979517996311188
+          ],
+          "referenceSpeedMetresPerSecond": 3.264617005747872,
+          "sourceRootReferenceSpeedMetresPerSecond": 3.6984047514733613,
+          "stanceRatio": 0.3092105263157895,
+          "stanceTravelMetres": 0.6393208222698724,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "jump_small",
+          "sourceFBX": "Jump.fbx",
+          "durationSeconds": 1.2,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6219119378779736,
+          "pelvisHeightRangeMetres": [
+            0.7069640755653381,
+            0.8804975152015686
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.010497518815100193,
+            0.16303592920303345
+          ],
+          "phases": {
+            "anticipation": [
+              0,
+              0.2
+            ],
+            "flight": [
+              0.2,
+              0.78
+            ],
+            "landing": [
+              0.78,
+              1
+            ]
+          },
+          "sourceFrameRanges": {
+            "jumpFBX": [
+              1,
+              24
+            ],
+            "anticipationAndLanding": {
+              "source": "Crouched Walking.fbx",
+              "frames": [
+                1,
+                1
+              ]
+            },
+            "exportFrames": [
+              1,
+              37
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "crouch_walk",
+          "sourceFBX": "Crouched Walking.fbx",
+          "durationSeconds": 1.0333333333333334,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 159.69936599860023,
+          "pelvisHeightRangeMetres": [
+            0.6651096343994141,
+            0.7884203791618347
+          ],
+          "floorCorrectionRangeMetres": [
+            0.08157962560653687,
+            0.2048903852701187
+          ],
+          "sourceRootReferenceSpeedMetresPerSecond": null,
+          "referenceSpeedMetresPerSecond": 1.079669694548094,
+          "stanceRatio": 0.4637096774193548,
+          "stanceTravelMetres": 0.5173417127222889,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "land_soft",
+          "sourceFBX": "Crouched Walking.fbx, frame 1 + anatomical neutral (grounded landing adaptation)",
+          "durationSeconds": 0.4,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 159.69936599860023,
+          "pelvisHeightRangeMetres": [
+            0.8307292461395264,
+            0.8699998259544373
+          ],
+          "floorCorrectionRangeMetres": [
+            1.976137582460069e-07,
+            0.03927076607942581
+          ],
+          "sourceFrameRanges": {
+            "source": "Crouched Walking.fbx",
+            "frames": [
+              1,
+              1
+            ],
+            "exportFrames": [
+              1,
+              13
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "idle",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6219086967565595,
+          "pelvisHeightRangeMetres": [
+            0.8741754293441772,
+            0.8821656703948975
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.012165685184299946,
+            -0.004175452049821615
+          ],
+          "aliasOf": "idle_breathe"
+        }
+      ],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\翎\\翎.blend",
+          "sha256": "d30c9fcb1ba8c0c87d316cce6c4dcd3d7c32aaf49a8f1bda1af4ebafb86dc72e"
+        },
+        {
+          "file": "角色\\翎\\翎.fbm\\翎_basecolor.jpg",
+          "sha256": "ef7ee17866cb2dc0c4640203df29a4d3a5d50084aac33d89dabd97a273ba1e36"
+        },
+        {
+          "file": "GAME\\Crouched Walking.fbx",
+          "sha256": "cac37d5fa6a34ea42bcabd285ce5f95036b7eca343176a415e9f3d73561ee910"
+        },
+        {
+          "file": "GAME\\Jump.fbx",
+          "sha256": "913e5bf7d3fab102ee6ee28d00438e4c9ce7e96f1243d3a42e24f692d5b5df81"
+        },
+        {
+          "file": "GAME\\Ninja Idle.fbx",
+          "sha256": "d1af993cb45065dc999e7e8658a5954dca89a6bcde2a861a28020a2a368ec0e0"
+        },
+        {
+          "file": "GAME\\Run.fbx",
+          "sha256": "ad9ad2292266ebedf364e4192333674894c6b3836237e3ba933ffc9e60b10e45"
+        },
+        {
+          "file": "GAME\\Walking.fbx",
+          "sha256": "52794539cd02117b7dc3a8092115ecdc451f468f707e33a84803f33f4fdff81d"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin",
+        "23-bone anatomical rig fitted to static source A-pose",
+        "Four normalized weights maximum, actual exported JOINTS/WEIGHTS",
+        "Source FBX anatomical directions retargeted, per-clip source scale normalized",
+        "Horizontal root motion stripped, skinned sole grounding baked",
+        "Jump pose in place: world altitude belongs to runtime physics",
+        "Actual exported skinned sole sampled at 120 Hz; exact GLB pelvis channel corrected before final SHA",
+        "Continuous left/right priors, 150 rounds of actual topology influence smoothing, compact coat torso/cuff palette",
+        "Relaxed source ninja idle; walk/run arm counter-swing derives from original FBX leg phase",
+        "Run keeps source leg cycle and adds anatomically bent elbows instead of source arms held behind",
+        "1.20s composed jump: crouch preparation, explicit paired knee tuck and arm support, smooth landing; genuine 0.40s land_soft"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "qi",
+      "name": "栖",
+      "kind": "avatar",
+      "version": "noma-user-characters-2026-10-15-v3",
+      "status": "awaiting_review",
+      "heightMeters": 1.7,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/qi/qi-lod0.glb",
+          "sha256": "eebbc43cb36df17ea452bc3aa8378ab0a604419c747fda028f07617c56a27042",
+          "bytes": 2156636,
+          "triangles": 20619
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/qi/qi-lod1.glb",
+          "sha256": "23b430b06f8e18cd77aafe125be4087515df5a61145d9da5f3c9316a2a03ab79",
+          "bytes": 1686644,
+          "triangles": 12371
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/qi/qi-lod2.glb",
+          "sha256": "d3e6cea0cdfb15dbaa1249f874ed0034f63c839b1dc012213b9eb4e6b57dfee4",
+          "bytes": 1187448,
+          "triangles": 6185
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle_breathe",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.5846234393598568,
+          "pelvisHeightRangeMetres": [
+            0.8529089689254761,
+            0.8589531779289246
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.0089531559497118,
+            -0.0029089588206261396
+          ]
+        },
+        {
+          "name": "walk_forward",
+          "sourceFBX": "Walking.fbx",
+          "durationSeconds": 0.9,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.5846138366410736,
+          "pelvisHeightRangeMetres": [
+            0.7821182608604431,
+            0.8723817467689514
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.02238170988857746,
+            0.0678817555308342
+          ],
+          "referenceSpeedMetresPerSecond": 0.9922550916528883,
+          "sourceRootReferenceSpeedMetresPerSecond": 2.223388213484771,
+          "stanceRatio": 0.3148148148148148,
+          "stanceTravelMetres": 0.28113893518734645,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "run_soft",
+          "sourceFBX": "Run.fbx",
+          "durationSeconds": 0.6333333333333333,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.5846266756143976,
+          "pelvisHeightRangeMetres": [
+            0.714796781539917,
+            0.8009965419769287
+          ],
+          "floorCorrectionRangeMetres": [
+            0.0490034818649292,
+            0.13520322740077972
+          ],
+          "referenceSpeedMetresPerSecond": 3.1895643031821486,
+          "sourceRootReferenceSpeedMetresPerSecond": 3.6133839525889164,
+          "stanceRatio": 0.3092105263157895,
+          "stanceTravelMetres": 0.624623001535185,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "jump_small",
+          "sourceFBX": "Jump.fbx",
+          "durationSeconds": 1.2,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.5846266059727325,
+          "pelvisHeightRangeMetres": [
+            0.6740583777427673,
+            0.8863576054573059
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.036357566714286804,
+            0.17594166100025177
+          ],
+          "phases": {
+            "anticipation": [
+              0,
+              0.2
+            ],
+            "flight": [
+              0.2,
+              0.78
+            ],
+            "landing": [
+              0.78,
+              1
+            ]
+          },
+          "sourceFrameRanges": {
+            "jumpFBX": [
+              1,
+              24
+            ],
+            "anticipationAndLanding": {
+              "source": "Crouched Walking.fbx",
+              "frames": [
+                1,
+                1
+              ]
+            },
+            "exportFrames": [
+              1,
+              37
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "crouch_walk",
+          "sourceFBX": "Crouched Walking.fbx",
+          "durationSeconds": 1.0333333333333334,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 156.02811620552893,
+          "pelvisHeightRangeMetres": [
+            0.6572611331939697,
+            0.7620079517364502
+          ],
+          "floorCorrectionRangeMetres": [
+            0.08799206465482712,
+            0.19273889064788818
+          ],
+          "sourceRootReferenceSpeedMetresPerSecond": null,
+          "referenceSpeedMetresPerSecond": 1.1020219312825452,
+          "stanceRatio": 0.43548387096774194,
+          "stanceTravelMetres": 0.495909853821129,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "land_soft",
+          "sourceFBX": "Crouched Walking.fbx, frame 1 + anatomical neutral (grounded landing adaptation)",
+          "durationSeconds": 0.4,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 156.02811620552893,
+          "pelvisHeightRangeMetres": [
+            0.810344934463501,
+            0.8499997854232788
+          ],
+          "floorCorrectionRangeMetres": [
+            2.1969125896248443e-07,
+            0.03965508192777634
+          ],
+          "sourceFrameRanges": {
+            "source": "Crouched Walking.fbx",
+            "frames": [
+              1,
+              1
+            ],
+            "exportFrames": [
+              1,
+              13
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "idle",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.5846234393598568,
+          "pelvisHeightRangeMetres": [
+            0.8529089689254761,
+            0.8589531779289246
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.0089531559497118,
+            -0.0029089588206261396
+          ],
+          "aliasOf": "idle_breathe"
+        }
+      ],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\栖\\栖.blend",
+          "sha256": "6501a094a0f2839f2e60575c3a735805de7fcf301709ebde9fb1bab2a77f97fb"
+        },
+        {
+          "file": "角色\\栖\\栖.fbm\\栖_basecolor.jpg",
+          "sha256": "a622dfa7bc667fab0108d762b323828bb3adffeddd9e6b67ec7ae9ad334efca2"
+        },
+        {
+          "file": "GAME\\Crouched Walking.fbx",
+          "sha256": "cac37d5fa6a34ea42bcabd285ce5f95036b7eca343176a415e9f3d73561ee910"
+        },
+        {
+          "file": "GAME\\Jump.fbx",
+          "sha256": "913e5bf7d3fab102ee6ee28d00438e4c9ce7e96f1243d3a42e24f692d5b5df81"
+        },
+        {
+          "file": "GAME\\Ninja Idle.fbx",
+          "sha256": "d1af993cb45065dc999e7e8658a5954dca89a6bcde2a861a28020a2a368ec0e0"
+        },
+        {
+          "file": "GAME\\Run.fbx",
+          "sha256": "ad9ad2292266ebedf364e4192333674894c6b3836237e3ba933ffc9e60b10e45"
+        },
+        {
+          "file": "GAME\\Walking.fbx",
+          "sha256": "52794539cd02117b7dc3a8092115ecdc451f468f707e33a84803f33f4fdff81d"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin",
+        "23-bone anatomical rig fitted to static source A-pose",
+        "Four normalized weights maximum, actual exported JOINTS/WEIGHTS",
+        "Source FBX anatomical directions retargeted, per-clip source scale normalized",
+        "Horizontal root motion stripped, skinned sole grounding baked",
+        "Jump pose in place: world altitude belongs to runtime physics",
+        "Actual exported skinned sole sampled at 120 Hz; exact GLB pelvis channel corrected before final SHA",
+        "Continuous left/right priors, 150 rounds of actual topology influence smoothing, compact coat torso/cuff palette",
+        "Relaxed source ninja idle; walk/run arm counter-swing derives from original FBX leg phase",
+        "Run keeps source leg cycle and adds anatomically bent elbows instead of source arms held behind",
+        "1.20s composed jump: crouch preparation, explicit paired knee tuck and arm support, smooth landing; genuine 0.40s land_soft"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "xi-light",
+      "name": "晞",
+      "kind": "avatar",
+      "version": "noma-user-characters-2026-10-15-v3",
+      "status": "awaiting_review",
+      "heightMeters": 1.72,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/xi-light/xi-light-lod0.glb",
+          "sha256": "fc6d94107e462aa3900e322d4fbdd0345c57c39a6664ecbdc2a683f5004eebd8",
+          "bytes": 1950832,
+          "triangles": 19503
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/xi-light/xi-light-lod1.glb",
+          "sha256": "f1fa18ce440dd3999e0bfdba10ba42e9c7fc096c0b54a2be94bde22bbc0c3c1a",
+          "bytes": 1552716,
+          "triangles": 11700
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/xi-light/xi-light-lod2.glb",
+          "sha256": "ff628890e1d35f469ee410d1f16ba9fb786de0de6c59be88a7692a76d131450e",
+          "bytes": 1052328,
+          "triangles": 5850
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle_breathe",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6032660680582083,
+          "pelvisHeightRangeMetres": [
+            0.8602073192596436,
+            0.8634646534919739
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.003464627079665661,
+            -0.00020730304822791368
+          ]
+        },
+        {
+          "name": "walk_forward",
+          "sourceFBX": "Walking.fbx",
+          "durationSeconds": 0.9,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6032563523662628,
+          "pelvisHeightRangeMetres": [
+            0.7880190014839172,
+            0.8638720512390137
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.003872028086334467,
+            0.07198099792003632
+          ],
+          "referenceSpeedMetresPerSecond": 0.9706918364139444,
+          "sourceRootReferenceSpeedMetresPerSecond": 2.2495457218787105,
+          "stanceRatio": 0.4351851851851852,
+          "stanceTravelMetres": 0.380187625857262,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "run_soft",
+          "sourceFBX": "Run.fbx",
+          "durationSeconds": 0.6333333333333333,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.603269342386332,
+          "pelvisHeightRangeMetres": [
+            0.68666011095047,
+            0.7647594213485718
+          ],
+          "floorCorrectionRangeMetres": [
+            0.09524058550596237,
+            0.17333984375
+          ],
+          "referenceSpeedMetresPerSecond": 3.1240035833767825,
+          "sourceRootReferenceSpeedMetresPerSecond": 3.6558943520311398,
+          "stanceRatio": 0.39473684210526316,
+          "stanceTravelMetres": 0.7810008860439259,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "jump_small",
+          "sourceFBX": "Jump.fbx",
+          "durationSeconds": 1.2,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6032692719253532,
+          "pelvisHeightRangeMetres": [
+            0.6782252788543701,
+            0.8643267750740051
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.004326784983277321,
+            0.18177469074726105
+          ],
+          "phases": {
+            "anticipation": [
+              0,
+              0.2
+            ],
+            "flight": [
+              0.2,
+              0.78
+            ],
+            "landing": [
+              0.78,
+              1
+            ]
+          },
+          "sourceFrameRanges": {
+            "jumpFBX": [
+              1,
+              24
+            ],
+            "anticipationAndLanding": {
+              "source": "Crouched Walking.fbx",
+              "frames": [
+                1,
+                1
+              ]
+            },
+            "exportFrames": [
+              1,
+              37
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "crouch_walk",
+          "sourceFBX": "Crouched Walking.fbx",
+          "durationSeconds": 1.0333333333333334,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 157.8637411020646,
+          "pelvisHeightRangeMetres": [
+            0.6531855463981628,
+            0.7622407078742981
+          ],
+          "floorCorrectionRangeMetres": [
+            0.09775929152965546,
+            0.20681440830230713
+          ],
+          "sourceRootReferenceSpeedMetresPerSecond": null,
+          "referenceSpeedMetresPerSecond": 1.0510484574824015,
+          "stanceRatio": 0.5080645161290323,
+          "stanceTravelMetres": 0.5518004232028444,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "land_soft",
+          "sourceFBX": "Crouched Walking.fbx, frame 1 + anatomical neutral (grounded landing adaptation)",
+          "durationSeconds": 0.4,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 157.8637411020646,
+          "pelvisHeightRangeMetres": [
+            0.8201932311058044,
+            0.85999995470047
+          ],
+          "floorCorrectionRangeMetres": [
+            3.842060181113993e-08,
+            0.0398067943751812
+          ],
+          "sourceFrameRanges": {
+            "source": "Crouched Walking.fbx",
+            "frames": [
+              1,
+              1
+            ],
+            "exportFrames": [
+              1,
+              13
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "idle",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.6032660680582083,
+          "pelvisHeightRangeMetres": [
+            0.8602073192596436,
+            0.8634646534919739
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.003464627079665661,
+            -0.00020730304822791368
+          ],
+          "aliasOf": "idle_breathe"
+        }
+      ],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\晞\\晞.blend",
+          "sha256": "53fffa8c34593b6a191aa79bc25f6559ad21580a93d1bdc3404be2470e50f79d"
+        },
+        {
+          "file": "角色\\晞\\晞.fbm\\晞_basecolor.jpg",
+          "sha256": "735457bc27873dd20ac408c44ccf1d483dd30168b2675d68967079a5bfc7621e"
+        },
+        {
+          "file": "GAME\\Crouched Walking.fbx",
+          "sha256": "cac37d5fa6a34ea42bcabd285ce5f95036b7eca343176a415e9f3d73561ee910"
+        },
+        {
+          "file": "GAME\\Jump.fbx",
+          "sha256": "913e5bf7d3fab102ee6ee28d00438e4c9ce7e96f1243d3a42e24f692d5b5df81"
+        },
+        {
+          "file": "GAME\\Ninja Idle.fbx",
+          "sha256": "d1af993cb45065dc999e7e8658a5954dca89a6bcde2a861a28020a2a368ec0e0"
+        },
+        {
+          "file": "GAME\\Run.fbx",
+          "sha256": "ad9ad2292266ebedf364e4192333674894c6b3836237e3ba933ffc9e60b10e45"
+        },
+        {
+          "file": "GAME\\Walking.fbx",
+          "sha256": "52794539cd02117b7dc3a8092115ecdc451f468f707e33a84803f33f4fdff81d"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin",
+        "23-bone anatomical rig fitted to static source A-pose",
+        "Four normalized weights maximum, actual exported JOINTS/WEIGHTS",
+        "Source FBX anatomical directions retargeted, per-clip source scale normalized",
+        "Horizontal root motion stripped, skinned sole grounding baked",
+        "Jump pose in place: world altitude belongs to runtime physics",
+        "Actual exported skinned sole sampled at 120 Hz; exact GLB pelvis channel corrected before final SHA",
+        "Continuous left/right priors, 150 rounds of actual topology influence smoothing, compact coat torso/cuff palette",
+        "Relaxed source ninja idle; walk/run arm counter-swing derives from original FBX leg phase",
+        "Run keeps source leg cycle and adds anatomically bent elbows instead of source arms held behind",
+        "1.20s composed jump: crouch preparation, explicit paired knee tuck and arm support, smooth landing; genuine 0.40s land_soft"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "xi-tide",
+      "name": "汐",
+      "kind": "avatar",
+      "version": "noma-user-characters-2026-10-15-v3",
+      "status": "awaiting_review",
+      "heightMeters": 1.67,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/xi-tide/xi-tide-lod0.glb",
+          "sha256": "a9eddfcf62d522921689841c0d5d5de17248bbe33d140427417709a9d174cc91",
+          "bytes": 1787064,
+          "triangles": 18960
+        },
+        {
+          "lod": 1,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/xi-tide/xi-tide-lod1.glb",
+          "sha256": "d80ece985cedbc5bd6d24d7b109a8a3f0195f581f0caf46104be526eb65e6fc9",
+          "bytes": 1420788,
+          "triangles": 11376
+        },
+        {
+          "lod": 2,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/avatars/xi-tide/xi-tide-lod2.glb",
+          "sha256": "9cb4a11a376e00ed0f7a67e709c516008ddda42ba645ba0227a9a03c51c69ba7",
+          "bytes": 1029532,
+          "triangles": 5688
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle_breathe",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.5566594963123301,
+          "pelvisHeightRangeMetres": [
+            0.8355662822723389,
+            0.8397237062454224
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.004723731428384781,
+            -0.0005663283518515527
+          ]
+        },
+        {
+          "name": "walk_forward",
+          "sourceFBX": "Walking.fbx",
+          "durationSeconds": 0.9,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.55665006305329,
+          "pelvisHeightRangeMetres": [
+            0.7659005522727966,
+            0.8494665026664734
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.014466542750597,
+            0.06909940391778946
+          ],
+          "referenceSpeedMetresPerSecond": 0.9515468312951577,
+          "sourceRootReferenceSpeedMetresPerSecond": 2.184151950893864,
+          "stanceRatio": 0.4027777777777778,
+          "stanceTravelMetres": 0.3449357172068185,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "run_soft",
+          "sourceFBX": "Run.fbx",
+          "durationSeconds": 0.6333333333333333,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.5566626754564965,
+          "pelvisHeightRangeMetres": [
+            0.6711574792861938,
+            0.7497258186340332
+          ],
+          "floorCorrectionRangeMetres": [
+            0.08527418971061707,
+            0.16384246945381165
+          ],
+          "referenceSpeedMetresPerSecond": 3.088275544044719,
+          "sourceRootReferenceSpeedMetresPerSecond": 3.549618353425582,
+          "stanceRatio": 0.3618421052631579,
+          "stanceTravelMetres": 0.707729803296076,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "jump_small",
+          "sourceFBX": "Jump.fbx",
+          "durationSeconds": 1.2,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.556662607043802,
+          "pelvisHeightRangeMetres": [
+            0.6556379199028015,
+            0.8403432965278625
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.005343321710824966,
+            0.17936204373836517
+          ],
+          "phases": {
+            "anticipation": [
+              0,
+              0.2
+            ],
+            "flight": [
+              0.2,
+              0.78
+            ],
+            "landing": [
+              0.78,
+              1
+            ]
+          },
+          "sourceFrameRanges": {
+            "jumpFBX": [
+              1,
+              24
+            ],
+            "anticipationAndLanding": {
+              "source": "Crouched Walking.fbx",
+              "frames": [
+                1,
+                1
+              ]
+            },
+            "exportFrames": [
+              1,
+              37
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "crouch_walk",
+          "sourceFBX": "Crouched Walking.fbx",
+          "durationSeconds": 1.0333333333333334,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 153.2746788607255,
+          "pelvisHeightRangeMetres": [
+            0.6336209774017334,
+            0.7462688684463501
+          ],
+          "floorCorrectionRangeMetres": [
+            0.08873112499713898,
+            0.2013789713382721
+          ],
+          "sourceRootReferenceSpeedMetresPerSecond": null,
+          "referenceSpeedMetresPerSecond": 1.0273287924522898,
+          "stanceRatio": 0.4879032258064516,
+          "stanceTravelMetres": 0.5179449169274667,
+          "calibrationMethod": "Median backwards foot-joint velocity while within 4cm of lowest grounded ankle, sampled from exported GLB at 120Hz"
+        },
+        {
+          "name": "land_soft",
+          "sourceFBX": "Crouched Walking.fbx, frame 1 + anatomical neutral (grounded landing adaptation)",
+          "durationSeconds": 0.4,
+          "loop": false,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 153.2746788607255,
+          "pelvisHeightRangeMetres": [
+            0.7971804738044739,
+            0.8349999785423279
+          ],
+          "floorCorrectionRangeMetres": [
+            2.977309598861666e-08,
+            0.0378195121884346
+          ],
+          "sourceFrameRanges": {
+            "source": "Crouched Walking.fbx",
+            "frames": [
+              1,
+              1
+            ],
+            "exportFrames": [
+              1,
+              13
+            ],
+            "fps": 30
+          }
+        },
+        {
+          "name": "idle",
+          "sourceFBX": "Ninja Idle.fbx",
+          "durationSeconds": 9.166666666666666,
+          "loop": true,
+          "rootMotion": false,
+          "horizontalRootTravelMetres": 0,
+          "sourceMotionScale": 1.5566594963123301,
+          "pelvisHeightRangeMetres": [
+            0.8355662822723389,
+            0.8397237062454224
+          ],
+          "floorCorrectionRangeMetres": [
+            -0.004723731428384781,
+            -0.0005663283518515527
+          ],
+          "aliasOf": "idle_breathe"
+        }
+      ],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\汐\\汐.blend",
+          "sha256": "c3933b339c6afb9f7caae1320d4846302441d1300698e3e6935ed63b65d8d5d9"
+        },
+        {
+          "file": "角色\\汐\\汐.fbm\\汐_basecolor.jpg",
+          "sha256": "e27ad7866d5236929b57d9bd190b5fb3b47c9a96964b5de8d5245f40b062b047"
+        },
+        {
+          "file": "GAME\\Crouched Walking.fbx",
+          "sha256": "cac37d5fa6a34ea42bcabd285ce5f95036b7eca343176a415e9f3d73561ee910"
+        },
+        {
+          "file": "GAME\\Jump.fbx",
+          "sha256": "913e5bf7d3fab102ee6ee28d00438e4c9ce7e96f1243d3a42e24f692d5b5df81"
+        },
+        {
+          "file": "GAME\\Ninja Idle.fbx",
+          "sha256": "d1af993cb45065dc999e7e8658a5954dca89a6bcde2a861a28020a2a368ec0e0"
+        },
+        {
+          "file": "GAME\\Run.fbx",
+          "sha256": "ad9ad2292266ebedf364e4192333674894c6b3836237e3ba933ffc9e60b10e45"
+        },
+        {
+          "file": "GAME\\Walking.fbx",
+          "sha256": "52794539cd02117b7dc3a8092115ecdc451f468f707e33a84803f33f4fdff81d"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin",
+        "23-bone anatomical rig fitted to static source A-pose",
+        "Four normalized weights maximum, actual exported JOINTS/WEIGHTS",
+        "Source FBX anatomical directions retargeted, per-clip source scale normalized",
+        "Horizontal root motion stripped, skinned sole grounding baked",
+        "Jump pose in place: world altitude belongs to runtime physics",
+        "Actual exported skinned sole sampled at 120 Hz; exact GLB pelvis channel corrected before final SHA",
+        "Continuous left/right priors, 150 rounds of actual topology influence smoothing, compact coat torso/cuff palette",
+        "Relaxed source ninja idle; walk/run arm counter-swing derives from original FBX leg phase",
+        "Run keeps source leg cycle and adds anatomically bent elbows instead of source arms held behind",
+        "1.20s composed jump: crouch preparation, explicit paired knee tuck and arm support, smooth landing; genuine 0.40s land_soft"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "cosmos-luo",
+      "name": "拾光者·洛",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 1.78,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/cosmos-luo/cosmos-luo-lod0.glb",
+          "sha256": "96f044d598bee2cf2a1ade41615e51bce20b07ba8b62c5ac3026efe0204907e4",
+          "bytes": 1191356,
+          "triangles": 19995
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\拾光者·洛\\拾光者·洛.blend",
+          "sha256": "babfd29a0b1d0da8d65e40b187f8209e7a7b46cc2e18bd246ef877eb1272f564"
+        },
+        {
+          "file": "角色\\拾光者·洛\\拾光者·洛.fbm\\拾光者·洛_basecolor.jpg",
+          "sha256": "02f310c334c796c6b73bbdb61aaa08a2560e6ed83d2e82545c7c597b87467294"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "cosmos-xian",
+      "name": "轨迹员·弦",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 1.83,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/cosmos-xian/cosmos-xian-lod0.glb",
+          "sha256": "e68514b42b405222134e1829716cafc358681a9aedfd76d9b99785264b887f5e",
+          "bytes": 851200,
+          "triangles": 11026
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\轨迹员·弦\\轨迹员·弦.blend",
+          "sha256": "8167226a391f27d1d70a4f9f087c5cda65f1665810d9b85cb0555ce3ac0f71ba"
+        },
+        {
+          "file": "角色\\轨迹员·弦\\轨迹员·弦.fbm\\轨迹员·弦_basecolor.jpg",
+          "sha256": "7a44d6dbfd8002580fb2f025f52a6c0da14d0a68beabd3dc84e4cd654586c28f"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "dawn-cheng",
+      "name": "远行者·澄",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 1.8,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/dawn-cheng/dawn-cheng-lod0.glb",
+          "sha256": "2007f9088f0f398f67d6e28fa23f3dfb171e872f9a9801185986d45e87ed810d",
+          "bytes": 1230296,
+          "triangles": 20327
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\远行者·澄\\远行者·澄.blend",
+          "sha256": "26fd538f7a460310db10d3602dc45631f7d6889908c65109556392bb16269740"
+        },
+        {
+          "file": "角色\\远行者·澄\\远行者·澄.fbm\\远行者·澄_basecolor.jpg",
+          "sha256": "ab2dae48d3aff1fd6163945533d7dfac75f39218d207b7aec4ca565dde1489d4"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "dawn-shuo",
+      "name": "风筝守望者·朔",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 1.85,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/dawn-shuo/dawn-shuo-lod0.glb",
+          "sha256": "4448786fab7e719ccc4d16a916d49823d853b42fbce50ac96e5be0d29450a3c7",
+          "bytes": 1215572,
+          "triangles": 19345
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\风筝守望者·朔\\风筝守望者·朔.blend",
+          "sha256": "9b49ccbb97fe7231a7750d7953bf2e26b25627e8dc3a5adaefde278f85d1d40f"
+        },
+        {
+          "file": "角色\\风筝守望者·朔\\风筝守望者·朔.fbm\\风筝守望者·朔_basecolor.jpg",
+          "sha256": "9b6dffeea32b6733c2d7b5bcb22ed58730b24f9067e06c0f3f6de1ae343cec2a"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "dream-jingyu",
+      "name": "镜羽",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 1.85,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/dream-jingyu/dream-jingyu-lod0.glb",
+          "sha256": "acfb579178d1adad6acff72bc40135535ea2d5e55084ea4a3d6cfe7a04e45bfd",
+          "bytes": 1066068,
+          "triangles": 18935
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\镜羽\\镜羽.blend",
+          "sha256": "122171376f0ee24f422e6c6e728f752d01be69c15a6c41fccf7add2683847529"
+        },
+        {
+          "file": "角色\\镜羽\\镜羽.fbm\\镜羽_basecolor.jpg",
+          "sha256": "b675686016eeda17073e6fafadf7cb863dd4b4d71f7b557e0a7e474dba136818"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "dream-mian",
+      "name": "灯匠·眠",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 1.68,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/dream-mian/dream-mian-lod0.glb",
+          "sha256": "bf26c468787bebb70ffc681fe20b15f581e347988eb50b1909fcdd52a18d775e",
+          "bytes": 1283744,
+          "triangles": 20382
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\灯匠·眠\\灯匠·眠.blend",
+          "sha256": "d0d1c4a0a02d57a034194f185d0f50b7e6d7a6f93f6ae7d02a7dc733aac971c5"
+        },
+        {
+          "file": "角色\\灯匠·眠\\灯匠·眠.fbm\\灯匠·眠_basecolor.jpg",
+          "sha256": "46712d91346712f4f16554d8fa774ec802ad390462bfd9e9c9096608a370385c"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "forest-ju",
+      "name": "根语者·榉",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 2.3,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/forest-ju/forest-ju-lod0.glb",
+          "sha256": "a208b6ee59c3f9c59a8c0222da84c5942e98f3ab9e7956662c61900dcafced0e",
+          "bytes": 809756,
+          "triangles": 9083
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\根语者·榉\\根语者·榉.blend",
+          "sha256": "1d8e35646e0f4e05c82501b8b4efe370c26df555bea13f87b87c44800fa545ca"
+        },
+        {
+          "file": "角色\\根语者·榉\\根语者·榉.fbm\\根语者·榉_basecolor.jpg",
+          "sha256": "0fa2e9e16e65baf9d4a43f7e2008e34cf52366eca27f9fd8f62a507bc7acd260"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "forest-ran",
+      "name": "苔光鹿·苒",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 2.0,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/forest-ran/forest-ran-lod0.glb",
+          "sha256": "46d817a052cce21ba1bad14153a4d44d75f074c5a9736a8ea75bed0bb87543dc",
+          "bytes": 908952,
+          "triangles": 10158
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\苔光鹿·苒\\苔光鹿·苒.blend",
+          "sha256": "58887442c5efc8f6b0fcab8a57140398cc9dd8de75f3c486ae554b699344955e"
+        },
+        {
+          "file": "角色\\苔光鹿·苒\\苔光鹿·苒.fbm\\苔光鹿·苒_basecolor.jpg",
+          "sha256": "2a7f0fdd70a2623e264b90db345125972a7addf3c3a909f736750fe090c2e966"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "tide-lights",
+      "name": "灯群",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 1.55,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/tide-lights/tide-lights-lod0.glb",
+          "sha256": "0c7cea0a34f2c9eef12116fbcc2aceed187989cf408d55e9ebf5a3616f602d19",
+          "bytes": 577736,
+          "triangles": 7812
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\灯群\\灯群.blend",
+          "sha256": "8d24be58f4208938f90b88e2d6b981857a722b2e62d815b622828bcdc1ec609c"
+        },
+        {
+          "file": "角色\\灯群\\灯群.fbm\\灯群_basecolor.jpg",
+          "sha256": "9260cd8c825439ad810d62609cb0c1d67a63392546d65f1429a5f9a7fb6f1976"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    },
+    {
+      "id": "tide-michao",
+      "name": "回声鲸·弥潮",
+      "kind": "npc",
+      "version": "noma-user-characters-2026-10-15-v1",
+      "status": "awaiting_review",
+      "heightMeters": 2.3,
+      "coordinates": {
+        "units": "metres",
+        "up": "+Y",
+        "forward": "+Z",
+        "origin": "feet"
+      },
+      "levels": [
+        {
+          "lod": 0,
+          "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/tide-michao/tide-michao-lod0.glb",
+          "sha256": "89f5290affc0ce407e03cb3950d7994153d519bea3ed00e476ff6feb2b36800c",
+          "bytes": 630912,
+          "triangles": 10117
+        }
+      ],
+      "animations": [],
+      "appearanceMode": "authored",
+      "capabilities": {
+        "outfitColors": false,
+        "accessoryToggle": false,
+        "emblemPosition": false,
+        "facialMorphs": false
+      },
+      "sources": [
+        {
+          "file": "角色\\回声鲸·弥潮\\回声鲸·弥潮.blend",
+          "sha256": "161569cf65966b66950f2f3ac581aea2e868376d73e96854ee7ab07a110c4edf"
+        },
+        {
+          "file": "角色\\回声鲸·弥潮\\回声鲸·弥潮.fbm\\回声鲸·弥潮_basecolor.jpg",
+          "sha256": "224740cad0f2d2518b92a08bb5cba8a7defdf14ce79aa29024109bd2e9642e43"
+        }
+      ],
+      "processing": [
+        "Original UV retained without vertical flip",
+        "Source +X face rotated to Blender -Y / glTF +Z",
+        "Embedded 1024px sRGB JPEG basecolor",
+        "Canonical metre height, feet origin"
+      ],
+      "checks": {
+        "sourceInspected": true,
+        "browserIntegrated": false,
+        "worldLightingReviewed": false,
+        "physicalMobileReviewed": false
+      },
+      "limitations": [
+        "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+        "No facial morphs in the source",
+        "Clothing is skinned with body; no cloth simulation",
+        "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+      ],
+      "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+    }
+  ]
+}

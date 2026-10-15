@@ -1,0 +1,60 @@
+{
+  "id": "dream-jingyu",
+  "name": "镜羽",
+  "kind": "npc",
+  "version": "noma-user-characters-2026-10-15-v1",
+  "status": "awaiting_review",
+  "heightMeters": 1.85,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/dream-jingyu/dream-jingyu-lod0.glb",
+      "sha256": "acfb579178d1adad6acff72bc40135535ea2d5e55084ea4a3d6cfe7a04e45bfd",
+      "bytes": 1066068,
+      "triangles": 18935
+    }
+  ],
+  "animations": [],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "sources": [
+    {
+      "file": "角色\\镜羽\\镜羽.blend",
+      "sha256": "122171376f0ee24f422e6c6e728f752d01be69c15a6c41fccf7add2683847529"
+    },
+    {
+      "file": "角色\\镜羽\\镜羽.fbm\\镜羽_basecolor.jpg",
+      "sha256": "b675686016eeda17073e6fafadf7cb863dd4b4d71f7b557e0a7e474dba136818"
+    }
+  ],
+  "processing": [
+    "Original UV retained without vertical flip",
+    "Source +X face rotated to Blender -Y / glTF +Z",
+    "Embedded 1024px sRGB JPEG basecolor",
+    "Canonical metre height, feet origin"
+  ],
+  "checks": {
+    "sourceInspected": true,
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalMobileReviewed": false
+  },
+  "limitations": [
+    "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+    "No facial morphs in the source",
+    "Clothing is skinned with body; no cloth simulation",
+    "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+  ],
+  "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+}

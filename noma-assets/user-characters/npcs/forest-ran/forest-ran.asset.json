@@ -1,0 +1,60 @@
+{
+  "id": "forest-ran",
+  "name": "苔光鹿·苒",
+  "kind": "npc",
+  "version": "noma-user-characters-2026-10-15-v1",
+  "status": "awaiting_review",
+  "heightMeters": 2.0,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/forest-ran/forest-ran-lod0.glb",
+      "sha256": "46d817a052cce21ba1bad14153a4d44d75f074c5a9736a8ea75bed0bb87543dc",
+      "bytes": 908952,
+      "triangles": 10158
+    }
+  ],
+  "animations": [],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "sources": [
+    {
+      "file": "角色\\苔光鹿·苒\\苔光鹿·苒.blend",
+      "sha256": "58887442c5efc8f6b0fcab8a57140398cc9dd8de75f3c486ae554b699344955e"
+    },
+    {
+      "file": "角色\\苔光鹿·苒\\苔光鹿·苒.fbm\\苔光鹿·苒_basecolor.jpg",
+      "sha256": "2a7f0fdd70a2623e264b90db345125972a7addf3c3a909f736750fe090c2e966"
+    }
+  ],
+  "processing": [
+    "Original UV retained without vertical flip",
+    "Source +X face rotated to Blender -Y / glTF +Z",
+    "Embedded 1024px sRGB JPEG basecolor",
+    "Canonical metre height, feet origin"
+  ],
+  "checks": {
+    "sourceInspected": true,
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalMobileReviewed": false
+  },
+  "limitations": [
+    "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+    "No facial morphs in the source",
+    "Clothing is skinned with body; no cloth simulation",
+    "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+  ],
+  "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+}

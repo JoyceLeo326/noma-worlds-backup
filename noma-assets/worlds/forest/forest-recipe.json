@@ -1,0 +1,71 @@
+{
+  "version": "forest-production-1.0.0",
+  "contentVersion": "noma-content-1.0.0",
+  "worldId": "forest",
+  "units": "metres",
+  "coordinates": "right-handed, Y-up, entry-facing -Z",
+  "bounds": {
+    "minX": -75,
+    "maxX": 75,
+    "minZ": -112,
+    "maxZ": 13
+  },
+  "factory": "createForestWorld",
+  "rendererOwnedBy": "shared-runtime",
+  "seeded": true,
+  "externalArtDownloads": [],
+  "sourceAssets": [
+    {
+      "id": "forest-procedural-index",
+      "sha256": "68e2452b9992826d88f14f118bb02f98a830ca8d28ea6f0ff27b599b5a11829a"
+    },
+    {
+      "id": "forest-procedural-terrain",
+      "sha256": "ee761894ef258dbba0072aed44e2d739cc75359cc0a874d1d743a7212c82c989"
+    },
+    {
+      "id": "forest-procedural-vegetation",
+      "sha256": "ae04a520ed5e2960254aa11014b02cd3943f3ba3155130e89ee9e1b7f95c88f7"
+    },
+    {
+      "id": "forest-procedural-npcs",
+      "sha256": "c457fe1416abb3d7efddb2e0d2ac624a0d0b9d358b0502610a2b322b814f0823"
+    },
+    {
+      "id": "forest-procedural-ecology",
+      "sha256": "52c3b02cc0f0a0449414a171c838521d0e65f899cf8c3f639eb58d1d674fe9cf"
+    }
+  ],
+  "requirements": {
+    "terrain": "REQ-FOREST-002",
+    "details": [
+      "REQ-FOREST-101",
+      "REQ-FOREST-102",
+      "REQ-FOREST-103",
+      "REQ-FOREST-104",
+      "REQ-FOREST-105",
+      "REQ-FOREST-106",
+      "REQ-FOREST-107",
+      "REQ-FOREST-108",
+      "REQ-FOREST-109",
+      "REQ-FOREST-110",
+      "REQ-FOREST-111",
+      "REQ-FOREST-112"
+    ],
+    "discoveries": [
+      "REQ-FOREST-201",
+      "REQ-FOREST-202",
+      "REQ-FOREST-203"
+    ],
+    "npcs": [
+      "REQ-FOREST-301",
+      "REQ-FOREST-302"
+    ],
+    "core": [
+      "REQ-FOREST-401",
+      "REQ-FOREST-402",
+      "REQ-FOREST-403"
+    ]
+  },
+  "status": "awaiting_review"
+}

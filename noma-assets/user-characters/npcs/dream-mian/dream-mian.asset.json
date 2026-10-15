@@ -1,0 +1,60 @@
+{
+  "id": "dream-mian",
+  "name": "灯匠·眠",
+  "kind": "npc",
+  "version": "noma-user-characters-2026-10-15-v1",
+  "status": "awaiting_review",
+  "heightMeters": 1.68,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/dream-mian/dream-mian-lod0.glb",
+      "sha256": "bf26c468787bebb70ffc681fe20b15f581e347988eb50b1909fcdd52a18d775e",
+      "bytes": 1283744,
+      "triangles": 20382
+    }
+  ],
+  "animations": [],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "sources": [
+    {
+      "file": "角色\\灯匠·眠\\灯匠·眠.blend",
+      "sha256": "d0d1c4a0a02d57a034194f185d0f50b7e6d7a6f93f6ae7d02a7dc733aac971c5"
+    },
+    {
+      "file": "角色\\灯匠·眠\\灯匠·眠.fbm\\灯匠·眠_basecolor.jpg",
+      "sha256": "46712d91346712f4f16554d8fa774ec802ad390462bfd9e9c9096608a370385c"
+    }
+  ],
+  "processing": [
+    "Original UV retained without vertical flip",
+    "Source +X face rotated to Blender -Y / glTF +Z",
+    "Embedded 1024px sRGB JPEG basecolor",
+    "Canonical metre height, feet origin"
+  ],
+  "checks": {
+    "sourceInspected": true,
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalMobileReviewed": false
+  },
+  "limitations": [
+    "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+    "No facial morphs in the source",
+    "Clothing is skinned with body; no cloth simulation",
+    "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+  ],
+  "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+}

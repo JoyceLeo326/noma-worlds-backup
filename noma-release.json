@@ -1,0 +1,11 @@
+{
+  "product": "NOMA",
+  "edition": "worlds",
+  "commit": "e93aebca931c37a50b768a8710a08baf562e37dc",
+  "builtFrom": "committed-worktree",
+  "builtAt": "2026-10-14T23:54:15.4098279Z",
+  "assetVersion": "noma-user-characters-2026-10-15-v3",
+  "update": "camera-follow-and-traversal",
+  "musicIncluded": false,
+  "classicUrl": "https://noma-bijing.netlify.app/"
+}

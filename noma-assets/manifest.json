@@ -1,0 +1,768 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifestVersion": "noma-assets-1.0.0",
+  "assets": [
+    {
+      "id": "asset-companions-cloud-cloud-lod0-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/cloud/cloud-lod0.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 589808,
+      "dependencies": [],
+      "fallbackId": "asset-companions-cloud-cloud-lod1-glb",
+      "lod": 0,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 147452,
+      "sha256": "b962e5d2f8a9fc95d42911b0c94809911dec49956b110d1eb1b05d49c998fa70"
+    },
+    {
+      "id": "asset-companions-cloud-cloud-lod1-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/cloud/cloud-lod1.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 479168,
+      "dependencies": [],
+      "fallbackId": "asset-companions-cloud-cloud-lod2-glb",
+      "lod": 1,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 119792,
+      "sha256": "dced26974015af3025429c7984096fc483b0e78fed9d141829a02751f5700e0b"
+    },
+    {
+      "id": "asset-companions-cloud-cloud-lod2-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/cloud/cloud-lod2.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 395392,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 2,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 98848,
+      "sha256": "19c649212a3373cd7071c7b6fcb889fdf25b2a9c6a24f7ee58c46a16354a776a"
+    },
+    {
+      "id": "asset-companions-cloud-cloud-asset-json",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/cloud/cloud.asset.json",
+      "kind": "data",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 20328,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": null,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 5082,
+      "sha256": "fb42b7ffb54965532e10ab38f711a76941f2e82ae62a48386af0091733a64b7c"
+    },
+    {
+      "id": "asset-companions-drop-drop-lod0-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/drop/drop-lod0.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 643440,
+      "dependencies": [],
+      "fallbackId": "asset-companions-drop-drop-lod1-glb",
+      "lod": 0,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 160860,
+      "sha256": "fb01605f5474163115024920bb9c73456e5812a3e9c87fd937a9616d4d3dc73c"
+    },
+    {
+      "id": "asset-companions-drop-drop-lod1-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/drop/drop-lod1.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 487024,
+      "dependencies": [],
+      "fallbackId": "asset-companions-drop-drop-lod2-glb",
+      "lod": 1,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 121756,
+      "sha256": "d647c3725457f24b2752922102348a2daaa2632f07ab9e5708c3aed77faedfbb"
+    },
+    {
+      "id": "asset-companions-drop-drop-lod2-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/drop/drop-lod2.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 376288,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 2,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 94072,
+      "sha256": "c8ef6e7bea70de57c4fe45667d1d745679597bcc91d73192a3a38bbd5e6dc2ce"
+    },
+    {
+      "id": "asset-companions-drop-drop-asset-json",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/drop/drop.asset.json",
+      "kind": "data",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 21256,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": null,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 5314,
+      "sha256": "12e3251822c5ef50d6a0c1dc47693d4fcf51b36aecd4cdd9e455daf6538fcefa"
+    },
+    {
+      "id": "asset-companions-ember-ember-lod0-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/ember/ember-lod0.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 775040,
+      "dependencies": [],
+      "fallbackId": "asset-companions-ember-ember-lod1-glb",
+      "lod": 0,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 193760,
+      "sha256": "07d58b17e4784b8fce0a44a5d782bc1e90cf13b2ba55a50ba7d15ee05c2ef31b"
+    },
+    {
+      "id": "asset-companions-ember-ember-lod1-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/ember/ember-lod1.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 686064,
+      "dependencies": [],
+      "fallbackId": "asset-companions-ember-ember-lod2-glb",
+      "lod": 1,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 171516,
+      "sha256": "1a303c63372a7d2b28103966b630e97de958d0c5a8ecbfe91ad44555ff318268"
+    },
+    {
+      "id": "asset-companions-ember-ember-lod2-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/ember/ember-lod2.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 611120,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 2,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 152780,
+      "sha256": "177385a98d891c7a22db7813330fae2ea3a59d16ef0aa92a806243d5465c269b"
+    },
+    {
+      "id": "asset-companions-ember-ember-asset-json",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/ember/ember.asset.json",
+      "kind": "data",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 21404,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": null,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 5351,
+      "sha256": "c2ce13b976766f10d19b1fef6f4db97d12c07c186acb045e0bb90f6f53fac53b"
+    },
+    {
+      "id": "asset-companions-fawn-fawn-lod0-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/fawn/fawn-lod0.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 621088,
+      "dependencies": [],
+      "fallbackId": "asset-companions-fawn-fawn-lod1-glb",
+      "lod": 0,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 155272,
+      "sha256": "ff48c4e5340c88e0e15dea9abf38c2bbe1f016fc54b7066e83be898ed6654d81"
+    },
+    {
+      "id": "asset-companions-fawn-fawn-lod1-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/fawn/fawn-lod1.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 616448,
+      "dependencies": [],
+      "fallbackId": "asset-companions-fawn-fawn-lod2-glb",
+      "lod": 1,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 154112,
+      "sha256": "2eaea60fd3fcccffce6a090e83573cadbca5b261dce8763985df2a1c1d8a3ffd"
+    },
+    {
+      "id": "asset-companions-fawn-fawn-lod2-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/fawn/fawn-lod2.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 482320,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 2,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 120580,
+      "sha256": "f04545eafc0cda24333c601a4e2afe2d3e705d98fdd418cd7ab9d7c1efa0c426"
+    },
+    {
+      "id": "asset-companions-fawn-fawn-asset-json",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/fawn/fawn.asset.json",
+      "kind": "data",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 21184,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": null,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 5296,
+      "sha256": "1c423a8d681e5e2df27480d4f50460932cf9c74ff8503595eb76ab8c1b7b5ebb"
+    },
+    {
+      "id": "asset-companions-orbit-orbit-lod0-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/orbit/orbit-lod0.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 576528,
+      "dependencies": [],
+      "fallbackId": "asset-companions-orbit-orbit-lod1-glb",
+      "lod": 0,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 144132,
+      "sha256": "302397ec21f4f64646cc13a45bedd4aeefae6a2eea492495f3456b1e9b7d21d8"
+    },
+    {
+      "id": "asset-companions-orbit-orbit-lod1-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/orbit/orbit-lod1.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 438624,
+      "dependencies": [],
+      "fallbackId": "asset-companions-orbit-orbit-lod2-glb",
+      "lod": 1,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 109656,
+      "sha256": "aa279dba165d663675bc0b3d632abbffc115aad5552fa2a9d80b74679c14821d"
+    },
+    {
+      "id": "asset-companions-orbit-orbit-lod2-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/orbit/orbit-lod2.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 342880,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 2,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 85720,
+      "sha256": "a5d5adbd2d663bfdebcff1e317df29735e2848934d7c53cfdbdea740f2035340"
+    },
+    {
+      "id": "asset-companions-orbit-orbit-asset-json",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/orbit/orbit.asset.json",
+      "kind": "data",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 20324,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": null,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 5081,
+      "sha256": "c9e3d36d6e644640d9b457650324ddf6ffbf43b276c1bac3d7c21a0be3f8969d"
+    },
+    {
+      "id": "asset-companions-sprout-sprout-lod0-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/sprout/sprout-lod0.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 1482208,
+      "dependencies": [],
+      "fallbackId": "asset-companions-sprout-sprout-lod1-glb",
+      "lod": 0,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 370552,
+      "sha256": "cfaeb08b5e56bccdc50edf7136ef6a1ce3ba7ce0afd7884d2f07b3b4d9e779e5"
+    },
+    {
+      "id": "asset-companions-sprout-sprout-lod1-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/sprout/sprout-lod1.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": true,
+      "residentBytesEstimate": 1197824,
+      "dependencies": [],
+      "fallbackId": "asset-companions-sprout-sprout-lod2-glb",
+      "lod": 1,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 299456,
+      "sha256": "3ac01c21d169918e12d65db508baa577966886858b4e347d38e9fcf716bf5c13"
+    },
+    {
+      "id": "asset-companions-sprout-sprout-lod2-glb",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/sprout/sprout-lod2.glb",
+      "kind": "glb",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 951728,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 2,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 237932,
+      "sha256": "c807a62e6501194e0857f1bf0b6b2fe955d0bccef8714cc36f588ae459f38364"
+    },
+    {
+      "id": "asset-companions-sprout-sprout-asset-json",
+      "version": "noma-characters-1.1.0",
+      "url": "noma-assets/companions/sprout/sprout.asset.json",
+      "kind": "data",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 20384,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": null,
+      "license": {
+        "sourceUrl": "project://noma/characters/original-production",
+        "author": "NOMA project; Codex-assisted Blender production",
+        "identifier": "LicenseRef-NOMA-Local-Production",
+        "evidencePath": "docs/noma/assets/characters-manifest.json",
+        "acquiredAt": "2026-10-08T08:32:53.298451+00:00",
+        "modifications": [
+          "User authorized local project production. Source design public redistribution rights not established."
+        ],
+        "review": "local-reference-only"
+      },
+      "downloadBytes": 5096,
+      "sha256": "699ac45371c974a2fd9af8aec7ccec93062cc4d92cf1fc3615522dd2f2556126"
+    },
+    {
+      "id": "asset-polyhaven-forest-ground-04-diff-1k",
+      "version": "polyhaven-materials-1.0.0",
+      "url": "noma-assets/materials/polyhaven/forest_ground_04/forest_ground_04_diff_1k.jpg",
+      "kind": "texture",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 5592406,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 0,
+      "license": {
+        "sourceUrl": "https://polyhaven.com/a/forest_ground_04",
+        "author": "Rob Tuytel; Rico Cilliers",
+        "identifier": "CC0-1.0",
+        "evidencePath": "docs/noma/assets/polyhaven-forest_ground_04-source.md",
+        "acquiredAt": "2026-09-29T00:59:43.0524575Z",
+        "modifications": [
+          "Original 1K file preserved byte-for-byte; forest material applies bounded albedo modulation, restrained normal scale and metre-based UVs at runtime"
+        ],
+        "review": "distribution-cleared"
+      },
+      "downloadBytes": 1113899,
+      "sha256": "50a4dda30875020c64385261aa7e00e2155b592302fa6794165f58fae73cbd2c"
+    },
+    {
+      "id": "asset-polyhaven-forest-ground-04-nor-gl-1k",
+      "version": "polyhaven-materials-1.0.0",
+      "url": "noma-assets/materials/polyhaven/forest_ground_04/forest_ground_04_nor_gl_1k.png",
+      "kind": "texture",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 5592406,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 0,
+      "license": {
+        "sourceUrl": "https://polyhaven.com/a/forest_ground_04",
+        "author": "Rob Tuytel; Rico Cilliers",
+        "identifier": "CC0-1.0",
+        "evidencePath": "docs/noma/assets/polyhaven-forest_ground_04-source.md",
+        "acquiredAt": "2026-09-29T00:59:43.0524575Z",
+        "modifications": [
+          "Original 1K file preserved byte-for-byte; forest material applies bounded albedo modulation, restrained normal scale and metre-based UVs at runtime"
+        ],
+        "review": "distribution-cleared"
+      },
+      "downloadBytes": 2537954,
+      "sha256": "dc30ffdf75d28b2f02831201b377cf8cce4594d86bbcf46ba711dfcd35a5fcf0"
+    },
+    {
+      "id": "asset-polyhaven-forest-ground-04-rough-1k",
+      "version": "polyhaven-materials-1.0.0",
+      "url": "noma-assets/materials/polyhaven/forest_ground_04/forest_ground_04_rough_1k.png",
+      "kind": "texture",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 5592406,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 0,
+      "license": {
+        "sourceUrl": "https://polyhaven.com/a/forest_ground_04",
+        "author": "Rob Tuytel; Rico Cilliers",
+        "identifier": "CC0-1.0",
+        "evidencePath": "docs/noma/assets/polyhaven-forest_ground_04-source.md",
+        "acquiredAt": "2026-09-29T00:59:43.0524575Z",
+        "modifications": [
+          "Original 1K file preserved byte-for-byte; forest material applies bounded albedo modulation, restrained normal scale and metre-based UVs at runtime"
+        ],
+        "review": "distribution-cleared"
+      },
+      "downloadBytes": 661111,
+      "sha256": "d5827ac9071ae7cf98920bf1166b2b343ac0349fd3b0dc1b570f29ae67bea62c"
+    },
+    {
+      "id": "asset-polyhaven-mossy-rock-diff-1k",
+      "version": "polyhaven-materials-1.0.0",
+      "url": "noma-assets/materials/polyhaven/mossy_rock/mossy_rock_diff_1k.jpg",
+      "kind": "texture",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 5592406,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 0,
+      "license": {
+        "sourceUrl": "https://polyhaven.com/a/mossy_rock",
+        "author": "Rob Tuytel",
+        "identifier": "CC0-1.0",
+        "evidencePath": "docs/noma/assets/polyhaven-mossy_rock-source.md",
+        "acquiredAt": "2026-09-29T00:59:43.0524575Z",
+        "modifications": [
+          "Original 1K file preserved byte-for-byte; forest material applies bounded albedo modulation, restrained normal scale and metre-based UVs at runtime"
+        ],
+        "review": "distribution-cleared"
+      },
+      "downloadBytes": 1124438,
+      "sha256": "4dbf37f1b0465c9c8914213163923be159716f5b97fb6946437b6c5e143ef540"
+    },
+    {
+      "id": "asset-polyhaven-mossy-rock-nor-gl-1k",
+      "version": "polyhaven-materials-1.0.0",
+      "url": "noma-assets/materials/polyhaven/mossy_rock/mossy_rock_nor_gl_1k.png",
+      "kind": "texture",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 5592406,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 0,
+      "license": {
+        "sourceUrl": "https://polyhaven.com/a/mossy_rock",
+        "author": "Rob Tuytel",
+        "identifier": "CC0-1.0",
+        "evidencePath": "docs/noma/assets/polyhaven-mossy_rock-source.md",
+        "acquiredAt": "2026-09-29T00:59:43.0524575Z",
+        "modifications": [
+          "Original 1K file preserved byte-for-byte; forest material applies bounded albedo modulation, restrained normal scale and metre-based UVs at runtime"
+        ],
+        "review": "distribution-cleared"
+      },
+      "downloadBytes": 2154481,
+      "sha256": "08b01ee4387e4bb3433f901c62acc40d4be8d6d4a481e5fb508400cb4664d82e"
+    },
+    {
+      "id": "asset-polyhaven-mossy-rock-rough-1k",
+      "version": "polyhaven-materials-1.0.0",
+      "url": "noma-assets/materials/polyhaven/mossy_rock/mossy_rock_rough_1k.png",
+      "kind": "texture",
+      "scope": "shared",
+      "critical": false,
+      "residentBytesEstimate": 5592406,
+      "dependencies": [],
+      "fallbackId": null,
+      "lod": 0,
+      "license": {
+        "sourceUrl": "https://polyhaven.com/a/mossy_rock",
+        "author": "Rob Tuytel",
+        "identifier": "CC0-1.0",
+        "evidencePath": "docs/noma/assets/polyhaven-mossy_rock-source.md",
+        "acquiredAt": "2026-09-29T00:59:43.0524575Z",
+        "modifications": [
+          "Original 1K file preserved byte-for-byte; forest material applies bounded albedo modulation, restrained normal scale and metre-based UVs at runtime"
+        ],
+        "review": "distribution-cleared"
+      },
+      "downloadBytes": 740983,
+      "sha256": "ed620db809bf72088bc4b5d6dbc48298256a4997a51aca929a54c1824301e9c5"
+    }
+  ],
+  "entryAssets": [
+    "asset-companions-sprout-sprout-lod1-glb"
+  ],
+  "spaces": {
+    "forest": [],
+    "tide": [],
+    "cosmos": [],
+    "dream": [],
+    "dawn": [],
+    "nexus": [],
+    "return": []
+  }
+}

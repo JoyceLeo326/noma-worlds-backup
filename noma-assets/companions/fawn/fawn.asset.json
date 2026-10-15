@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.0.0",
+  "assetId": "fawn",
+  "displayName": "微鹿",
+  "kind": "companion",
+  "version": "noma-companions-1.1.0",
+  "contentVersion": "noma-companions-1.1.0",
+  "status": "awaiting_review",
+  "unit": "meter",
+  "upAxis": "+Y",
+  "forwardAxis": "+Z",
+  "exports": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/companions/fawn/fawn-lod0.glb",
+      "sha256": "ff48c4e5340c88e0e15dea9abf38c2bbe1f016fc54b7066e83be898ed6654d81",
+      "bytes": 155272,
+      "metrics": {
+        "vertices": 898,
+        "triangles": 1740,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.03099999949336052,
+            -0.16955028474330902,
+            0.008074023760855198
+          ],
+          "max": [
+            0.03099999949336052,
+            0.13819976150989532,
+            0.29600000381469727
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    },
+    {
+      "lod": 1,
+      "url": "/noma-worlds-backup/noma-assets/companions/fawn/fawn-lod1.glb",
+      "sha256": "2eaea60fd3fcccffce6a090e83573cadbca5b261dce8763985df2a1c1d8a3ffd",
+      "bytes": 154112,
+      "metrics": {
+        "vertices": 881,
+        "triangles": 1706,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.03099999949336052,
+            -0.16955028474330902,
+            0.008074023760855198
+          ],
+          "max": [
+            0.03099999949336052,
+            0.13817042112350464,
+            0.29600000381469727
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    },
+    {
+      "lod": 2,
+      "url": "/noma-worlds-backup/noma-assets/companions/fawn/fawn-lod2.glb",
+      "sha256": "f04545eafc0cda24333c601a4e2afe2d3e705d98fdd418cd7ab9d7c1efa0c426",
+      "bytes": 120580,
+      "metrics": {
+        "vertices": 498,
+        "triangles": 940,
+        "materials": 3,
+        "blenderSkinnedMeshes": 1,
+        "estimatedThreeSkinnedPrimitives": 3,
+        "boundsBlenderMeters": {
+          "min": [
+            -0.03099999949336052,
+            -0.16955028474330902,
+            0.008074023760855198
+          ],
+          "max": [
+            0.03099999949336052,
+            0.13819773495197296,
+            0.29600000381469727
+          ]
+        }
+      },
+      "threeSkinnedMeshes": 3
+    }
+  ],
+  "animationClips": [
+    {
+      "name": "idle",
+      "durationSeconds": 2.8,
+      "loop": true,
+      "frameRange": [
+        1,
+        85
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "observe",
+      "durationSeconds": 3.6,
+      "loop": false,
+      "frameRange": [
+        1,
+        109
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "approach",
+      "durationSeconds": 2.4,
+      "loop": false,
+      "frameRange": [
+        1,
+        73
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "follow",
+      "durationSeconds": 2.4,
+      "loop": true,
+      "frameRange": [
+        1,
+        73
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "rest",
+      "durationSeconds": 4.8,
+      "loop": true,
+      "frameRange": [
+        1,
+        145
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    },
+    {
+      "name": "respond",
+      "durationSeconds": 2.6,
+      "loop": false,
+      "frameRange": [
+        1,
+        79
+      ],
+      "rootMotion": "local additive; no world route or shoulder height"
+    }
+  ],
+  "coordinateSystem": {
+    "units": "meters",
+    "blenderUp": "+Z",
+    "blenderForward": "-Y",
+    "gltfUp": "+Y",
+    "gltfForward": "+Z",
+    "origin": "local attachment root at base; no world shoulder height"
+  },
+  "runtimeHints": {
+    "placement": "Place outer object at chosen follow/held anchor; animate the inner Root.",
+    "clipLoopModes": {
+      "idle": "repeat",
+      "observe": "once",
+      "approach": "once",
+      "follow": "repeat",
+      "rest": "repeat",
+      "respond": "once"
+    },
+    "reducedMotion": "Freeze idle/rest at an attractive frame; keep navigation in outer object.",
+    "collision": "Visual companion: avoid using tiny model geometry for world collision."
+  },
+  "sourceDifferences": [
+    {
+      "source": "spec/03 REQ-CHAR-003 negative Z suggestion",
+      "resolution": "Current character production contract overrides: glTF +Z forward."
+    },
+    {
+      "source": "B original companion-fawn",
+      "resolution": "Canonical persistence/asset ID is fawn."
+    },
+    {
+      "source": "B four to six light planes",
+      "resolution": "Six anatomical membrane groups: body, head/neck with ear extensions, four limbs. Shallow thickness prevents side-on disappearance."
+    }
+  ],
+  "integrationStatus": {
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalPhoneReviewed": false
+  }
+}

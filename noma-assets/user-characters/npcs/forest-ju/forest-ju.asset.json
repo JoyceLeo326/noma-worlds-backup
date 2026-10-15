@@ -1,0 +1,60 @@
+{
+  "id": "forest-ju",
+  "name": "根语者·榉",
+  "kind": "npc",
+  "version": "noma-user-characters-2026-10-15-v1",
+  "status": "awaiting_review",
+  "heightMeters": 2.3,
+  "coordinates": {
+    "units": "metres",
+    "up": "+Y",
+    "forward": "+Z",
+    "origin": "feet"
+  },
+  "levels": [
+    {
+      "lod": 0,
+      "url": "/noma-worlds-backup/noma-assets/user-characters/npcs/forest-ju/forest-ju-lod0.glb",
+      "sha256": "a208b6ee59c3f9c59a8c0222da84c5942e98f3ab9e7956662c61900dcafced0e",
+      "bytes": 809756,
+      "triangles": 9083
+    }
+  ],
+  "animations": [],
+  "appearanceMode": "authored",
+  "capabilities": {
+    "outfitColors": false,
+    "accessoryToggle": false,
+    "emblemPosition": false,
+    "facialMorphs": false
+  },
+  "sources": [
+    {
+      "file": "角色\\根语者·榉\\根语者·榉.blend",
+      "sha256": "1d8e35646e0f4e05c82501b8b4efe370c26df555bea13f87b87c44800fa545ca"
+    },
+    {
+      "file": "角色\\根语者·榉\\根语者·榉.fbm\\根语者·榉_basecolor.jpg",
+      "sha256": "0fa2e9e16e65baf9d4a43f7e2008e34cf52366eca27f9fd8f62a507bc7acd260"
+    }
+  ],
+  "processing": [
+    "Original UV retained without vertical flip",
+    "Source +X face rotated to Blender -Y / glTF +Z",
+    "Embedded 1024px sRGB JPEG basecolor",
+    "Canonical metre height, feet origin"
+  ],
+  "checks": {
+    "sourceInspected": true,
+    "browserIntegrated": false,
+    "worldLightingReviewed": false,
+    "physicalMobileReviewed": false
+  },
+  "limitations": [
+    "Source single atlas does not expose separate skin/cloth tint or emblem sockets",
+    "No facial morphs in the source",
+    "Clothing is skinned with body; no cloth simulation",
+    "Five supplied FBX motions plus idle alias; legacy 31-action library not claimed"
+  ],
+  "license": "User-supplied source; local project use authorized. Redistribution scope managed by main controller."
+}
